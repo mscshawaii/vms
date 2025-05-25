@@ -1,0 +1,5 @@
+.env
+config.php
+db_connect.php
+uploads/
+*.log
