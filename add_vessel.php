@@ -226,8 +226,8 @@ if ($company_id == 1) {
             <input type="date" name="lastInspection" class="form-control">
         </div>
         <div class="col-md-4">
-            <label class="form-label">Next Inspection</label>
-            <input type="date" name="nextInspection" class="form-control">
+            <label class="form-label">Next Scheduled Inspection</label>
+            <input type="date" name="nextScheduledInspection" class="form-control">
         </div>
         <div class="col-md-4">
             <label class="form-label">Last Dry Dock</label>

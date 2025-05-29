@@ -1,0 +1,11 @@
+Array
+(
+    [vessel_id] => 1
+    [vesselName] => test vessel 1235
+    [vesselON] => 123456789
+    [callSign] => abc123456789
+    [mmsi] => 987654321
+    [hailingPort] => Kapaa
+    [epirbHexId] => abcd1234ffbff
+    [hin] => test05262025
+)

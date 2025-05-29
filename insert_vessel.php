@@ -49,7 +49,7 @@ $data = [
     'waters'           => clean($_POST['waters']),
     'hullMaterial'     => clean($_POST['hullMaterial']),
     'lastInspection'   => $_POST['lastInspection'] ?: null,
-    'nextInspection'   => $_POST['nextInspection'] ?: null,
+    'nextScheduledInspection' => $_POST['nextScheduledInspection'] ?: null,
     'lastDrydock'      => $_POST['lastDrydock'] ?: null,
     'nextDrydock'      => $_POST['nextDrydock'] ?: null,
     'nextUnstep'       => $_POST['nextUnstep'] ?: null
@@ -61,13 +61,13 @@ $sql = "INSERT INTO vessels (
     classType, vesselService, grossTons, netTons, lightshipTons, length, lbp,
     propulsionType, auxSail, horsepower, inspSubChapter, sip, keelLaidDate, deliveryDate,
     master, deckhands, othersInCrew, personInAddition, passengers, pob, route, waters,
-    hullMaterial, lastInspection, nextInspection, lastDrydock, nextDrydock, nextUnstep
+    hullMaterial, lastInspection, nextScheduledInspection, lastDrydock, nextDrydock, nextUnstep
 ) VALUES (
     :company_id, :vesselName, :vesselON, :hailingPort, :callSign, :mmsi, :epirbHexId, :hin, :vesselClass,
     :classType, :vesselService, :grossTons, :netTons, :lightshipTons, :length, :lbp,
     :propulsionType, :auxSail, :horsepower, :inspSubChapter, :sip, :keelLaidDate, :deliveryDate,
     :master, :deckhands, :othersInCrew, :personInAddition, :passengers, :pob, :route, :waters,
-    :hullMaterial, :lastInspection, :nextInspection, :lastDrydock, :nextDrydock, :nextUnstep
+    :hullMaterial, :lastInspection, :nextScheduledInspection, :lastDrydock, :nextDrydock, :nextUnstep
 )";
 
 try {

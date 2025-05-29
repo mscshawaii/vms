@@ -49,27 +49,29 @@ $vessel_id = $_GET['vessel_id'] ?? null;
             </div>
             <div class="col-md-4">
                 <label>Type</label>
-                <select id="type" name="type_id" class="form-select" required>
+                <select id="type" name="equipment_type_id" class="form-select" required>
                     <option value="">-- Select Type --</option>
                 </select>
             </div>
             <div class="col-md-4">
                 <label>Subtype</label>
-                <select id="subtype" name="subtype_id" class="form-select">
+                <select id="subtype" name="equipment_subtype_id" class="form-select">
                     <option value="">-- Select Subtype --</option>
                 </select>
             </div>
         </div>
 
+        <input type="hidden" name="equipment_name" id="equipment_name">
+
         <div class="mb-3">
-            <label>Equipment Name</label>
-            <input type="text" name="equipment_name" class="form-control">
+            <label>Auto-Generated Equipment Name</label>
+            <input type="text" id="equipment_name_preview" class="form-control bg-light" readonly>
         </div>
 
         <div class="row g-3 mb-3">
             <div class="col-md-6">
                 <label>Location</label>
-                <input type="text" name="location" class="form-control">
+                <input type="text" name="equipmentLocation" class="form-control" required>
             </div>
             <div class="col-md-6">
                 <label>Manufacturer</label>
@@ -80,22 +82,22 @@ $vessel_id = $_GET['vessel_id'] ?? null;
         <div class="row g-3 mb-3">
             <div class="col-md-6">
                 <label>Model</label>
-                <input type="text" name="model" class="form-control">
+                <input type="text" name="modelNumber" class="form-control">
             </div>
             <div class="col-md-6">
                 <label>Serial Number</label>
-                <input type="text" name="serial_number" class="form-control">
+                <input type="text" name="serialNumber" class="form-control">
             </div>
         </div>
 
         <div class="row g-3 mb-3">
             <div class="col-md-4">
                 <label>Install Date</label>
-                <input type="date" name="install_date" class="form-control">
+                <input type="date" name="installDate" class="form-control">
             </div>
             <div class="col-md-4">
                 <label>Expiration Date</label>
-                <input type="date" name="expiration_date" class="form-control">
+                <input type="date" name="expDate" class="form-control">
             </div>
             <div class="col-md-4">
                 <label>Quantity</label>
@@ -126,16 +128,15 @@ $vessel_id = $_GET['vessel_id'] ?? null;
                 <option value="PSI">PSI</option>
                 <option value="volts">Volts</option>
                 <option value="amps">Amps</option>
-                <!-- Add others -->
             </select>
         </div>
 
         <div class="mb-3">
             <label>Onboard Requirement</label>
-            <select name="onboard_requirement" class="form-select">
+            <select name="onBoardNotRequired" class="form-select">
                 <option value="">-- Select --</option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
+                <option value="0">Yes</option>
+                <option value="1">No</option>
             </select>
         </div>
 
@@ -155,19 +156,42 @@ $vessel_id = $_GET['vessel_id'] ?? null;
 </div>
 
 <script>
+function updateEquipmentName() {
+    const typeText = $('#type option:selected').text();
+    const subtypeText = $('#subtype option:selected').text();
+    const locationText = $('input[name="equipmentLocation"]').val();
+
+    let parts = [];
+    if (typeText && typeText !== '-- Select Type --') parts.push(typeText);
+    if (subtypeText && subtypeText !== '-- Select Subtype --') parts.push(subtypeText);
+    if (locationText) parts.push(locationText);
+
+    const fullName = parts.join(' - ');
+
+    $('#equipment_name').val(fullName); // hidden input
+    $('#equipment_name_preview').val(fullName); // read-only preview
+}
+
 $(document).ready(function() {
+    updateEquipmentName(); // trigger once on load
+
     $('#category').change(function() {
         $.post('get_types.php', { category_id: $(this).val() }, function(data) {
             $('#type').html(data);
             $('#subtype').html('<option value="">-- Select Subtype --</option>');
+            updateEquipmentName();
         });
     });
 
-    $('#type').change(function() {
-        $.post('get_subtypes.php', { type_id: $(this).val() }, function(data) {
-            $('#subtype').html(data);
-        });
+$('#type').change(function() {
+    $.post('get_subtypes.php', { type_id: $(this).val() }, function(data) {
+        $('#subtype').html(data);
+        updateEquipmentName();
     });
+});
+
+
+    $('#subtype, input[name="equipmentLocation"]').on('input change', updateEquipmentName);
 });
 </script>
 </body>

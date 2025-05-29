@@ -42,23 +42,29 @@ if (!$vessel) {
 
     <div class="row g-3 mt-3">
       <?php
-      function selectField($label, $name, $options, $selectedValue) {
-          echo "<div class='col-md-4'>
-                  <label class='form-label'>{$label}</label>
-                  <select name='{$name}' class='form-select'>
-                    <option value=''>-- Select --</option>";
-          foreach ($options as $option) {
-              $selected = $selectedValue === $option ? 'selected' : '';
-              echo "<option value='{$option}' {$selected}>{$option}</option>";
-          }
-          echo "</select></div>";
-      }
+function selectField($label, $name, $options, $selectedValue) {
+    echo "<div class='col-md-4'>
+            <label class='form-label'>{$label}</label>
+            <select name='{$name}' class='form-select'>
+              <option value=''>-- Select --</option>";
+    foreach ($options as $key => $option) {
+        // If it's a numeric key, use the value as both
+        $value = is_int($key) ? $option : $key;
+        $label = is_int($key) ? $option : $option;
+
+        $selected = (string)$value === (string)$selectedValue ? 'selected' : '';
+        echo "<option value='{$value}' {$selected}>{$label}</option>";
+    }
+    echo "</select></div>";
+}
+
+
 
       selectField('Class', 'vesselClass', ['Passenger Vessel', 'Towing Vessel', 'Cargo Vessel'], $vessel['vesselClass']);
       selectField('Class Type', 'classType', ['Excursion', 'Recreational Dive', 'Parasail', 'Fishing Charter'], $vessel['classType']);
       selectField('Service', 'vesselService', ['Inspected Passenger', 'Uninspected Passenger'], $vessel['vesselService']);
       selectField('Subchapter', 'inspSubChapter', ['T', 'K', 'L', 'I', 'M', 'R', 'U'], $vessel['inspSubChapter']);
-      selectField('SIP', 'sip', ['1' => 'Yes', '0' => 'No'], (string)$vessel['sip']);
+      selectField('SIP', 'sip', ['1' => 'Yes', '0' => 'No'], $vessel['sip']);
       ?>
 
       <div class="col-md-4">
@@ -85,8 +91,7 @@ if (!$vessel) {
       selectField('Hull Material', 'hullMaterial', [
         'FRP - Fire Retardant', 'FRP - Non Fire-Retardant', 'Aluminum', 'Steel', 'Wood - Sheathed', 'Wood - Plank on Frame'
       ], $vessel['hullMaterial']);
-
-      selectField('Auxiliary Sail', 'auxSail', ['1' => 'Yes', '0' => 'No'], (string)$vessel['auxSail']);
+      selectField('Auxiliary Sail', 'auxSail', ['1' => 'Yes', '0' => 'No'], $vessel['auxSail']);
       ?>
       <div class="col-md-4">
         <label class="form-label">Horsepower</label>

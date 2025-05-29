@@ -2,9 +2,10 @@
 session_start();
 require 'session_check.php';
 require 'db_connect.php';
+require_once 'helpers.php';
 
 function safe($value) {
-    return !empty($value) ? htmlspecialchars($value) : '—';
+    return !empty($value) ? htmlspecialchars($value) : 'ï¿½';
 }
 
 // Fetch company info including logo
@@ -80,11 +81,16 @@ $role_id = $_SESSION['role_id'];
 
     <?php
     $stmt = $pdo->query("
-        SELECT v.vessel_id, v.vesselName, v.vesselON, v.lastInspection, v.nextInspection,
-               v.lastDrydock, v.nextDrydock, o.owner_id, o.company_name
-        FROM vessels v
-        LEFT JOIN owners o ON v.company_id = o.owner_id
-        ORDER BY o.company_name, v.vesselName
+        SELECT 
+    v.vessel_id, v.vesselName, v.vesselON, v.lastInspection, v.nextScheduledInspection,
+    v.lastDrydock, v.nextDrydock, o.owner_id, o.company_name,
+    (SELECT expDate FROM documents 
+     WHERE vessel_id = v.vessel_id AND docType = 'Certificate of Inspection' 
+     ORDER BY expDate DESC LIMIT 1) AS coiExpDate
+FROM vessels v
+LEFT JOIN owners o ON v.company_id = o.owner_id
+ORDER BY o.company_name, v.vesselName
+
     ");
     $vessels = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -107,6 +113,8 @@ $role_id = $_SESSION['role_id'];
                         <th>Vessel Name</th>
                         <th>Official Number</th>
                         <th>Last Inspection</th>
+                        <th>Next Inspection Type</th>
+                        <th>Next Inspection Window</th>
                         <th>Next Inspection</th>
                         <th>Last Dry Dock</th>
                         <th>Next Dry Dock</th>
@@ -115,16 +123,23 @@ $role_id = $_SESSION['role_id'];
                 </thead>
                 <tbody>
                     <?php foreach ($vlist as $v): ?>
+                        <?php
+  $inspection = calculateNextInspection($v['lastInspection'] ?? null, $v['coiExpDate'] ?? null);
+?>
+
                         <tr>
                             <td><?= safe($v['vesselName']) ?></td>
                             <td><?= safe($v['vesselON']) ?></td>
                             <td><?= safe($v['lastInspection']) ?></td>
-                            <td><?= safe($v['nextInspection']) ?></td>
-                            <td><?= safe($v['lastDrydock'] ?? null) ?></td>
-                            <td><?= safe($v['nextDrydock'] ?? null) ?></td>
+                            <td><?= htmlspecialchars($inspection['type']) ?></td>
+                            <td class="<?= getInspectionWindowClass($inspection['type'], $inspection['window']) ?>">
+                                <?= htmlspecialchars($inspection['window']) ?>
+                            </td>
+                            <td><?= safe($v['nextScheduledInspection']) ?></td>
+                            <td><?= safe($v['lastDrydock']) ?></td>
+                            <td class="<?= getDrydockClass($v['nextDrydock']) ?>"><?= safe($v['nextDrydock']) ?></td>
                             <td>
                                 <a href="vessel_dashboard.php?vessel_id=<?= $v['vessel_id'] ?>" class="btn btn-sm btn-outline-info">View</a>
-                                <a href="transfer_vessel.php?vessel_id=<?= $v['vessel_id'] ?>" class="btn btn-sm btn-outline-info">Transfer Vessel</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -159,7 +174,7 @@ $role_id = $_SESSION['role_id'];
 <h3>Your Companyâ€™s Vessels</h3>
 <?php
 $stmt = $pdo->prepare("
-    SELECT v.vessel_id, v.vesselName, v.vesselON, v.lastInspection, v.nextInspection, v.lastDrydock, v.nextDrydock
+    SELECT v.vessel_id, v.vesselName, v.vesselON, v.lastInspection, v.nextScheduledInspection, v.lastDrydock, v.nextDrydock
     FROM vessels v
     WHERE v.company_id = ?
     ORDER BY v.vesselName ASC
@@ -175,6 +190,8 @@ $vessels = $stmt->fetchAll();
                 <th>Vessel Name</th>
                 <th>Official Number</th>
                 <th>Last Inspection</th>
+                <th>Next Inspection Type</th>
+                <th>Next Inspection Window</th>
                 <th>Next Inspection</th>
                 <th>Last Dry Dock</th>
                 <th>Next Dry Dock</th>
@@ -183,13 +200,27 @@ $vessels = $stmt->fetchAll();
         </thead>
         <tbody>
             <?php foreach ($vessels as $v): ?>
+                <?php
+  // Optional: You might need to re-fetch COI expiration here
+  $stmt = $pdo->prepare("SELECT expDate FROM documents WHERE vessel_id = ? AND docType = 'Certificate of Inspection' ORDER BY expDate DESC LIMIT 1");
+  $stmt->execute([$v['vessel_id']]);
+  $coiRow = $stmt->fetch();
+  $coiExp = $coiRow['expDate'] ?? null;
+
+  $inspection = calculateNextInspection($v['lastInspection'] ?? null, $coiExp);
+?>
                 <tr>
                     <td><?= safe($v['vesselName']) ?></td>
                     <td><?= safe($v['vesselON']) ?></td>
                     <td><?= safe($v['lastInspection']) ?></td>
-                    <td><?= safe($v['nextInspection']) ?></td>
+                    <td><?= htmlspecialchars($inspection['type']) ?></td>
+                    <td class="<?= getInspectionWindowClass($inspection['type'], $inspection['window']) ?>">
+                        <?= htmlspecialchars($inspection['window']) ?>
+                    </td>
+                    <td><?= safe($v['nextScheduledInspection']) ?></td>
                     <td><?= safe($v['lastDrydock']) ?></td>
-                    <td><?= safe($v['nextDrydock']) ?></td>
+                    <td class="<?= getDrydockClass($v['nextDrydock']) ?>"><?= safe($v['nextDrydock']) ?></td>
+                    </td>
                     <td>
                         <a href="vessel_dashboard.php?vessel_id=<?= $v['vessel_id'] ?>" class="btn btn-sm btn-outline-info">View</a>
                     </td>

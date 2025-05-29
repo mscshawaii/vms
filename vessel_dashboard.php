@@ -60,7 +60,6 @@ if (!$vessel) {
     <button class="btn btn-outline-primary text-dark border-dark" data-bs-toggle="modal" data-bs-target="#crewModal">Crew</button>
 </div>
 
-
 <!-- Vessel Identification -->
 <div class="card mb-4">
     <div class="card-header bg-secondary text-white">Vessel Identification</div>
@@ -69,24 +68,38 @@ if (!$vessel) {
             <input type="hidden" name="vessel_id" value="<?= $vessel_id ?>">
 
             <div class="row g-4">
-                <!-- Photo -->
-                <div class="col-md-3 text-center position-relative">
+                <!-- Vessel Photo Display -->
+                <div class="col-md-4 text-center">
                     <div class="photo-container position-relative">
                         <?php if (!empty($vessel['photo_path'])): ?>
-                            <img id="photoPreview" src="<?= htmlspecialchars($vessel['photo_path']) ?>" class="img-thumbnail" style="height:250px; object-fit:cover; width:100%;">
+                            <img id="photoPreview"
+                                 src="<?= htmlspecialchars($vessel['photo_path']) ?>"
+                                 class="img-fluid rounded shadow border"
+                                 style="height: 400px; width: 100%; object-fit: cover;"
+                                 alt="Vessel Photo">
                         <?php else: ?>
-                            <img id="photoPreview" src="placeholder.jpg" class="img-thumbnail" style="height:250px; object-fit:cover; width:100%;">
-                            <div class="position-absolute top-50 start-50 translate-middle text-muted">No Photo</div>
-                        <?php endif; ?>
-                        <div class="photo-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="cursor:pointer;">
+                            <div class="position-relative bg-light border rounded shadow d-flex align-items-center justify-content-center"
+                                 style="height: 400px; width: 100%;">
+                                <span class="text-muted">No Photo Available</span>
                             </div>
+                        <?php endif; ?>
+
+                        <!-- Optional Overlay for Future Edit Trigger -->
+                        <div class="photo-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="cursor: pointer;"></div>
                     </div>
+
+                    <!-- Hidden file input for future image upload -->
                     <input type="file" name="photo" id="photoInput" class="d-none" accept="image/*">
                 </div>
 
-                <!-- Vessel Info -->
-                <div class="col-md-9">
+                <!-- Vessel Info (moved inside the row, to the right of photo) -->
+                <div class="col-md-8">
                     <div class="row g-3">
+                      <div class="col-md-12">
+                            <label class="form-label">Vessel Name</label>
+                             <input type="text" name="vesselName" class="form-control" value="<?= safe($vessel['vesselName']) ?>" required>
+                        </div>
                         <div class="col-md-6">
                             <label class="form-label">Official Number / Registration</label>
                             <input type="text" name="vesselON" class="form-control" value="<?= safe($vessel['vesselON']) ?>">
@@ -116,12 +129,12 @@ if (!$vessel) {
                     </div>
                 </div>
             </div>
-
             <div class="text-end mt-4">
                 <button type="submit" class="btn btn-primary">Save Identification</button>
             </div>
         </form>
-    </div>
+</div>
+</div>
 </div>
 
 <script>
@@ -180,11 +193,11 @@ $lastInspectionDate = $vessel['lastInspection'] ?? null;
 if ($coiRow) {
     $coiIssue = safeDate($coiRow['issueDate']);
     $coiExp = safeDate($coiRow['expDate']);
-    $expDateRaw = $coiRow['expDate'];
+    $expDateRaw = $coiRow['expDate'] ?? null;
 
     // keep your annual/renewal logic here...
 }
-
+   
     if ($expDateRaw && $expDateRaw !== '0000-00-00') {
         $exp = new DateTime($expDateRaw);
         $current = new DateTime();
@@ -289,6 +302,7 @@ if ($coiRow) {
   </div>
 </div>
 
+
 <!-- Vessel Details Section -->
 <div class="card mb-4">
   <div class="card-header bg-info text-white">Vessel Details</div>
@@ -328,7 +342,6 @@ if ($coiRow) {
 </div>
   </div>
 </div>
-
 <div class="tab-content mt-3" id="vesselTabContent">
 
 <!-- Equipment Modal -->

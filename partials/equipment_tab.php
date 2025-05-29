@@ -56,17 +56,19 @@ $today = new DateTime();
 $soon = (clone $today)->modify('+60 days');
 
 $eqStmt = $pdo->prepare("
-    SELECT e.*, 
-           cat.name AS category_name, 
-           typ.name AS type_name, 
-           sub.name AS subtype_name
+    SELECT 
+        e.*, 
+        cat.name AS category_name, 
+        typ.name AS type_name, 
+        sub.name AS subtype_name
     FROM equipment e
     LEFT JOIN equipment_category cat ON e.category_id = cat.id
-    LEFT JOIN equipment_type typ ON e.type_id = typ.id
-    LEFT JOIN equipment_subtype sub ON e.subtype_id = sub.id
+    LEFT JOIN equipment_type typ ON e.equipment_type_id = typ.id
+    LEFT JOIN equipment_subtype sub ON e.equipment_subtype_id = sub.id
     WHERE e.vessel_id = ?
     ORDER BY e.expDate
 ");
+
 $eqStmt->execute([$vessel_id]);
 
 while ($item = $eqStmt->fetch(PDO::FETCH_ASSOC)) {
