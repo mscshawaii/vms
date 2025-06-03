@@ -60,7 +60,7 @@ function safe($value) {
             <th>Photo</th>
             <td>
                 <?php if (!empty($equipment['photo_path'])): ?>
-                    <img src="<?= $equipment['photo_path'] ?>" alt="Equipment Photo" style="max-width: 300px;" class="img-thumbnail">
+                    <img src="/<?= ltrim($equipment['photo_path'], '/') ?>" alt="Equipment Photo" style="max-width: 300px;" class="img-thumbnail">
                 <?php else: ?>
                     —
                 <?php endif; ?>

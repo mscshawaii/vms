@@ -24,7 +24,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <h4 class="mt-4">Upcoming ICRs <?= $show_all ? "(All Assigned)" : "(Next 45 Days)" ?></h4>
 <div class="mb-2 text-end">
-  <a href="?vessel_id=<?= $vessel_id ?>&show_all=<?= $show_all ? '0' : '1' ?>" class="btn btn-sm btn-outline-secondary">
+  <a href="vessel_dashboard.php?vessel_id=<?= $vessel_id ?>&tab=icrs&show_all=<?= $show_all ? '0' : '1' ?>" class="btn btn-sm btn-outline-secondary">
     <?= $show_all ? '🔍 Show Due Soon Only' : '📋 Show All Assigned ICRs' ?>
   </a>
 </div>
@@ -92,7 +92,6 @@ foreach ($rows as $icr) {
 ?>
   </tbody>
 </table>
-
 
 <!-- History Button -->
 <div class="text-end mt-3">

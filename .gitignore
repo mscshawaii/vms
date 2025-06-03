@@ -3,3 +3,10 @@ config.php
 db_connect.php
 uploads/
 *.log
+debug_*.txt
+log.txt
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+
