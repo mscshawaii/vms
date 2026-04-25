@@ -1,0 +1,12 @@
+/private/
+/uploads/
+/snapshots/
+/storage/
+/tcpdf_cache/
+*.log
+php_error.log
+debug_*.txt
+debug_*.log
+vessel_management_system.sql
+.env
+.DS_Store

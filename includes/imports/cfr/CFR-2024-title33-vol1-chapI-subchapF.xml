@@ -1,0 +1,1239 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cfr.xsl"?>
+<CFRGRANULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFRMergedXML.xsd">
+    <FDSYS>
+        <CFRTITLE>33</CFRTITLE>
+        <CFRTITLETEXT>Navigation and Navigable Waters</CFRTITLETEXT>
+        <VOL>1</VOL>
+        <DATE>2024-07-01</DATE>
+        <ORIGINALDATE>2024-07-01</ORIGINALDATE>
+        <COVERONLY>false</COVERONLY>
+        <TITLE>VESSEL OPERATING REGULATIONS</TITLE>
+        <GRANULENUM>F</GRANULENUM>
+        <HEADING>SUBCHAPTER F</HEADING>
+        <ANCESTORS>
+            <PARENT HEADING="Title 33" SEQ="1">Navigation and Navigable Waters</PARENT>
+            <PARENT HEADING="CHAPTER I" SEQ="0">COAST GUARD, DEPARTMENT OF HOMELAND SECURITY</PARENT>
+        </ANCESTORS>
+    </FDSYS>
+    <SUBCHAP TYPE="P">
+        <PRTPAGE P="232"/>
+        <HD SOURCE="HED">SUBCHAPTER F—VESSEL OPERATING REGULATIONS</HD>
+        <PART>
+            <EAR>Pt. 95</EAR>
+            <HD SOURCE="HED">PART 95—OPERATING A VESSEL WHILE UNDER THE INFLUENCE OF ALCOHOL OR A DANGEROUS DRUG</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>95.001</SECTNO>
+                <SUBJECT>Purpose.</SUBJECT>
+                <SECTNO>95.005</SECTNO>
+                <SUBJECT>Applicability.</SUBJECT>
+                <SECTNO>95.010</SECTNO>
+                <SUBJECT>Definition of terms as used in this part.</SUBJECT>
+                <SECTNO>95.015</SECTNO>
+                <SUBJECT>Operating a vessel.</SUBJECT>
+                <SECTNO>95.020</SECTNO>
+                <SUBJECT>Standard for under the influence of alcohol or a dangerous drug.</SUBJECT>
+                <SECTNO>95.025</SECTNO>
+                <SUBJECT>Adoption of State blood alcohol concentration levels.</SUBJECT>
+                <SECTNO>95.030</SECTNO>
+                <SUBJECT>Evidence of under the influence of alcohol or a dangerous drug.</SUBJECT>
+                <SECTNO>95.035</SECTNO>
+                <SUBJECT>Reasonable cause for directing a chemical test.</SUBJECT>
+                <SECTNO>95.040</SECTNO>
+                <SUBJECT>Refusal to submit to testing.</SUBJECT>
+                <SECTNO>95.045</SECTNO>
+                <SUBJECT>General operating rules for vessels inspected, or subject to inspection, under Chapter 33 of Title 46 United States Code.</SUBJECT>
+                <SECTNO>95.050</SECTNO>
+                <SUBJECT>Responsibility for compliance.</SUBJECT>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>33 U.S.C. 2071; 46 U.S.C. 2302; Department of Homeland Security Delegation No. 0170.1.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>CGD 84-099, 52 FR 47532, Dec. 14, 1987, unless otherwise noted.</P>
+            </SOURCE>
+            <SECTION>
+                <SECTNO>§ 95.001</SECTNO>
+                <SUBJECT>Purpose.</SUBJECT>
+                <P>(a) The purpose of this part is to establish under the influence of alcohol or a dangerous drug standards under 46 U.S.C. 2302 and to prescribe restrictions and responsibilities for personnel on vessels inspected, or subject to inspection, under Chapter 33 of Title 46 United States Code. This part does not pre-empt enforcement by a State of its applicable laws and regulations concerning operating a recreational vessel while under the influence of alcohol or a dangerous drug.</P>
+                <P>(b) Nothing in this part shall be construed as limiting the authority of a vessel's marine employer to limit or prohibit the use or possession of alcohol on board a vessel.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987, as amended by USCG-1998-4593, 66 FR 1862, Jan. 10, 2001]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.005</SECTNO>
+                <SUBJECT>Applicability.</SUBJECT>
+                <P>(a) This part is applicable to a vessel (except those excluded by 46 U.S.C. 2109) operated on waters subject to the jurisdiction of the United States, and to a vessel owned in the United States on the high seas. This includes a foreign vessel operated on waters subject to the jurisdiction of the United States.</P>
+                <P>(b) This part is also applicable at all times to vessels inspected, or subject to inspection, under Chapter 33 of Title 46 United States Code.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987; CGD 84-009, 53 FR 13117, Apr. 21, 1988]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.010</SECTNO>
+                <SUBJECT>Definition of terms as used in this part.</SUBJECT>
+                <P>
+                    <E T="03">Alcohol</E>
+                     means any form or derivative of ethyl alcohol (ethanol).
+                </P>
+                <P>
+                    <E T="03">Alcohol concentration</E>
+                     means either grams of alcohol per 100 milliliters of blood, or grams of alcohol per 210 liters of breath.
+                </P>
+                <P>
+                    <E T="03">Blood alcohol concentration level</E>
+                     means a certain percentage of alcohol in the blood.
+                </P>
+                <P>
+                    <E T="03">Chemical test</E>
+                     means a test which analyzes an individual's breath, blood, urine, saliva and/or other bodily fluids or tissues for evidence of drug or alcohol use.
+                </P>
+                <P>
+                    <E T="03">Controlled substance</E>
+                     has the same meaning assigned by 21 U.S.C. 802 and includes all substances listed on Schedules I through V as they may be revised from time to time (21 CFR Part 1308).
+                </P>
+                <P>
+                    <E T="03">Drug</E>
+                     means any substance (other than alcohol) that has known mind or function-altering effects on a person, specifically including any psychoactive substance, and including, but not limited to, controlled substances.
+                </P>
+                <P>
+                    <E T="03">Intoxicant</E>
+                     means any form of alcohol, drug or combination thereof.
+                </P>
+                <P>
+                    <E T="03">Law enforcement officer</E>
+                     means a Coast Guard commissioned, warrant, or petty officer; or any other law enforcement officer authorized to obtain a chemical test under Federal, State, or local law.
+                </P>
+                <P>
+                    <E T="03">Marine employer</E>
+                     means the owner, managing operator, charterer, agent, master, or person in charge of a vessel other than a recreational vessel.
+                </P>
+                <P>
+                    <E T="03">Recreational vessel</E>
+                     means a vessel meeting the definition in 46 U.S.C. 2101(25) that is then being used only for pleasure.
+                    <PRTPAGE P="233"/>
+                </P>
+                <P>
+                    <E T="03">State</E>
+                     means a State or Territory of the United States of America including but not limited to a State of the United States, American Samoa, the Commonwealth of the Northern Marianas Islands, District of Columbia, Guam, Puerto Rico, and the United States Virgin Islands.
+                </P>
+                <P>
+                    <E T="03">Under the influence</E>
+                     means impaired or intoxicated by a drug or alcohol as a matter of law.
+                </P>
+                <P>
+                    <E T="03">Underway</E>
+                     means that a vessel is not at anchor, or made fast to the shore, or aground.
+                </P>
+                <P>
+                    <E T="03">Vessel</E>
+                     includes every description of watercraft or other artificial contrivance used, or capable of being used, as a means of transportation on water.
+                </P>
+                <P>
+                    <E T="03">Vessel owned in the United States</E>
+                     means any vessel documented or numbered under the laws of the United States; and, any vessel owned by a citizen of the United States that is not documented or numbered by any nation.
+                </P>
+                <P>
+                    <E T="03">Waters subject to the jurisdiction of the United States</E>
+                     means those waters described in § 2.38 of this chapter.
+                </P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987; CGD 84-099, 53 FR 13117, Apr. 21, 1988, as amended by USCG-1998-4593, 66 FR 1862, Jan. 10, 2001; USCG-2001-9044, 68 FR 42601, July 18, 2003]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.015</SECTNO>
+                <SUBJECT>Operating a vessel.</SUBJECT>
+                <P>For purposes of this part, an individual is considered to be operating a vessel when:</P>
+                <P>(a) The individual has an essential role in the operation of a recreational vessel underway, including but not limited to navigation of the vessel or control of the vessel's propulsion system.</P>
+                <P>(b) The individual is a crewmember (including an officer), pilot, or watchstander not a regular member of the crew, of a vessel other than a recreational vessel.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987, as amended at USCG-2006-24371, 74 FR 11211, Mar. 16, 2009]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.020</SECTNO>
+                <SUBJECT>Standard for under the influence of alcohol or a dangerous drug.</SUBJECT>
+                <P>An individual is under the influence of alcohol or a dangerous drug when:</P>
+                <P>(a) The individual is operating a recreational vessel and has a Blood Alcohol Concentration (BAC) level of .08 percent or more, by weight, in their blood;</P>
+                <P>(b) The individual is operating a vessel other than a recreational vessel and has an alcohol concentration of .04 percent by weight or more in their blood; or,</P>
+                <P>(c) The individual is operating any vessel and the effect of the intoxicant(s) consumed by the individual on the person's manner, disposition, speech, muscular movement, general appearance or behavior is apparent by observation.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987; CGD 84-099, 53 FR 13117, Apr. 21, 1988, as amended by USCG-1998-4593, 66 FR 1862, Jan. 10, 2001]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.025</SECTNO>
+                <SUBJECT>Adoption of State blood alcohol concentration levels.</SUBJECT>
+                <P>(a) This section applies to operators of recreational vessels on waters within the geographical boundaries of any State that has established by statute a blood alcohol concentration level for purposes of determining whether a person is operating a vessel under the influence of alcohol.</P>
+                <P>(b) If the applicable State statute establishes a blood alcohol concentration level at which a person is considered or presumed to be under the influence of alcohol, then that level applies within the geographical boundaries of that State instead of the level provided in § 95.020(a) of this part.</P>
+                <P>(c) For the purposes of this part, a standard established by State statute and adopted under this section is applicable to the operation of any recreational vessel on waters within the geographical boundaries of the State.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987, as amended by USCG-1998-4593, 66 FR 1862, Jan. 10, 2001]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.030</SECTNO>
+                <SUBJECT>Evidence of under the influence of alcohol or a dangerous drug.</SUBJECT>
+                <P>Acceptable evidence of when a vessel operator is under the influence of alcohol or a dangerous drug includes, but is not limited to:</P>
+                <P>
+                    (a) Personal observation of an individual's manner, disposition, speech, muscular movement, general appearance, or behavior; or,
+                    <PRTPAGE P="234"/>
+                </P>
+                <P>(b) A chemical test.</P>
+                <CITA>[CGD 84-099, 53 FR 13117, Apr. 21, 1988; CGD 84-009, 53 FR 13117, Apr. 21, 1988, as amended by USCG-1998-4593, 66 FR 1862, Jan. 10, 2001]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.035</SECTNO>
+                <SUBJECT>Reasonable cause for directing a chemical test.</SUBJECT>
+                <P>(a) Only a law enforcement officer or a marine employer may direct an individual operating a vessel to undergo a chemical test when reasonable cause exists. Reasonable cause exists when:</P>
+                <P>(1) The individual was directly involved in the occurrence of a marine casualty as defined in Chapter 61 of Title 46, United States Code, or</P>
+                <P>(2) The individual is suspected of being in violation of the standards in §§ 95.020 or 95.025.</P>
+                <P>(b) When an individual is directed to undergo a chemical test, the individual to be tested must be informed of that fact and directed to undergo a test as soon as is practicable.</P>
+                <P>(c) When practicable, a marine employer should base a determination of the existence of reasonable cause, under paragraph (a)(2) of this section, on observation by two persons.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987; CGD 84-099, 53 FR 13117, Apr. 1, 1988]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.040</SECTNO>
+                <SUBJECT>Refusal to submit to testing.</SUBJECT>
+                <P>(a) If an individual refuses to submit to or cooperate in the administration of a timely chemical test when directed by a law enforcement officer based on reasonable cause, evidence of the refusal is admissible in evidence in any administrative proceeding and the individual will be presumed to be under the influence of alcohol or a dangerous drug.</P>
+                <P>(b) If an individual refuses to submit to or cooperate in the administration of a timely chemical test when directed by the marine employer based on reasonable cause, evidence of the refusal is admissible in evidence in any administrative proceeding.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987, as amended by USCG-1998-4593, 66 FR 1862, Jan. 10, 2001]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.045</SECTNO>
+                <SUBJECT>General operating rules for vessels inspected, or subject to inspection, under Chapter 33 of Title 46 United States Code.</SUBJECT>
+                <P>While on board a vessel inspected, or subject to inspection, under Chapter 33 of Title 46 United States Code, a crewmember (including an officer), pilot, or watchstander not a regular member of the crew:</P>
+                <P>(a) Shall not perform or attempt to perform any scheduled duties within four hours of consuming any alcohol;</P>
+                <P>(b) Shall not be intoxicated at any time;</P>
+                <P>(c) Shall not consume any intoxicant while on watch or duty; and</P>
+                <P>(d) May consume a legal non-prescription or prescription drug provided the drug does not cause the individual to be intoxicated.</P>
+                <CITA>[CGD 84-099, 52 FR 47532, Dec. 14, 1987, as amended at USCG-2006-24371, 74 FR 11211, Mar. 16, 2009]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 95.050</SECTNO>
+                <SUBJECT>Responsibility for compliance.</SUBJECT>
+                <P>(a) The marine employer shall exercise due diligence to assure compliance with the applicable provisions of this part.</P>
+                <P>(b) If the marine employer has reason to believe that an individual is intoxicated, the marine employer shall not allow that individual to stand watch or perform other duties.</P>
+            </SECTION>
+        </PART>
+        <PART>
+            <EAR>Pt. 96</EAR>
+            <HD SOURCE="HED">PART 96—RULES FOR THE SAFE OPERATION OF VESSELS AND SAFETY MANAGEMENT SYSTEMS</HD>
+            <CONTENTS>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart A—General</HD>
+                    <SECHD>Sec.</SECHD>
+                    <SECTNO>96.100</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <SECTNO>96.110</SECTNO>
+                    <SUBJECT>Who does this subpart apply to?</SUBJECT>
+                    <SECTNO>96.120</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <SECTNO>96.130</SECTNO>
+                    <SUBJECT>Incorporation by reference.</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart B—Company and Vessel Safety Management Systems</HD>
+                    <SECTNO>96.200</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <SECTNO>96.210</SECTNO>
+                    <SUBJECT>Who does this subpart apply to?</SUBJECT>
+                    <SECTNO>96.220</SECTNO>
+                    <SUBJECT>What makes up a safety management system?</SUBJECT>
+                    <SECTNO>96.230</SECTNO>
+                    <SUBJECT>What objectives must a safety management system meet?</SUBJECT>
+                    <SECTNO>96.240</SECTNO>
+                    <SUBJECT>What functional requirements must a safety management system meet?</SUBJECT>
+                    <SECTNO>96.250</SECTNO>
+                    <SUBJECT>What documents and reports must a safety management system have?</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <PRTPAGE P="235"/>
+                    <HD SOURCE="HED">Subpart C—How Will Safety Management Systems Be Certificated and Enforced?</HD>
+                    <SECTNO>96.300</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <SECTNO>96.310</SECTNO>
+                    <SUBJECT>Who does this subpart apply to?</SUBJECT>
+                    <SECTNO>96.320</SECTNO>
+                    <SUBJECT>What is involved to complete a safety management audit and when is it required to be completed?</SUBJECT>
+                    <SECTNO>96.330</SECTNO>
+                    <SUBJECT>Document of Compliance certificate: what is it and when is it needed?</SUBJECT>
+                    <SECTNO>96.340</SECTNO>
+                    <SUBJECT>Safety Management Certificate: what is it and when is it needed?</SUBJECT>
+                    <SECTNO>96.350</SECTNO>
+                    <SUBJECT>Interim Document of Compliance certificate: what is it and when can it be used?</SUBJECT>
+                    <SECTNO>96.360</SECTNO>
+                    <SUBJECT>Interim Safety Management Certificate: what is it and when can it be used?</SUBJECT>
+                    <SECTNO>96.370</SECTNO>
+                    <SUBJECT>What are the requirements for vessels of countries not party to Chapter IX of SOLAS?</SUBJECT>
+                    <SECTNO>96.380</SECTNO>
+                    <SUBJECT>How will the Coast Guard handle compliance and enforcement of these regulations?</SUBJECT>
+                    <SECTNO>96.390</SECTNO>
+                    <SUBJECT>When will the Coast Guard deny entry into a U.S. port?</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart D—Authorization of Recognized Organizations To Act on Behalf of the U.S.</HD>
+                    <SECTNO>96.400</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <SECTNO>96.410</SECTNO>
+                    <SUBJECT>Who does this regulation apply to?</SUBJECT>
+                    <SECTNO>96.420</SECTNO>
+                    <SUBJECT>What authority may an organization ask for under this regulation?</SUBJECT>
+                    <SECTNO>96.430</SECTNO>
+                    <SUBJECT>How does an organization submit a request to be authorized?</SUBJECT>
+                    <SECTNO>96.440</SECTNO>
+                    <SUBJECT>How will the Coast Guard decide whether to approve an organization's request to be authorized?</SUBJECT>
+                    <SECTNO>96.450</SECTNO>
+                    <SUBJECT>What happens if the Coast Guard disapproves an organization's request to be authorized?</SUBJECT>
+                    <SECTNO>96.460</SECTNO>
+                    <SUBJECT>How will I know what the Coast Guard requires of my organization if my organization receives authorization?</SUBJECT>
+                    <SECTNO>96.470</SECTNO>
+                    <SUBJECT>How does the Coast Guard terminate an organization's authorization?</SUBJECT>
+                    <SECTNO>96.480</SECTNO>
+                    <SUBJECT>What is the status of a certificate if the issuing organization has its authority terminated?</SUBJECT>
+                    <SECTNO>96.490</SECTNO>
+                    <SUBJECT>What further obligations exist for my organization if the Coast Guard terminates its authorization?</SUBJECT>
+                    <SECTNO>96.495</SECTNO>
+                    <SUBJECT>How can I appeal a decision made by an authorized organization?</SUBJECT>
+                </SUBPART>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>46 U.S.C. 3201 et. seq.; 46 U.S.C. 3103; 46 U.S.C. 3316; 33 U.S.C. 1231.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>CGD 95-073, 62 FR 67506, Dec. 24, 1997, unless otherwise noted.</P>
+            </SOURCE>
+            <EDNOTE>
+                <HD SOURCE="HED">Editorial Note:</HD>
+                <P>Nomenclature changes to part 96 appear by USCG-2010-0351, 75 FR 36281, June 25, 2010, and by USCG-2014-0410, 79 FR 38432, July 7, 2014.</P>
+            </EDNOTE>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart A—General</HD>
+                <SECTION>
+                    <SECTNO>§ 96.100</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <P>This subpart implements Chapter IX of the International Convention for the Safety of Life at Sea (SOLAS), 1974, International Management Code for the Safe Operation of Ships and for Pollution Prevention (International Safety Management (ISM) Code), as required by 46 U.S.C. Chapter 32.</P>
+                    <NOTE>
+                        <HD SOURCE="HED">Note:</HD>
+                        <P>Chapter IX of SOLAS is available from the International Maritime Organization, Publication Section, 4 Albert Embankment, London, SE1 75R, United Kingdom, Telex 23588. Please include document reference number “IMO-190E” in your request.</P>
+                    </NOTE>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.110</SECTNO>
+                    <SUBJECT>Who does this subpart apply to?</SUBJECT>
+                    <P>This subpart applies to you if—</P>
+                    <P>(a) You are a responsible person who owns a U.S. vessel(s) and must comply with Chapter IX of SOLAS;</P>
+                    <P>(b) You are a responsible person who owns a U.S. vessel(s) that is not required to comply with Chapter IX of SOLAS, but requests application of this subpart;</P>
+                    <P>(c) You are a responsible person who owns a foreign vessel(s) engaged on a foreign voyage, bound for ports or places under the jurisdiction of the U.S., which must comply with Chapter IX of SOLAS; or</P>
+                    <P>(d) You are a recognized organization applying for authorization to act on behalf of the U.S. to conduct safety management audits and issue international convention certificates.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.120</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <P>(a) Unless otherwise stated in this section, the definitions in Chapter IX, Regulation 1 of the International Convention for the Safety of Life at Sea (SOLAS) apply to this part.</P>
+                    <P>(b) As used in this part—</P>
+                    <P>
+                        <E T="03">Administration</E>
+                         means the Government of the State whose flag the ship is entitled to fly.
+                    </P>
+                    <P>
+                        <E T="03">Authorized Organization Acting on behalf of the U.S.</E>
+                         means an organization that is recognized by the Commandant of the U.S. Coast Guard under the minimum standards of subparts A and B of 46 CFR part 8, and has been authorized under this section to conduct certain 
+                        <PRTPAGE P="236"/>
+                        actions and certifications on behalf of the United States.
+                    </P>
+                    <P>
+                        <E T="03">Captain of the Port (COTP)</E>
+                         means the U.S. Coast Guard officer as described in 33 CFR 6.01-3, commanding a Captain of the Port zone described in 33 CFR part 3, or that person's authorized representative.
+                    </P>
+                    <P>
+                        <E T="03">Commandant</E>
+                         means the Commandant, U.S. Coast Guard.
+                    </P>
+                    <P>
+                        <E T="03">Company</E>
+                         means the owner of a vessel, or any other organization or person such as the manager or the bareboat charterer of a vessel, who has assumed the responsibility for operation of the vessel from the shipowner and who on assuming responsibility has agreed to take over all the duties and responsibilities imposed by this part or the ISM Code.
+                    </P>
+                    <P>
+                        <E T="03">Designated person</E>
+                         means a person or persons designated in writing by the responsible person who monitors the safety management system of the company and vessel and has:
+                    </P>
+                    <P>(1) Direct access to communicate with the highest levels of the company and with all management levels ashore and aboard the company's vessel(s);</P>
+                    <P>(2) Responsibility to monitor the safety and environmental aspects of the operation of each vessel; and</P>
+                    <P>(3) Responsibility to ensure there are adequate support and shore-based resources for vessel(s) operations.</P>
+                    <P>
+                        <E T="03">Document of Compliance</E>
+                         means a certificate issued to a company or responsible person that complies with the requirements of this part or the ISM Code.
+                    </P>
+                    <P>
+                        <E T="03">International Safety Management (ISM) Code</E>
+                         means the International Management Code for the Safe Operation of Ships and Pollution Prevention, Chapter IX of the Annex to the International Convention for the Safety of Life at Sea (SOLAS), 1974.
+                    </P>
+                    <P>
+                        <E T="03">Non-conformity</E>
+                         means an observed situation where objective evidence indicates the non-fulfillment of a specified requirement.
+                    </P>
+                    <P>
+                        <E T="03">Major non-conformity</E>
+                         means an identifiable deviation which poses a serious threat to personnel or vessel safety or a serious risk to the environment and requires immediate corrective action; in addition, the lack of effective and systematic implementation of a requirement of the ISM Code is also considered a major non-conformity.
+                    </P>
+                    <P>
+                        <E T="03">Objective Evidence</E>
+                         means quantitative or qualitative information, records or statements of fact pertaining to safety or to the existence and implementation of a safety management system element, which is based on observation, measurement or test and which can be verified.
+                    </P>
+                    <P>
+                        <E T="03">Officer In Charge, Marine Inspection (OCMI)</E>
+                         means the U.S. Coast Guard officer as described in 46 CFR 1.01-15(b), in charge of an inspection zone described in 33 CFR part 3, or that person's authorized representative.
+                    </P>
+                    <P>
+                        <E T="03">Recognized organization</E>
+                         means an organization which has applied and been recognized by the Commandant of the Coast Guard to meet the minimum standards of 46 CFR part 8, subparts A and B.
+                    </P>
+                    <P>
+                        <E T="03">Responsible person</E>
+                         means—
+                    </P>
+                    <P>(1) The owner of a vessel to whom this part applies, or</P>
+                    <P>(2) Any other person that—</P>
+                    <P>(i) has assumed the responsibility from the owner for operation of the vessel to which this part applies; and</P>
+                    <P>(ii) agreed to assume, with respect to the vessel, responsibility for complying with all the requirements of this part.</P>
+                    <P>(3) A responsible person may be a company, firm, corporation, association, partnership or individual.</P>
+                    <P>
+                        <E T="03">Safety management audit</E>
+                         means a systematic and independent examination to determine whether the safety management system activities and related results comply with planned arrangements and whether these arrangements are implemented effectively and are suitable to achieve objectives.
+                    </P>
+                    <P>
+                        <E T="03">Safety Management Certificate</E>
+                         means a document issued to a vessel which signifies that the responsible person or its company, and the vessel's shipboard management operate in accordance with the approved safety management system.
+                    </P>
+                    <P>
+                        <E T="03">Safety Management System</E>
+                         means a structured and documented system enabling Company and vessel personnel to effectively implement the responsible person's safety and environmental protection policies.
+                    </P>
+                    <P>
+                        <E T="03">SOLAS</E>
+                         means the International Convention for the Safety of Life at Sea, 1974, as amended.
+                        <PRTPAGE P="237"/>
+                    </P>
+                    <P>
+                        <E T="03">Vessel engaged on a foreign voyage</E>
+                         means a vessel to which this part applies that is—
+                    </P>
+                    <P>(1) Arriving at a place under the jurisdiction of the United States from a place in a foreign country;</P>
+                    <P>(2) Making a voyage between places outside the United States; or</P>
+                    <P>(3) Departing from a place under the jurisdiction of the United States for a place in a foreign country.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.130</SECTNO>
+                    <SUBJECT>Incorporation by reference.</SUBJECT>
+                    <P>
+                        (a) The Director of the Federal Register approves certain material that is incorporated by reference into this subpart under 5 U.S.C. 552(a) and 1 CFR part 51. To enforce any edition other than that specified in paragraph (b) of this section, the Coast Guard must publish notice of the change in the 
+                        <E T="04">Federal Register</E>
+                         and the material must be available to the public. You may inspect all material at the Coast Guard Headquarters. Contact Commandant (CG-ENG), Attn: Office of Design and Engineering Standards, U.S. Coast Guard Stop 7509, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7509. The material is also available at the National Archives and Records Administration (NARA) and from the source listed in paragraph (b) of this section. For information on the availability of this material at NARA, call 202-741-6030, or go to: 
+                        <E T="03">http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html.</E>
+                    </P>
+                    <P>(b) The material approved for incorporation by reference in this subpart and the sections affected are as follows:</P>
+                    <EXTRACT>
+                        <FP SOURCE="FP-2">
+                            <E T="03">American National Standards Institute (ANSI)</E>
+                            —11 West 42nd St., New York, NY 10036.
+                        </FP>
+                        <FP SOURCE="FP1-2">ANSI/ASQC Q9001-1994, Quality Systems—Model for Quality Assurance in Design, Development, Production, Installation, and Servicing, 1994—96.430</FP>
+                        <FP SOURCE="FP-2">
+                            <E T="03">International Maritime Organization IMO</E>
+                            —4 Albert Embankment, London, SE1 7SR, United Kingdom.
+                        </FP>
+                        <FP SOURCE="FP1-2">Resolution A.741(18), International Management Code for the Safe Operation of Ships and for Pollution Prevention, November 4, 1993—96.220, 96.370</FP>
+                        <FP SOURCE="FP1-2">Resolution A.788 (19), Guidelines on Implementation of the International Safety Management (ISM) Code by Administrations, November 23, 1995—96.320, 96.440</FP>
+                        <FP SOURCE="FP1-2">Resolution A.739(18), Guidelines for the Authorization of Organizations Acting on Behalf of the Administration, November 4, 1993—96.440</FP>
+                    </EXTRACT>
+                    <CITA>[CGD 95-073, 62 FR 67506, Dec. 24, 1997, as amended at 69 FR 18803, Apr. 9, 2004]</CITA>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart B—Company and Vessel Safety Management Systems</HD>
+                <SECTION>
+                    <SECTNO>§ 96.200</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <P>This subpart establishes the minimum standards that the safety management system of a company and its U.S. flag vessel(s) must meet for certification to comply with the requirements of 46 U.S.C. 3201-3205 and Chapter IX of SOLAS, 1974. It also permits companies with U.S. flag vessels that are not required to comply with this part to voluntarily develop safety management systems which can be certificated to standards consistent with Chapter IX of SOLAS.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.210</SECTNO>
+                    <SUBJECT>Who does this subpart apply to?</SUBJECT>
+                    <P>(a) This subpart applies—</P>
+                    <P>(1) To a responsible person who owns or operates a U.S. vessel(s) engaged on a foreign voyage which meet the conditions of paragraph (a)(2) of this section;</P>
+                    <P>(2) To all U.S. vessels engaged on a foreign voyage that are—</P>
+                    <P>(i) A vessel transporting more than 12 passengers; or</P>
+                    <P>(ii) A tanker, a bulk freight vessel, a freight vessel or a self-propelled mobile offshore drilling unit (MODU) of 500 gross tons or more; and</P>
+                    <P>(3) To all foreign vessels engaged on a foreign voyage, bound for ports or places under the jurisdiction of the U.S., and subject to Chapter IX of SOLAS.</P>
+                    <P>(b) This subpart does not apply to—</P>
+                    <P>(1) A barge;</P>
+                    <P>(2) A recreational vessel not engaged in commercial service;</P>
+                    <P>(3) A fishing vessel;</P>
+                    <P>(4) A vessel operating only on the Great Lakes or its tributary and connecting waters; or</P>
+                    <P>(5) A public vessel, which includes a U.S. vessel of the National Defense Reserve Fleet owned by the U.S. Maritime Administration and operated in non-commercial service.</P>
+                    <P>
+                        (c) Any responsible person and their company who owns and operates a U.S. flag vessel(s) which does not meet the 
+                        <PRTPAGE P="238"/>
+                        conditions of paragraph (a), may voluntarily meet the standards of this part and Chapter IX of SOLAS and have their safety management systems certificated.
+                    </P>
+                    <P>(d) The compliance date for the requirements of this part are—</P>
+                    <P>(1) On or after July 1, 1998, for—</P>
+                    <P>(i) Vessels transporting more than 12 passengers engaged on a foreign voyage; or</P>
+                    <P>(ii) Tankers, bulk freight vessels, or high speed freight vessels of at least 500 gross tons or more, engaged on a foreign voyage.</P>
+                    <P>(2) On or after July 1, 2002, for other freight vessels and self-propelled mobile offshore drilling units (MODUs) of at least 500 gross tons or more, engaged on a foreign voyage.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.220</SECTNO>
+                    <SUBJECT>What makes up a safety management system?</SUBJECT>
+                    <P>(a) The safety management system must document the responsible person's—</P>
+                    <P>(1) Safety and pollution prevention policy;</P>
+                    <P>(2) Functional safety and operational requirements;</P>
+                    <P>(3) Recordkeeping responsibilities; and</P>
+                    <P>(4) Reporting responsibilities.</P>
+                    <P>(b) A safety management system must also be consistent with the functional standards and performance elements of IMO Resolution A.741(18).</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.230</SECTNO>
+                    <SUBJECT>What objectives must a safety management system meet?</SUBJECT>
+                    <P>The safety management system must:</P>
+                    <P>(a) Provide for safe practices in vessel operation and a safe work environment onboard the type of vessel the system is developed for;</P>
+                    <P>(b) Establish and implement safeguards against all identified risks;</P>
+                    <P>(c) Establish and implement actions to continuously improve safety management skills of personnel ashore and aboard vessels, including preparation for emergencies related to both safety and environmental protection; and</P>
+                    <P>(d) Ensure compliance with mandatory rules and regulations, taking into account relevant national and international regulations, standards, codes and maritime industry guidelines, when developing procedures and policies for the safety management system.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.240</SECTNO>
+                    <SUBJECT>What functional requirements must a safety management system meet?</SUBJECT>
+                    <P>The functional requirements of a safety management system must include—</P>
+                    <P>(a) A written statement from the responsible person stating the company's safety and environmental protection policy;</P>
+                    <P>(b) Instructions and procedures to provide direction for the safe operation of the vessel and protection of the environment in compliance with the applicable U.S. Code of Federal Regulations, and international conventions to which the U.S. is a party (SOLAS, MARPOL, etc.);</P>
+                    <P>(c) Documents showing the levels of authority and lines of communication between shoreside and shipboard personnel;</P>
+                    <P>(d) Procedures for reporting accidents, near accidents, and non-conformities with provisions of the company's and vessel's safety management system, and the ISM Code;</P>
+                    <P>(e) Procedures to prepare for and respond to emergency situations by shoreside and shipboard personnel;</P>
+                    <P>(f) Procedures for internal audits on the operation of the company and vessel(s) safety management system; and</P>
+                    <P>(g) Procedures and processes for management review of company internal audit reports and correction of non-conformities that are reported by these or other reports.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.250</SECTNO>
+                    <SUBJECT>What documents and reports must a safety management system have?</SUBJECT>
+                    <P>
+                        The documents and reports required for a safety management system under § 96.330 or § 96.340 must include the written documents and reports itemized in Table 96.250. These documents and reports must be available to the company's shore-based and vessel(s)-based personnel:
+                        <PRTPAGE P="239"/>
+                    </P>
+                    <GPOTABLE COLS="2" OPTS="L2" CDEF="s50,r150">
+                        <TTITLE>Table 96.250—Safety Management System Documents and Reports</TTITLE>
+                        <BOXHD>
+                            <CHED H="1">Type of documents and reports</CHED>
+                            <CHED H="1">Specific requirements</CHED>
+                        </BOXHD>
+                        <ROW>
+                            <ENT I="01">(a) Safety and environmental policy statements</ENT>
+                            <ENT>
+                                (1) Meet the objectives of § 96.230; and
+                                <LI>(2) Are carried out and kept current at all levels of the company;</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(b) Company responsibilities and authority statements</ENT>
+                            <ENT>
+                                (1) The owners name and details of responsibility for operation of the company and vessel(s);
+                                <LI>(2) Name of the person responsible for operation of the company and vessel(s), if not the owner;</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(3) Responsibility, authority and interrelations of all personnel who manage, perform, and verify work relating to and affecting the safety and pollution prevention operations of the company and vessel(s); and</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(4) A statement describing the company's responsibility to ensure adequate resources and shore-based support are provided to enable the designated person or persons to carry out the responsibilities of this subpart.</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(c) Designation in writing of a person or persons to monitor the safety management system for the company and vessel(s)</ENT>
+                            <ENT>
+                                (1) Have direct access to communicate with the highest levels of the company and with all management levels ashore and aboard the company's vessel(s);
+                                <LI>(2) Have the written responsibility to monitor the safety and environmental aspects of the operation of each vessel; and</LI>
+                                <LI>(3) Have the written responsibility to ensure there are adequate support and shore-based resources for vessel(s) operations.</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(d) Written statements that define the Master's responsibilities and authorities</ENT>
+                            <ENT>
+                                (1) Carry out the company's safety and environmental policies;
+                                <LI>(2) Motivate the vessel's crew to observe the safety management system policies;</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(3) Issue orders and instructions in a clear and simple manner;</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(4) Make sure that specific requirements are carried out by the vessel's crew and shore-based resources; and</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(5) Review the safety management system and report non-conformities to shore-based management.</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(e) Written statements that the Master has overriding responsibility and authority to make vessel decisions</ENT>
+                            <ENT>
+                                (1) Ability to make decisions about safety and environmental pollution; and
+                                <LI>(2) Ability to request the company's help when necessary.</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(f) Personnel procedures and resources which are available ashore and aboard ship.</ENT>
+                            <ENT>
+                                (1) Masters of vessels are properly qualified for command;
+                                <LI>(2) Masters of vessels know the company's safety management system;</LI>
+                                <LI>(3) Owners or companies provide the necessary support so that the Master's duties can be safely performed;</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(4) Each vessel is properly crewed with qualified, certificated and medically fit seafarers complying with national and international requirements;</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(5) New personnel and personnel transferred to new assignments involving safety and protection of the environment are properly introduced to their duties;</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(6) Personnel involved with the company's safety management system have an adequate understanding of the relevant rules, regulations, codes and guidelines;</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(7) Needed training is identified to support the safety management system and ensure that the training is provided for all personnel concerned;</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(8) Communication of relevant procedures for the vessel's personnel involved with the safety management system is in the language(s) understood by them; and</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(9) Personnel are able to communicate effectively when carrying out their duties as related to the safety management system.</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(g) Vessel safety and pollution prevention operation plans and instructions for key shipboard operations.</ENT>
+                            <ENT>
+                                (1) Define tasks; and
+                                <LI>(2) Assign qualified personnel to specific tasks.</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(h) Emergency preparedness procedures.</ENT>
+                            <ENT>
+                                (1) Identify, describe and direct response to potential emergency shipboard situations;
+                                <LI>(2) Set up programs for drills and exercises to prepare for emergency actions; and</LI>
+                                <LI>(3) Make sure that the company's organization can respond at anytime, to hazards, accidents and emergency situations involving their vessel(s).</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(i) Reporting procedures on required actions.</ENT>
+                            <ENT>
+                                (1) Report non-conformities of the safety management system;
+                                <LI>(2) Report accidents;</LI>
+                                <LI>(3) Report hazardous situations to the owner or company; and</LI>
+                                <LI>(4) Make sure reported items are investigated and analyzed with the objective of improving safety and pollution prevention.</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(j) Vessel maintenance procedures. (These procedures verify that a company's vessel(s) is maintained in conformity with the provisions of relevant rules and regulations, with any additional requirements which may be established by the company.)</ENT>
+                            <ENT>
+                                (1) Inspect vessel's equipment, hull, and machinery at appropriate intervals;
+                                <LI>(2) Report any non-conformity or deficiency with its possible cause, if known;</LI>
+                                <LI>(3) Take appropriate corrective actions;</LI>
+                                <LI>(4) Keep records of these activities;</LI>
+                                <LI>(5) Identify specific equipment and technical systems that may result in a hazardous situation if a sudden operational failure occurs;</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(6) Identify measures that promote the reliability of the equipment and technical systems identified in paragraph (j)(5), and regularly test standby arrangements and equipment or technical systems not in continuous use; and</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(7) Include the inspections required by this section into the vessel's operational maintenance routine.</ENT>
+                        </ROW>
+                        <ROW>
+                            <PRTPAGE P="240"/>
+                            <ENT I="01">(k) Safety management system document and data maintenance</ENT>
+                            <ENT>(1) Procedures which establish and maintain control of all documents and data relevant to the safety management system.</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(2) Documents are available at all relevant locations, i.e., each vessel carries on board all documents relevant to that vessels operation;</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(3) Changes to documents are reviewed and approved by authorized personnel; and</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(4) Outdated documents are promptly removed.</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="01">(l) Safety management system internal audits which verify the safety and pollution prevention activities</ENT>
+                            <ENT>
+                                (1) Periodic evaluation of the safety management system's efficiency and review of the system in accordance with the established procedures of the company, when needed;
+                                <LI>(2) Types and frequency of internal audits, when they are required, how they are reported, and possible corrective actions, if necessary;</LI>
+                            </ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(3) Determining factors for the selection of personnel, independent of the area being audited, to complete internal company and vessel audits; and</ENT>
+                        </ROW>
+                        <ROW>
+                            <ENT I="22"> </ENT>
+                            <ENT>(4) Communication and reporting of internal audit findings for critical management review and to ensure management personnel of the area audited take timely and corrective action on non-conformities or deficiencies found.</ENT>
+                        </ROW>
+                        <TNOTE>Note: The documents and reports required by this part are for the purpose of promoting safety of life and property at sea, as well as protection of the environment. The documents and reports are intended to ensure the communication and understanding of company and vessel safety management systems, which will allow a measure of the systems effectiveness and its responsible person to continuously improve the system and safety the system provides.</TNOTE>
+                    </GPOTABLE>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart C—How Will Safety Management Systems Be Certificated and Enforced?</HD>
+                <SECTION>
+                    <SECTNO>§ 96.300</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <P>This subpart establishes the standards for the responsible person of a company and its vessel(s) to obtain the required and voluntary, national and international certification for the company's and vessel's safety management system.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.310</SECTNO>
+                    <SUBJECT>Who does this subpart apply to?</SUBJECT>
+                    <P>This subpart applies:</P>
+                    <P>(a) If you are a responsible person who owns a vessel(s) registered in the U.S. and engaged on a foreign voyage(s), or holds certificates or endorsement of such voyages;</P>
+                    <P>(b) If you are a responsible person who owns a vessel(s) registered in the U.S. and volunteer to meet the standards of this part and Chapter IX of SOLAS;</P>
+                    <P>(c) To all foreign vessels engaged on a foreign voyage, bound for ports or places under the jurisdiction of the U.S., and subject to Chapter IX of SOLAS; or</P>
+                    <P>(d) If you are a recognized organization authorized by the U.S. to complete safety management audits and certification required by this part.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.320</SECTNO>
+                    <SUBJECT>What is involved to complete a safety management audit and when is it required to be completed?</SUBJECT>
+                    <P>(a) A safety management audit is any of the following:</P>
+                    <P>(1) An initial audit which is carried out before a Document of Compliance certificate or a Safety Management Certificate is issued;</P>
+                    <P>(2) A renewal audit which is carried out before the renewal of a Document of Compliance certificate or a Safety Management Certificate;</P>
+                    <P>(3) Periodic audits including—</P>
+                    <P>(i) An annual verification audit, as described in § 96.330(f) of this part, and</P>
+                    <P>(ii) An intermediate verification audit, as described in § 96.340(e)(2) of this part.</P>
+                    <P>(b) A satisfactory audit means that the auditor(s) agrees that the requirements of this part are met, based on review and verification of the procedures and documents that make up the safety management system.</P>
+                    <P>(c) Actions required during safety management audits for a company and their U.S. vessel(s) are—</P>
+                    <P>(1) Review and verify the procedures and documents that make up a safety management system, as defined in subpart B of this part.</P>
+                    <P>
+                        (2) Make sure the audit complies with this subpart and is consistent with IMO Resolution A.788(19), Guidelines on Implementation of the International Safety Management (ISM) Code by Administrations.
+                        <PRTPAGE P="241"/>
+                    </P>
+                    <P>(3) Make sure the audit is carried out by a team of Coast Guard auditors or auditors assigned by a recognized organization authorized to complete such actions by subpart D of this part.</P>
+                    <P>(d) Safety management audits for a company and their U.S. vessel(s) are required—</P>
+                    <P>(1) Before issuing or renewing a Document of Compliance certificate, and to keep a Document of Compliance certificate valid, as described in §§ 96.330 and 96.340 of this part.</P>
+                    <P>(2) Before issuing or renewing a Safety Management Certificate, and to maintain the validity of a Safety Management Certificate, as described in § 96.340 of this part.</P>
+                    <FP>However, any safety management audit for the purpose of verifying a vessel's safety management system will not be scheduled or conducted for a company's U.S. vessel unless the company first has undergone a safety management audit of the company's safety management system, and has received its Document of Compliance certificate.</FP>
+                    <P>(e) Requests for all safety management audits for a company and its U.S. vessel(s) must be communicated—</P>
+                    <P>(1) By a responsible person directly to a recognized organization authorized by the U.S.</P>
+                    <P>(2) By a responsible person within the time limits for an annual verification audit, described in § 96.330(f) of this part, and for an intermediate verification audit, described in § 96.340(e)(2) of this part. If he or she does not make a request for a safety management annual or verification audit for a valid Document of Compliance certificate issued to a company or a valid Safety Management Certificate issued to a vessel, this is cause for the Coast Guard to revoke the certificate as described in §§ 96.330 and 96.340 of this part.</P>
+                    <P>(f) If a non-conformity with a safety management system is found during an audit, it must be reported in writing by the auditor:</P>
+                    <P>(1) For a company's safety management system audit, to the company's owner; and</P>
+                    <P>(2) For a vessel's safety management system audit, to the company's owner and vessel's Master.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.330</SECTNO>
+                    <SUBJECT>Document of Compliance certificate: what is it and when is it needed?</SUBJECT>
+                    <P>(a) You must hold a valid Document of Compliance certificate if you are the responsible person who, or company which, owns a U.S. vessel engaged on foreign voyages, carrying more than 12 passengers, or is a tanker, bulk freight vessel, freight vessel, or a self-propelled mobile offshore drilling unit of 500 gross tons or more.</P>
+                    <P>(b) You may voluntarily hold a valid Document of Compliance certificate, if you are a responsible person who, or a company which, owns a U.S. vessel not included in paragraph (a) of this section.</P>
+                    <P>(c) You will be issued a Document of Compliance certificate only after you complete a satisfactory safety management audit as described in § 96.320 of this part.</P>
+                    <P>(d) All U.S. and foreign vessels that carry more than 12 passengers or a tanker, bulk freight vessel, freight vessel, or a self-propelled mobile offshore drilling unit of 500 gross tons or more, must carry a valid copy of the company's Document of Compliance certificate onboard when on a foreign voyage.</P>
+                    <P>(e) A valid Document of Compliance certificate covers the type of vessel(s) on which a company's safety management system initial safety management audit was based. The validity of the Document of Compliance certificate may be extended to cover additional types of vessels after a satisfactory safety management audit is completed on the company's safety management system which includes those additional vessel types.</P>
+                    <P>(f) A Document of Compliance certificate is valid for 60 months. The company's safety management system must be verified annually by the Coast Guard or by an authorized organization acting on behalf of the U.S. through a safety management verification audit, within three months before or after the certificate's anniversary date.</P>
+                    <P>
+                        (g) Only the Coast Guard may revoke a Document of Compliance certificate from a company which owns a U.S. vessel. The Document of Compliance certificate may be revoked if—
+                        <PRTPAGE P="242"/>
+                    </P>
+                    <P>(1) The annual safety management audit and system verification required by paragraph (f) of this section is not completed by the responsible person; or</P>
+                    <P>(2) Major non-conformities are found in the company's safety management system during a safety management audit or other related survey or inspection being completed by the Coast Guard or the recognized organization chosen by the company or responsible person.</P>
+                    <P>(3) The Coast Guard or an authorized organization acting on its behalf is denied, or restricted access to, any vessel, record or personnel of the company, at any time necessary to evaluate the safety management system.</P>
+                    <P>(h) When a company's valid Document of Compliance certificate is revoked by the Coast Guard, a satisfactory safety management audit must be completed before a new Document of Compliance certificate for the company's safety management system can be reissued.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.340</SECTNO>
+                    <SUBJECT>Safety Management Certificate: what is it and when is it needed?</SUBJECT>
+                    <P>(a) Your U.S. vessel engaged on a foreign voyage must hold a valid Safety Management Certificate if it carries more than 12 passengers, or if it is a tanker, bulk freight vessel, freight vessel, or a self-propelled mobile offshore drilling unit of 500 gross tons or more.</P>
+                    <P>(b) Your U.S. vessel may voluntarily hold a valid Safety Management Certificate even if your vessel is not required to by paragraph (a) of this section.</P>
+                    <P>(c) Your U.S. vessel may only be issued a Safety Management Certificate or have it renewed when your company holds a valid Document of Compliance certificate issued under § 96.330 of this part and the vessel has completed a satisfactory safety management audit of the vessel's safety management system set out in § 96.320 of this part.</P>
+                    <P>(d) A copy of your vessel's valid Safety Management Certificate must be on board all U.S. and foreign vessels which carry more than 12 passengers, and must be on board a tanker, bulk freight vessel, freight vessel, or a self-propelled mobile offshore drilling unit of 500 gross tons or more, when engaged on foreign voyages or within U.S. waters.</P>
+                    <P>(e) A Safety Management Certificate is valid for 60 months. The validity of the Safety Management Certificate is based on—</P>
+                    <P>(1) A satisfactory initial safety management audit;</P>
+                    <P>(2) A satisfactory intermediate verification audit requested by the vessel's responsible person, completed between the 24th and 36th month of the certificate's period of validity; and</P>
+                    <P>(3) A vessel's company holding a valid Document of Compliance certificate. When a company's Document of Compliance certificate expires or is revoked, the Safety Management Certificate for the company-owned vessel(s) is invalid.</P>
+                    <P>(f) Renewal of a Safety Management Certificate requires the completion of a satisfactory safety management system audit which meets all of the requirements of subpart B in this part. A renewal of a Safety Management Certificate cannot be started unless the company which owns the vessel holds a valid Document of Compliance certificate.</P>
+                    <P>(g) Only the Coast Guard may revoke a Safety Management Certificate from a U.S. vessel. The Safety Management Certificate will be revoked if—</P>
+                    <P>(1) The vessel's responsible person has not completed an intermediate safety management audit required by paragraph (e)(2) of this section; or</P>
+                    <P>(2) Major non-conformities are found in the vessel's safety management system during a safety management audit or other related survey or inspection being completed by the Coast Guard or the recognized organization chosen by the vessel's responsible person.</P>
+                    <CITA>[CGD 95-073, 62 FR 67506, Dec. 24, 1997, as amended by USCG-1999-5832, 64 FR 34712, June 29, 1999]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.350</SECTNO>
+                    <SUBJECT>Interim Document of Compliance certificate: what is it and when can it be used?</SUBJECT>
+                    <P>
+                        (a) An Interim Document of Compliance certificate may be issued to help set up a company's safety management system when—
+                        <PRTPAGE P="243"/>
+                    </P>
+                    <P>(1) A company is newly set up or in transition from an existing company into a new company; or</P>
+                    <P>(2) A new type of vessel is added to an existing safety management system and Document of Compliance certificate for a company.</P>
+                    <P>(b) A responsible person for a company operating a U.S. vessel(s) that meets the requirements of paragraph (a) of this section, may send a request to a recognized organization authorized to act on behalf of the U.S. to receive an Interim Document of Compliance certificate that is valid for a period up to 12 months. To be issued the Interim Document of Compliance certificate the vessel's company must—</P>
+                    <P>(1) Demonstrate to an auditor that the company has a safety management system that meets § 96.230 of this part; and</P>
+                    <P>(2) Provide a plan for full implementation of a safety management system within the period that the Interim Document of Compliance certificate is valid.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.360</SECTNO>
+                    <SUBJECT>Interim Safety Management Certificate: what is it and when can it be used?</SUBJECT>
+                    <P>(a) A responsible person may apply for an Interim Safety Management Certificate when—</P>
+                    <P>(1) A responsible person takes delivery of a new U.S. vessel; or</P>
+                    <P>(2) Takes responsibility for the management of a U.S. vessel which is new to the responsible person or their company.</P>
+                    <P>(b) An Interim Safety Management Certificate is valid for 6 months. It may be issued to a U.S. vessel which meets the conditions of paragraph (a) of this section, when—</P>
+                    <P>(1) The company's valid Document of Compliance certificate or Interim Document of Compliance certificate applies to that vessel type;</P>
+                    <P>(2) The company's safety management system for the vessel includes the key elements of a safety management system, set out in § 96.220, applicable to this new type of vessel;</P>
+                    <P>(3) The company's safety management system has been assessed during the safety management audit to issue the Document of Compliance certificate or demonstrated for the issuance of the Interim Document of Compliance certificate;</P>
+                    <P>(4) The Master and senior officers of the vessel are familiar with the safety management system and the planned set up arrangements;</P>
+                    <P>(5) Written documented instructions have been extracted from the safety management system and given to the vessel prior to sailing;</P>
+                    <P>(6) The company plans an internal audit of the vessel within three months; and</P>
+                    <P>(7) The relevant information from the safety management system is written in English, and in any other language understood by the vessel's personnel.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.370</SECTNO>
+                    <SUBJECT>What are the requirements for vessels of countries not party to Chapter IX of SOLAS?</SUBJECT>
+                    <P>(a) Each foreign vessel which carries more than 12 passengers, or is a tanker, bulk freight vessel, freight vessel, or self-propelled mobile offshore drilling unit of 500 gross tons or more, operated in U.S. waters, under the authority of a country not a party to Chapter IX of SOLAS must—</P>
+                    <P>(1) Have on board valid documentation showing that the vessel's company has a safety management system which was audited and assessed, consistent with the International Safety Management Code of IMO Resolution A.741(18);</P>
+                    <P>(2) Have on board valid documentation from a vessel's Flag Administration showing that the vessel's safety management system was audited and assessed to be consistent with the International Safety Management Code of IMO Resolution A.741(18); or</P>
+                    <P>(3) Show that evidence of compliance was issued by either a government that is party to SOLAS or an organization recognized to act on behalf of the vessel's Flag Administration.</P>
+                    <P>(b) Evidence of compliance must contain all of the information in, and have substantially the same format as a—</P>
+                    <P>(1) Document of Compliance certificate; and</P>
+                    <P>(2) Safety Management Certificate.</P>
+                    <P>(c) Failure to comply with this section will subject the vessel to the compliance and enforcement procedures of § 96.380 of this part.</P>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="244"/>
+                    <SECTNO>§ 96.380</SECTNO>
+                    <SUBJECT>How will the Coast Guard handle compliance and enforcement of these regulations?</SUBJECT>
+                    <P>(a) While operating in waters under the jurisdiction of the United States, the Coast Guard may board a vessel to determine that—</P>
+                    <P>(1) Valid copies of the company's Document of Compliance certificate and Safety Management Certificate are on board, or evidence of the same for vessels from countries not party to Chapter IX of SOLAS; and</P>
+                    <P>(2) The vessel's crew or shore-based personnel are following the procedures and policies of the safety management system while operating the vessel or transferring cargoes.</P>
+                    <P>(b) A foreign vessel that does not comply with these regulations, or one on which the vessel's condition or use of its safety management system do not substantially agree with the particulars of the Document of Compliance certificate, Safety Management Certificate or other required evidence of compliance, may be detained by order of the COTP or OCMI. This may occur at the port or terminal where the violation is found until, in the opinion of the detaining authority, the vessel can go to sea without presenting an unreasonable threat of harm to the port, the marine environment, the vessel or its crew. The detention order may allow the vessel to go to another area of the port, if needed, rather than stay at the place where the violation was found.</P>
+                    <P>(c) If any vessel that must comply with this part or with the ISM Code does not have a Safety Management Certificate and a copy of its company's Document of Compliance certificate on board, a vessel owner, charterer, managing operator, agent, Master, or any other individual in charge of the vessel that is subject to this part, may be liable for a civil penalty under 46 U.S.C. 3318. For foreign vessels, the Coast Guard may request the Secretary of the Treasury to withhold or revoke the clearance required by 46 U.S.C. App. 91. The Coast Guard may ask the Secretary to permit the vessel's departure after the bond or other surety is filed.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.390</SECTNO>
+                    <SUBJECT>When will the Coast Guard deny entry into a U.S. port?</SUBJECT>
+                    <P>(a) Except for a foreign vessel entering U.S. waters under force majeure, no vessel shall enter any port or terminal of the U.S. without a safety management system that has been properly certificated to this subpart or to the requirements of Chapter IX of SOLAS if—</P>
+                    <P>(1) It is engaged on a foreign voyage; and</P>
+                    <P>(2) It is carrying more than 12 passengers, or a tanker, bulk freight vessel, freight vessel, or self-propelled mobile offshore drilling unit of 500 gross tons or more.</P>
+                    <P>(b) The cognizant COTP will deny entry of a vessel into a port or terminal under the authority of 46 U.S.C. 3204(c), to any vessel that does not meet the requirements of paragraph (a) of this section.</P>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart D—Authorization of Recognized Organizations To Act on Behalf of the U.S.</HD>
+                <SECTION>
+                    <SECTNO>§ 96.400</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <P>(a) This subpart establishes criteria and procedures for organizations recognized under 46 CFR part 8, subparts A and B, to be authorized by the Coast Guard to act on behalf of the U.S. The authorization is necessary in order for a recognized organization to perform safety management audits and certification functions delegated by the Coast Guard as described in this part.</P>
+                    <P>(b) To receive an up-to-date list of recognized organizations authorized to act under this subpart, send a self-addressed, stamped envelope and written request to the Commandant (CG-ENG), Attn: Office of Design and Engineering Standards, U.S. Coast Guard Stop 7509, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7509.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.410</SECTNO>
+                    <SUBJECT>Who does this regulation apply to?</SUBJECT>
+                    <P>
+                        This subpart applies to all organizations recognized by the U.S. under 46 CFR part 8, subpart A and B, who wish to seek authorization to conduct safety management audits and issue relevant international safety certificates under 
+                        <PRTPAGE P="245"/>
+                        the provisions of the ISM Code and voluntary certificates on behalf of the U.S.
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.420</SECTNO>
+                    <SUBJECT>What authority may an organization ask for under this regulation?</SUBJECT>
+                    <P>(a) An organization may request authorization to conduct safety management audits and to issue the following certificates:</P>
+                    <P>(1) Safety Management Certificate;</P>
+                    <P>(2) Document of Compliance certificate;</P>
+                    <P>(3) Interim Safety Management Certificate; and</P>
+                    <P>(4) Interim Document of Compliance certificate.</P>
+                    <P>(b) [Reserved]</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.430</SECTNO>
+                    <SUBJECT>How does an organization submit a request to be authorized?</SUBJECT>
+                    <P>(a) A recognized organization must send a written request for authorization to the Commandant (CG-ENG), Attn: Office of Design and Engineering Standards, U.S. Coast Guard Stop 7509, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7509. The request must include the following:</P>
+                    <P>(1) A statement describing what type of authorization the organization seeks;</P>
+                    <P>(2) Documents showing that—</P>
+                    <P>(i) The organization has an internal quality system with written policies, procedures and processes that meet the requirements in § 96.440 of this part for safety management auditing and certification; or</P>
+                    <P>(ii) The organization has an internal quality system based on ANSI/ASQC C9001 for safety management auditing and certification; or</P>
+                    <P>(iii) The organization has an equivalent internal quality standard system recognized by the Coast Guard to complete safety management audits and certification.</P>
+                    <P>(3) A list of the organization's exclusive auditors qualified to complete safety management audits and their operational area; and</P>
+                    <P>(4) A written statement that the procedures and records of the recognized organization regarding its actions involving safety management system audits and certification are available for review annually and at any time deemed necessary by the Coast Guard.</P>
+                    <P>(b) If the organization is a foreign classification society that has been recognized under 46 CFR part 8, subparts A and B, and wishes to apply for authorization under this part, it must demonstrate the reciprocity required by 46 U.S.C. 3316 for ISM Code certification. The organization must provide, with its request for authorization an affidavit from the government of the country in which the classification society is headquartered. This affidavit must provide a list of authorized delegations by the flag state of the administration of the foreign classification society's country to the American Bureau of Shipping, and indicate any conditions related to the delegated authority. If this affidavit is not received with a request for authorization from a foreign classification society, the request for authorization will be disapproved and returned by the Coast Guard.</P>
+                    <P>(c) Upon the satisfactory completion of the Coast Guard's evaluation of a request for authorization, the organization will be visited for an evaluation as described in § 96.440(b) of this part.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.440</SECTNO>
+                    <SUBJECT>How will the Coast Guard decide whether to approve an organization's request to be authorized?</SUBJECT>
+                    <P>(a) First, the Coast Guard will evaluate the organization's request for authorization and supporting written materials, looking for evidence of the following—</P>
+                    <P>(1) The organization's clear assignment of management duties;</P>
+                    <P>(2) Ethical standards for managers and auditors;</P>
+                    <P>(3) Procedures for auditor training, qualification, certification, and requalification that are consistent with recognized industry standards;</P>
+                    <P>(4) Procedures for auditing safety management systems that are consistent with recognized industry standards and IMO Resolution A.788(19);</P>
+                    <P>(5) Acceptable standards for internal auditing and management review;</P>
+                    <P>
+                        (6) Record-keeping standards for safety management auditing and certification;
+                        <PRTPAGE P="246"/>
+                    </P>
+                    <P>(7) Methods for reporting non-conformities and recording completion of remedial actions;</P>
+                    <P>(8) Methods for certifying safety management systems;</P>
+                    <P>(9) Methods for periodic and intermediate audits of safety management systems;</P>
+                    <P>(10) Methods for renewal audits of safety management systems;</P>
+                    <P>(11) Methods for handling appeals; and</P>
+                    <P>(12) Overall procedures consistent with IMO Resolution A.739(18), “Guidelines for the Authorization of Organizations Acting on Behalf of the Administration.”</P>
+                    <P>(b) After a favorable evaluation of the organization's written request, the Coast Guard will arrange to visit the organization's corporate offices and port offices for an on-site evaluation of operations.</P>
+                    <P>(c) When a request is approved, the recognized organization and the Coast Guard will enter into a written agreement. This agreement will define the scope, terms, conditions and requirements of the authorization. Conditions of this agreement are found in § 96.460 of this part.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.450</SECTNO>
+                    <SUBJECT>What happens if the Coast Guard disapproves an organization's request to be authorized?</SUBJECT>
+                    <P>(a) The Coast Guard will write to the organization explaining why it did not meet the criteria for authorization.</P>
+                    <P>(b) The organization may then correct the deficiencies and reapply.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.460</SECTNO>
+                    <SUBJECT>How will I know what the Coast Guard requires of my organization if my organization receives authorization?</SUBJECT>
+                    <P>(a) Your organization will enter into a written agreement with the Coast Guard. This written agreement will specify—</P>
+                    <P>(1) How long the authorization is valid;</P>
+                    <P>(2) Which duties and responsibilities the organization may perform, and which certificates it may issue on behalf of the U.S.;</P>
+                    <P>(3) Reports and information the organization must send to the Commandant (CG-CVC);</P>
+                    <P>(4) Actions the organization must take to renew the agreement when it expires; and</P>
+                    <P>(5) Actions the organization must take if the Coast Guard should revoke its authorization or recognition under 46 CFR part 8.</P>
+                    <P>(b) [Reserved]</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.470</SECTNO>
+                    <SUBJECT>How does the Coast Guard terminate an organization's authorization?</SUBJECT>
+                    <P>At least every 12 months, the Coast Guard evaluates organizations authorized under this subpart. If an organization fails to maintain acceptable standards, the Coast Guard may terminate that organization's authorization, remove the organization from the Commandant's list of recognized organizations, and further evaluate the organization's recognition under 46 CFR part 8.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.480</SECTNO>
+                    <SUBJECT>What is the status of a certificate if the issuing organization has its authority terminated?</SUBJECT>
+                    <P>Any certificate issued by an organization authorized by the Coast Guard whose authorization is later terminated remains valid until—</P>
+                    <P>(a) Its original expiration date,</P>
+                    <P>(b) The date of the next periodic audit required to maintain the certificate's validity, or</P>
+                    <P>(c) Whichever of paragraphs (a) or (b) occurs first.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.490</SECTNO>
+                    <SUBJECT>What further obligations exist for an organization if the Coast Guard terminates its authorization?</SUBJECT>
+                    <P>The written agreement by which an organization receives authorization from the Coast Guard places it under certain obligations if the Coast Guard revokes that authorization. The organization agrees to send written notice of its termination to all responsible persons, companies and vessels that have received certificates from the organization. In that notice, the organization must include—</P>
+                    <P>(a) A written statement explaining why the organization's authorization was terminated by the Coast Guard;</P>
+                    <P>(b) An explanation of the status of issued certificates;</P>
+                    <P>
+                        (c) A current list of organizations authorized by the Coast Guard to conduct safety management audits; and
+                        <PRTPAGE P="247"/>
+                    </P>
+                    <P>(d) A statement of what the companies and vessels must do to have their safety management systems transferred to another organization authorized to act on behalf of the U.S.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 96.495</SECTNO>
+                    <SUBJECT>How can I appeal a decision made by an authorized organization?</SUBJECT>
+                    <P>(a) A responsible person may appeal a decision made by an authorized organization by mailing or delivering to the organization a written request for reconsideration. Within 30 days of receiving your request, the authorized organization must rule on it and send you a written response. They must also send a copy of their response to the Commandant (CG-CVC), Attn: Office of Commercial Vessel Compliance, U.S. Coast Guard Stop 7501, 2703 Martin Luther King Jr. Avenue SE., Washington, DC 20593-7501.</P>
+                    <P>(b) If you are not satisfied with the organization's decision, you may appeal directly to Commandant (CG-CVC). You must make your appeal in writing, including any documentation and evidence you wish to be considered. You may ask Commandant (CG-CVC) to stay the effect of the appealed decision while it is under review.</P>
+                    <P>(c) The Commandant (CG-CVC) will make a decision on your appeal and send you a response in writing. That decision will be the final Coast Guard action on your request.</P>
+                    <CITA>[CGD 95-073, 62 FR 67506, Dec. 24, 1997, as amended by USCG-2011-0257, 76 FR 31836, June 2, 2011]</CITA>
+                </SECTION>
+            </SUBPART>
+        </PART>
+        <PART>
+            <EAR>Pt. 97</EAR>
+            <HD SOURCE="HED">PART 97—RULES FOR THE SAFE OPERATION OF VESSELS, STOWAGE AND SECURING OF CARGOES</HD>
+            <CONTENTS>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart A—Cargo Securing Manuals</HD>
+                    <SECHD>Sec.</SECHD>
+                    <SECTNO>97.100</SECTNO>
+                    <SUBJECT>Applicability—Electronic documentation.</SUBJECT>
+                    <SECTNO>97.105</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <SECTNO>97.110</SECTNO>
+                    <SUBJECT>Incorporation by reference.</SUBJECT>
+                    <SECTNO>97.115</SECTNO>
+                    <SUBJECT>Reporting lost or jettisoned cargo.</SUBJECT>
+                    <SECTNO>97.120</SECTNO>
+                    <SUBJECT>Cargo securing manuals.</SUBJECT>
+                    <SECTNO>97.121-97.199</SECTNO>
+                    <SUBJECT>[Reserved]</SUBJECT>
+                    <SECTNO>97.200</SECTNO>
+                    <SUBJECT>Cargo securing manual (CSM) approval for U.S.-flagged vessels on international voyages.</SUBJECT>
+                    <SECTNO>97.205</SECTNO>
+                    <SUBJECT>Requirements for amending an approved cargo securing manual (CSM).</SUBJECT>
+                    <SECTNO>97.210</SECTNO>
+                    <SUBJECT>Appeals.</SUBJECT>
+                    <SECTNO>97.211-97.299</SECTNO>
+                    <SUBJECT>[Reserved]</SUBJECT>
+                    <SECTNO>97.300</SECTNO>
+                    <SUBJECT>Authorized cargo securing manual (CSM) approval authorities.</SUBJECT>
+                    <SECTNO>97.305</SECTNO>
+                    <SUBJECT>Requests for authorization to act as cargo securing manual (CSM) approval authority.</SUBJECT>
+                    <SECTNO>97.310</SECTNO>
+                    <SUBJECT>Criteria for authorization.</SUBJECT>
+                    <SECTNO>97.315</SECTNO>
+                    <SUBJECT>Requirements for authorized approval organizations.</SUBJECT>
+                    <SECTNO>97.320</SECTNO>
+                    <SUBJECT>Revocation of authorization.</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <RESERVED>Subpart B [Reserved]</RESERVED>
+                </SUBPART>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>46 U.S.C. 2103, 3306; E.O. 12234; Department of Homeland Security Delegation No. 0170.1(92)(a) and (b).</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>USCG-2000-7080, 81 FR 28014, May 9, 2016, unless otherwise noted.</P>
+            </SOURCE>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart A—Cargo Securing Manuals</HD>
+                <SECTION>
+                    <SECTNO>§ 97.100</SECTNO>
+                    <SUBJECT>Applicability—Electronic documentation.</SUBJECT>
+                    <P>(a) This subpart applies to—</P>
+                    <P>(1) A self-propelled cargo vessel of 500 gross tons or more, on an international voyage, that must comply with Chapter VI/5.6 or Chapter VII/5 of the International Convention for the Safety of Life at Sea, 1974 as amended (SOLAS), that does not solely carry liquid or solid cargoes in bulk, and that is either a U.S.-flagged self-propelled cargo vessel, or a foreign-flagged self-propelled cargo vessel that is operating in waters subject to the jurisdiction of the United States;</P>
+                    <P>(2) A U.S.-flagged self-propelled cargo vessel that chooses to have this subpart applied to it by submitting a cargo securing manual for approval in accordance with § 97.200(a)(3);</P>
+                    <P>(3) A foreign-flagged self-propelled cargo vessel of 500 gross tons or more on an international voyage from a country that is not a signatory to SOLAS, that would otherwise be required to comply with Chapter VI/5.6 or Chapter VII/5 of SOLAS, that does not solely carry liquid or solid cargoes in bulk, and that is operating in waters subject to the jurisdiction of the United States; and</P>
+                    <P>
+                        (4) Any organization applying to be selected as a cargo securing manual approval authority.
+                        <PRTPAGE P="248"/>
+                    </P>
+                    <P>(b) This subpart does not apply to a vessel owned by the Maritime Administration that is part of the Ready Reserve Force or the title of which is vested in the United States and which is used for public purposes only.</P>
+                    <P>(c) Any manual, letter, request, appeal, or ruling required by this subpart may be provided or submitted in electronic form or in printed form.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.105</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <P>As used in this subpart—</P>
+                    <P>
+                        <E T="03">Approval authority</E>
+                         means a CSM approval authority, as that term is defined in this section.
+                    </P>
+                    <P>
+                        <E T="03">Cargo</E>
+                         means the goods or merchandise conveyed in a vessel, and includes, but is not limited to, cargo that can be measured as a “cargo unit” as that term is used in the International Maritime Organization's Code of Safe Practice for Cargo Stowage and Securing, 2003 edition: “a vehicle, container, flat, pallet, portable tank, packaged unit, or any other entity, etc., and loading equipment, or any part thereof, which belongs to the ship but is not fixed to the ship . . .”; but it does not include other vessel equipment or the incidental personal possessions of persons on board the vessel.
+                    </P>
+                    <P>
+                        <E T="03">Cargo safe access plan (CSAP)</E>
+                         means a plan included in the cargo securing manual that provides detailed information on safe access for persons engaged in work connected with cargo stowage and securing on ships that are specifically designed and fitted for the purpose of carrying containers.
+                    </P>
+                    <P>
+                        <E T="03">Cargo securing manual (CSM)</E>
+                         means an electronic or printed manual developed to meet the requirements of SOLAS and this subpart and that is used by the master of a vessel to properly stow and secure cargoes on the vessel for which it is developed.
+                    </P>
+                    <P>
+                        <E T="03">Cargo securing manual approval authority</E>
+                         or 
+                        <E T="03">CSM approval authority</E>
+                         means an organization that meets the requirements of this subpart, and that the Commandant has authorized to conduct certain actions and issue electronic or printed approval letters on behalf of the United States.
+                    </P>
+                    <P>
+                        <E T="03">Captain of the Port (COTP)</E>
+                         means the U.S. Coast Guard officer as described in 33 CFR 6.01-3.
+                    </P>
+                    <P>
+                        <E T="03">Commandant,</E>
+                         except as otherwise specified, means the Chief, Office of Operating and Environmental Standards, whose address is Commandant (CG-OES), 2703 Martin Luther King, Jr. Avenue SE., Stop 7509, Washington, DC 20593-7509 and whose telephone number is 202-372-1404.
+                    </P>
+                    <P>
+                        <E T="03">Container</E>
+                         means an article of transport equipment described in 49 CFR 450.3.
+                    </P>
+                    <P>
+                        <E T="03">Container vessel</E>
+                         means a vessel specifically designed and fitted for the purpose of carrying containers.
+                    </P>
+                    <P>
+                        <E T="03">International voyage</E>
+                         means a voyage between a port or place in one country (or its possessions) and a port or place in another country.
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.110</SECTNO>
+                    <SUBJECT>Incorporation by reference.</SUBJECT>
+                    <P>
+                        (a) Certain material is incorporated by reference into this subpart with the approval of the Director of the Federal Register under 5 U.S.C. 552(a) and 1 CFR part 51. All approved material is available for inspection by contacting Mr. Ken Smith of the Coast Guard's Vessel and Facility Operating Standards Division, Commandant (CG-OES-2); telephone 202-372-1413, email 
+                        <E T="03">Ken.A.Smith@uscg.mil,</E>
+                         and is available from the sources listed below. It is also available for inspection at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, call 202-741-6030 or go to 
+                        <E T="03">http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html.</E>
+                    </P>
+                    <P>
+                        (b) 
+                        <E T="03">International Maritime Organization (IMO), Publications Section,</E>
+                         4 Albert Embankment, London, SE1 7SR, United Kingdom, +44(0)20 7735 7611, 
+                        <E T="03">http://www.imo.org.</E>
+                    </P>
+                    <P>(1) MSC.1/Circ.1352, Amendments to the Code of Safe Practice for Cargo Stowage and Securing (CSS Code), June 30, 2010 (Maritime Safety Committee Circular), IBR approved for § 97.120(b).</P>
+                    <P>(2) MSC.1/Circ. 1353/Rev.1, Revised Guidelines for the Preparation of the Cargo Securing Manual, December 15, 2014 (Maritime Safety Committee Circular), IBR approved for § 97.120(a).</P>
+                    <P>
+                        (3) Resolution A.739(18) (Res.A.739(18)), Guidelines for the Authorization of Organizations Acting on 
+                        <PRTPAGE P="249"/>
+                        Behalf of the Administration, November 22, 1993 (Assembly Resolution), IBR approved for § 97.310(a).
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.115</SECTNO>
+                    <SUBJECT>Reporting lost or jettisoned cargo.</SUBJECT>
+                    <P>(a) In the event a vessel loses or jettisons at sea any cargo described in paragraph (b) of this section, it must comply with the immediate notification requirements of 33 CFR 160.216, and if the cargo contains hazardous material as defined in paragraph (c) of this section, the vessel must also report it as soon as possible in accordance with 49 CFR 176.48.</P>
+                    <P>(b) The cargo to which this section applies includes any container and any other cargo the loss or jettisoning of which could adversely affect the safety of any vessel, bridge, structure, or shore area or the environmental quality of any port, harbor, or navigable waterway of the United States.</P>
+                    <P>(c) As used in this section, “hazardous material” means a substance or material designated by the Secretary of Transportation as capable of posing an unreasonable risk to health, safety, and property when transported in commerce. The term includes hazardous substances, hazardous wastes, marine pollutants, and elevated temperature materials as defined in 49 CFR 171.8, materials designated as hazardous under the provisions of 49 CFR 172.101, and materials that meet the defining criteria for hazard classes and divisions in 49 CFR part 173.</P>
+                    <CITA>[USCG-2000-7080, 81 FR 28014, May 9, 2016; 81 FR 59136, Aug. 29, 2016]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.120</SECTNO>
+                    <SUBJECT>Cargo securing manuals.</SUBJECT>
+                    <P>(a) Any vessel to which this subpart applies must have a cargo securing manual (CSM) on board that has been approved by the government of the country whose flag the vessel is entitled to fly; and a CSM approved after June 30, 2010, must, at a minimum, meet the guidelines in MSC.1/Circ. 1353/Rev.1, (incorporated by reference, see 33 CFR 97.110).</P>
+                    <P>(b) A container vessel with a keel laid on or after January 1, 2015, must include a cargo safe access plan that, at a minimum, meets the guidelines in MSC.1/Circ.1352, Annex 14, Guidance on Providing Safe Working Conditions for Securing of Containers on Deck (incorporated by reference, see 33 CFR 97.110).</P>
+                    <P>(c) While operating in waters under the jurisdiction of the United States, the Coast Guard may board any vessel to which this subpart applies to determine that the vessel has the document(s) required by paragraph (a) of this section on board. Any foreign-flagged vessel found not to be in compliance with paragraph (a) of this section may be detained by order of the Captain of the Port at the port or terminal where the noncompliance is found until the COTP determines that the vessel can go to sea without presenting an unreasonable threat of harm to the port, the marine environment, the vessel, or its crew.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§§ 97.121-97.199</SECTNO>
+                    <RESERVED>[Reserved]</RESERVED>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.200</SECTNO>
+                    <SUBJECT>Cargo securing manual (CSM) approval for U.S.-flagged vessels on international voyages.</SUBJECT>
+                    <P>(a) Owners of U.S.-flagged vessels on international voyages must have Cargo Securing Manuals (CSMs) approved in accordance with this part.</P>
+                    <P>(1) An applicant for CSM approval may be the owner or operator of the vessel, or a person acting on the owner or operator's behalf.</P>
+                    <P>
+                        (2) The Commandant is responsible for overseeing and managing the review and approval of CSM approval authority applications and providing an up-to-date list of organizations authorized to act under this subpart, which is available at 
+                        <E T="03">http://www.uscg.mil/hq/cg5/cg522/cg5222,</E>
+                         or by requesting it in writing from the Commandant and enclosing a self-addressed, stamped envelope.
+                    </P>
+                    <P>(3) The applicant must submit two dated copies of a CSM that meets the requirements of this subpart to a CSM approval authority for review and approval. If any amendments are submitted, they must be dated. The CSM must include a “change page” document to ensure continuous documentation of amendments made and the dates they were completed.</P>
+                    <P>(4) The approval authority will retain one copy of the CSM for its records.</P>
+                    <P>
+                        (b) If the approval authority completes the review process and approves the CSM, the approval authority will 
+                        <PRTPAGE P="250"/>
+                        provide a CSM approval letter on its letterhead, containing—
+                    </P>
+                    <P>(1) Date of CSM approval;</P>
+                    <P>(2) A subject line reading: “APPROVAL OF CARGO SECURING MANUAL (AMENDMENT—if applicable) FOR THE M/V ____, OFFICIAL NUMBER ____”;</P>
+                    <P>(3) The following statement: “This is to certify that the Cargo Securing Manual (Amendment—if applicable) dated ____ for the M/V ____, Official Number ____, has been approved on behalf of the United States. The Cargo Securing Manual (Amendment—if applicable) was reviewed for compliance with Maritime Safety Committee Circular 1353 (MSC.1/Circ. 1353/Rev.1) for content, and correctness of the calculations on which the approval is based. This approval letter is to be kept with the Cargo Securing Manual, as proof of compliance with regulations VI/5.6 and VII5 of the 2004 amendments to the International Convention for the Safety of Life at Sea (SOLAS) 1974.”;</P>
+                    <P>(4) Signature of the approval authority official responsible for review and approval of the CSM; and</P>
+                    <P>(5) The approval authority's seal or stamp.</P>
+                    <P>(c) If the approval authority completes the review process and disapproves the CSM, the approval authority will provide a letter on its letterhead, containing—</P>
+                    <P>(1) Date of CSM disapproval; and</P>
+                    <P>(2) Explanation of why the CSM was disapproved and what the submitter must do to correct deficiencies.</P>
+                    <P>(d) The submitter of a disapproved CSM may resubmit the CSM with amendments for further review, either to correct deficiencies noted by the approval authority or to expand the CSM to fully meet the requirements of this part.</P>
+                    <P>(e) The original copy of the CSM approval letter must be kept with the approved CSM and its amendments, together with supporting documents and calculations used in granting the approval, on board the vessel for review by Coast Guard personnel upon request.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.205</SECTNO>
+                    <SUBJECT>Requirements for amending an approved cargo securing manual (CSM).</SUBJECT>
+                    <P>Resubmission and re-approval by a CSM approval authority are required after any of the following events occurs:</P>
+                    <P>
+                        (a) Reconfiguration of a vessel from one type of cargo carriage to another (
+                        <E T="03">e.g.,</E>
+                         a general break-bulk cargo vessel reconfigured to a container or a roll-on/roll-off vessel).
+                    </P>
+                    <P>(b) Reconfiguration or replacement of 15 percent or more of the vessel's fixed cargo securing or tie-down systems with different types of devices or systems.</P>
+                    <P>
+                        (c) Replacement of 15 percent or more of the vessel's portable cargo securing devices, with different types of devices for securing the cargo not already used aboard the vessel (
+                        <E T="03">e.g.,</E>
+                         wire lashings replaced with turnbuckles or chains).
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.210</SECTNO>
+                    <SUBJECT>Appeals.</SUBJECT>
+                    <P>(a) A vessel owner or operator, or person acting on their behalf, who disagrees with a decision of a CSM approval authority may submit a written appeal to the approval authority requesting reconsideration of information in dispute. Within 30 days of receiving the appeal, the approval authority must provide the submitter with a final written ruling on the request, with a copy to the Commandant.</P>
+                    <P>(b) A submitter who is dissatisfied with the approval authority's final written ruling may appeal directly to the Commandant. The appeal must be made in writing and include the documentation and supporting evidence the submitter wants to be considered, and may ask the Commandant to stay the effect of the appealed decision while it is under review by the Commandant.</P>
+                    <P>(c) The Commandant will make a decision on the appeal and send a formal response to the submitter and a copy to the approval authority. The Commandant's decision will constitute final agency action on the appeal request.</P>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="251"/>
+                    <SECTNO>§§ 97.211-97.299</SECTNO>
+                    <RESERVED>[Reserved]</RESERVED>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.300</SECTNO>
+                    <SUBJECT>Authorized cargo securing manual (CSM) approval authorities.</SUBJECT>
+                    <P>The following organizations are authorized to act on behalf of the United States for the review and approval of CSMs:</P>
+                    <P>
+                        (a) Any recognized classification society to which the Coast Guard has delegated issuance of a Cargo Ship Safety Equipment Certificate in accordance with 46 CFR 8.320(b)(4). A list of these organizations can be found at 
+                        <E T="03">www.uscg.mil/hq/cg5/cg522/cg5222</E>
+                         in the “Summary of Authorizations” link.
+                    </P>
+                    <P>
+                        (b) The National Cargo Bureau, Inc., 17 Battery Place, Suite 1232, New York, NY 10004-1110, 212-785-8300, 
+                        <E T="03">http://www.natcargo.org.</E>
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.305</SECTNO>
+                    <SUBJECT>Requests for authorization to act as cargo securing manual (CSM) approval authority.</SUBJECT>
+                    <P>An organization seeking authorization as a CSM approval authority must make a request to the Commandant for authorization. The request must include, in writing, the items listed in this section or as otherwise specified by the Commandant.</P>
+                    <P>(a) A certified copy of the organization's certificate of incorporation or partnership on file with a U.S. State, including the name and address of the organization, with written statements or documents which show that—</P>
+                    <P>(1) The organization's owners, managers, and employees are free from influence or control by vessel shipbuilders, owners, operators, lessors, or other related commercial interests as evidenced by past and present business practices;</P>
+                    <P>(2) The organization has demonstrated, through other related work, the capability to competently evaluate CSMs for completeness and sufficiency according to the requirements of SOLAS and this part;</P>
+                    <P>(3) The organization has an acceptable degree of financial security, based on recent audits by certified public accountants over the last 5 years; and</P>
+                    <P>(4) The organization maintains a corporate office in the United States that has adequate resources and staff to support all aspects of CSM review, approval, and recordkeeping.</P>
+                    <P>(b) A listing of the names of the organization's principal executives, with titles, telephone, and telefax numbers.</P>
+                    <P>(c) A written general description of the organization, covering the ownership, managerial structure, and organization components, including any directly affiliated organizations, and their functions utilized for supporting technical services.</P>
+                    <P>(d) A written list of technical services the organization offers.</P>
+                    <P>(e) A written general description of the geographical area the organization serves.</P>
+                    <P>(f) A written general description of the clients the organization is serving, or intends to serve.</P>
+                    <P>(g) A written general description of similar work performed by the organization in the past, noting the amount and extent of such work performed within the previous 3 years.</P>
+                    <P>(h) A written listing of the names of full-time professional staff employed by the organization and available for technical review and approval of CSMs including—</P>
+                    <P>(1) Naval architects and naval engineers, with copies of their professional credentials, college degrees, and specialized training certificates;</P>
+                    <P>(2) Merchant mariners with Coast Guard-issued credentials, with a summary of their working experience on board cargo vessels (including vessel tonnage and types of cargo); and</P>
+                    <P>(3) Written proof of staff competence to perform CSM review and approval, evidenced by detailed summaries of each individual's experience (measured in months) during the past 5 years of evaluating maritime cargo securing systems. Experience summaries must be documented on company letterhead and endorsed by a company executive who has had direct observation of the individual and quality of his or her work product.</P>
+                    <P>(j) A complete description of the organization's internal quality control processes, including written standards used by the organization to ensure consistency in CSM review and approval procedures by qualified professionals.</P>
+                    <P>
+                        (k) A description of the organization's training program for assuring continued competency of professional employees performing CSM review and 
+                        <PRTPAGE P="252"/>
+                        approval who are identified in the application.
+                    </P>
+                    <P>(l) Evidence of financial stability over the past 5-year period, such as financial reports completed independently by certified public accountants.</P>
+                    <P>(m) A list of five or more business references, including names, addresses, and telephone numbers of principal executives, who can attest to the organization's competence within the past 2 years.</P>
+                    <P>(n) A statement to the Coast Guard that gives its officials permission to inspect the organization's facilities and records of CSM review and approval on behalf of the United States at any time with reasonable advance notice.</P>
+                    <P>(o) Any additional information the organization deems to be pertinent.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.310</SECTNO>
+                    <SUBJECT>Criteria for authorization.</SUBJECT>
+                    <P>(a) The Commandant will evaluate the organization's request for authorization and supporting written materials, looking for evidence of—</P>
+                    <P>(1) The organization's clear assignment of management duties;</P>
+                    <P>(2) Ethical standards for managers and cargo securing manual (CSM) reviewers;</P>
+                    <P>(3) Procedures for personnel training, qualification, certification, and re-qualification that are consistent with recognized industry standards;</P>
+                    <P>(4) Acceptable standards available for the organization's internal auditing and management review;</P>
+                    <P>(5) Recordkeeping standards for CSM review and approval;</P>
+                    <P>(6) Methods used to review and certify CSMs;</P>
+                    <P>(7) Experience and knowledge demonstrating competency to evaluate CSMs for completeness and sufficiency according to the requirements of SOLAS;</P>
+                    <P>(8) Methods for handling appeals; and</P>
+                    <P>(9) Overall procedures consistent with Res.A.739(18), (incorporated by reference, see § 97.110).</P>
+                    <P>(b) After a favorable evaluation of the organization's request, the Commandant may arrange to visit the organization's corporate and port offices for an on-site evaluation of operations.</P>
+                    <P>(c) When a request is approved, the organization and the Coast Guard will enter into the written agreement provided for by 33 CFR 97.315. If the request is not approved, the Commandant will give the organization a written explanation, and the organization may resubmit its request if it corrects any noted deficiencies.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.315</SECTNO>
+                    <SUBJECT>Requirements for authorized approval organizations.</SUBJECT>
+                    <P>Approved organizations will enter into a written agreement with the Coast Guard that specifies—</P>
+                    <P>(a) The period the authorization is valid;</P>
+                    <P>(b) Which duties and responsibilities the organization may perform and what approval letters it may issue on behalf of the U.S.;</P>
+                    <P>(c) Reports and information the organization must send to the Commandant;</P>
+                    <P>(d) Actions the organization must take to renew the agreement when it expires; and</P>
+                    <P>(e) Actions the organization must take if the Commandant revokes authorization pursuant to 33 CFR 97.320.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 97.320</SECTNO>
+                    <SUBJECT>Revocation of authorization.</SUBJECT>
+                    <P>The Commandant may revoke a cargo securing manual (CSM) approval authority's authorization and remove it from the list of CSM approval authorities if it fails to maintain acceptable standards. For the purposes of 46 CFR subpart 1.03, such a revocation would be treated as involving the recognition of a classification society and could be appealed pursuant to 46 CFR 1.03-15(h)(4). Upon revocation, the former approval authority must send written notice to each vessel owner whose CSM it approved. The notice must include the current list of CSM approval authorities and state—</P>
+                    <P>(a) That its authorization as a CSM approval authority has been revoked;</P>
+                    <P>(b) The Coast Guard's explanation for the revocation; and</P>
+                    <P>(c) That the vessel's CSM remains valid as long as amendments have not been completed which require it to be re-approved pursuant to 33 CFR 97.200 or 97.205.</P>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <RESERVED>Subpart B [Reserved]</RESERVED>
+            </SUBPART>
+        </PART>
+    </SUBCHAP>
+</CFRGRANULE>

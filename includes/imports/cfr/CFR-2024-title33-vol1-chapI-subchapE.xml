@@ -1,0 +1,1762 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cfr.xsl"?>
+<CFRGRANULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFRMergedXML.xsd">
+    <FDSYS>
+        <CFRTITLE>33</CFRTITLE>
+        <CFRTITLETEXT>Navigation and Navigable Waters</CFRTITLETEXT>
+        <VOL>1</VOL>
+        <DATE>2024-07-01</DATE>
+        <ORIGINALDATE>2024-07-01</ORIGINALDATE>
+        <COVERONLY>false</COVERONLY>
+        <TITLE>INLAND NAVIGATION RULES</TITLE>
+        <GRANULENUM>E</GRANULENUM>
+        <HEADING>SUBCHAPTER E</HEADING>
+        <ANCESTORS>
+            <PARENT HEADING="Title 33" SEQ="1">Navigation and Navigable Waters</PARENT>
+            <PARENT HEADING="CHAPTER I" SEQ="0">COAST GUARD, DEPARTMENT OF HOMELAND SECURITY</PARENT>
+        </ANCESTORS>
+    </FDSYS>
+    <SUBCHAP TYPE="P">
+        <PRTPAGE P="204"/>
+        <HD SOURCE="HED">SUBCHAPTER E—INLAND NAVIGATION RULES</HD>
+        <PART>
+            <EAR>Pt. 83</EAR>
+            <HD SOURCE="HED">PART 83—NAVIGATION RULES</HD>
+            <CONTENTS>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart A—General</HD>
+                    <SECHD>Sec.</SECHD>
+                    <SECTNO>83.01</SECTNO>
+                    <SUBJECT>Application (Rule 1).</SUBJECT>
+                    <SECTNO>83.02</SECTNO>
+                    <SUBJECT>Responsibility (Rule 2).</SUBJECT>
+                    <SECTNO>83.03</SECTNO>
+                    <SUBJECT>General definitions (Rule 3).</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart B—Steering and Sailing Rules</HD>
+                    <SUBJGRP>
+                        <HD SOURCE="HED">Conduct of Vessels in Any Condition of Visibility</HD>
+                        <SECTNO>83.04</SECTNO>
+                        <SUBJECT>Application (Rule 4).</SUBJECT>
+                        <SECTNO>83.05</SECTNO>
+                        <SUBJECT>Look-out (Rule 5).</SUBJECT>
+                        <SECTNO>83.06</SECTNO>
+                        <SUBJECT>Safe speed (Rule 6).</SUBJECT>
+                        <SECTNO>83.07</SECTNO>
+                        <SUBJECT>Risk of collision (Rule 7).</SUBJECT>
+                        <SECTNO>83.08</SECTNO>
+                        <SUBJECT>Action to avoid collision (Rule 8).</SUBJECT>
+                        <SECTNO>83.09</SECTNO>
+                        <SUBJECT>Narrow channels (Rule 9).</SUBJECT>
+                        <SECTNO>83.10</SECTNO>
+                        <SUBJECT>Traffic separation schemes (Rule 10).</SUBJECT>
+                    </SUBJGRP>
+                    <SUBJGRP>
+                        <HD SOURCE="HED">Conduct of Vessels in Sight of One Another</HD>
+                        <SECTNO>83.11</SECTNO>
+                        <SUBJECT>Application (Rule 11).</SUBJECT>
+                        <SECTNO>83.12</SECTNO>
+                        <SUBJECT>Sailing vessels (Rule 12).</SUBJECT>
+                        <SECTNO>83.13</SECTNO>
+                        <SUBJECT>Overtaking (Rule 13).</SUBJECT>
+                        <SECTNO>83.14</SECTNO>
+                        <SUBJECT>Head-on situation (Rule 14).</SUBJECT>
+                        <SECTNO>83.15</SECTNO>
+                        <SUBJECT>Crossing situation (Rule 15).</SUBJECT>
+                        <SECTNO>83.16</SECTNO>
+                        <SUBJECT>Action by give-way vessel (Rule 16).</SUBJECT>
+                        <SECTNO>83.17</SECTNO>
+                        <SUBJECT>Action by stand-on vessel (Rule 17).</SUBJECT>
+                        <SECTNO>83.18</SECTNO>
+                        <SUBJECT>Responsibilities between vessels (Rule 18).</SUBJECT>
+                    </SUBJGRP>
+                    <SUBJGRP>
+                        <HD SOURCE="HED">Conduct of Vessels in Restricted Visibility</HD>
+                        <SECTNO>83.19</SECTNO>
+                        <SUBJECT>Conduct of vessels in restricted visibility (Rule 19).</SUBJECT>
+                    </SUBJGRP>
+                </SUBPART>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart C—Lights and Shapes</HD>
+                    <SECTNO>83.20</SECTNO>
+                    <SUBJECT>Application (Rule 20).</SUBJECT>
+                    <SECTNO>83.21</SECTNO>
+                    <SUBJECT>Definitions (Rule 21).</SUBJECT>
+                    <SECTNO>83.22</SECTNO>
+                    <SUBJECT>Visibility of lights (Rule 22).</SUBJECT>
+                    <SECTNO>83.23</SECTNO>
+                    <SUBJECT>Power-driven vessels underway (Rule 23).</SUBJECT>
+                    <SECTNO>83.24</SECTNO>
+                    <SUBJECT>Towing and pushing (Rule 24).</SUBJECT>
+                    <SECTNO>83.25</SECTNO>
+                    <SUBJECT>Sailing vessels underway and vessels under oars (Rule 25).</SUBJECT>
+                    <SECTNO>83.26</SECTNO>
+                    <SUBJECT>Fishing vessels (Rule 26).</SUBJECT>
+                    <SECTNO>83.27</SECTNO>
+                    <SUBJECT>Vessels not under command or restricted in their ability to maneuver (Rule 27).</SUBJECT>
+                    <SECTNO>83.28</SECTNO>
+                    <SUBJECT>[Reserved] (Rule 28).</SUBJECT>
+                    <SECTNO>83.29</SECTNO>
+                    <SUBJECT>Pilot vessels (Rule 29).</SUBJECT>
+                    <SECTNO>83.30</SECTNO>
+                    <SUBJECT>Vessels anchored, aground and moored barges (Rule 30).</SUBJECT>
+                    <SECTNO>83.31</SECTNO>
+                    <SUBJECT>Seaplanes (Rule 31).</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart D—Sound and Light Signals</HD>
+                    <SECTNO>83.32</SECTNO>
+                    <SUBJECT>Definitions (Rule 32).</SUBJECT>
+                    <SECTNO>83.33</SECTNO>
+                    <SUBJECT>Equipment for sound signals (Rule 33).</SUBJECT>
+                    <SECTNO>83.34</SECTNO>
+                    <SUBJECT>Maneuvering and warning signals (Rule 34).</SUBJECT>
+                    <SECTNO>83.35</SECTNO>
+                    <SUBJECT>Sound signals in restricted visibility (Rule 35).</SUBJECT>
+                    <SECTNO>83.36</SECTNO>
+                    <SUBJECT>Signals to attract attention (Rule 36).</SUBJECT>
+                    <SECTNO>83.37</SECTNO>
+                    <SUBJECT>Distress signals (Rule 37).</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart E—Exemptions</HD>
+                    <SECTNO>83.38</SECTNO>
+                    <SUBJECT>Exemptions (Rule 38).</SUBJECT>
+                </SUBPART>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>33 U.S.C. 2071; DHS Delegation No. 00170.1, Revision No. 01.3.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>USCG-2012-0102, 79 FR 37912, July 2, 2014, unless otherwise noted.</P>
+            </SOURCE>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart A—General</HD>
+                <SECTION>
+                    <SECTNO>§ 83.01</SECTNO>
+                    <SUBJECT>Application (Rule 1).</SUBJECT>
+                    <P>(a) These Rules apply to all vessels upon the inland waters of the United States, and to vessels of the United States on the Canadian waters of the Great Lakes to the extent that there is no conflict with Canadian law.</P>
+                    <P>(b)(i) These Rules constitute special rules made by an appropriate authority within the meaning of Rule 1(b) of the International Regulations for Preventing Collisions at Sea, 1972, including annexes currently in force for the United States (“International Regulations”).</P>
+                    <P>(ii) All vessels complying with the construction and equipment requirements of the International Regulations are considered to be in compliance with these Rules.</P>
+                    <P>
+                        (c) Nothing in these Rules shall interfere with the operation of any special rules made by the Secretary of the Navy with respect to additional station or signal lights and shapes or whistle signals for ships of war and vessels proceeding under convoy, or by the Secretary with respect to additional station or signal lights and shapes for fishing vessels engaged in fishing as a fleet. These additional station or signal lights and shapes or whistle signals shall, so far as possible, be such that they cannot be mistaken for any light, shape, or signal authorized elsewhere under these Rules. Notice of such special rules shall be published in the 
+                        <E T="04">Federal Register</E>
+                         and, after the effective date specified in such notice, they shall 
+                        <PRTPAGE P="205"/>
+                        have effect as if they were a part of these Rules.
+                    </P>
+                    <P>(d) Traffic separation schemes may be established for the purpose of these Rules. Vessel traffic service regulations may be in effect in certain areas.</P>
+                    <P>(e) Whenever the Secretary determines that a vessel or class of vessels of special construction or purpose cannot comply fully with the provisions of any of these Rules with respect to the number, position, range, or arc of visibility of lights or shapes, as well as to the disposition and characteristics of sound-signaling appliances, the vessel shall comply with such other provisions in regard to the number, position, range, or arc of visibility of lights or shapes, as well as to the disposition and characteristics of sound-signaling appliances, as the Secretary shall have determined to be the closest possible compliance with these Rules. The Secretary may issue a certificate of alternative compliance for a vessel or class of vessels specifying the closest possible compliance with these Rules. The Secretary of the Navy shall make these determinations and issue certificates of alternative compliance for vessels of the Navy.</P>
+                    <P>(f) The Secretary may accept a certificate of alternative compliance issued by a contracting party to the International Regulations if it determines that the alternative compliance standards of the contracting party are substantially the same as those of the United States.</P>
+                    <P>(g) The operator of each self-propelled vessel 12 meters or more in length shall carry, on board and maintain for ready reference, a copy of these Rules.</P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2022-0071, 87 FR 54390, Sept. 6, 2022]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.02</SECTNO>
+                    <SUBJECT>Responsibility (Rule 2).</SUBJECT>
+                    <P>(a) Nothing in these Rules shall exonerate any vessel, or the owner, master, or crew thereof, from the consequences of any neglect to comply with these Rules or of the neglect of any precaution which may be required by the ordinary practice of seamen, or by the special circumstances of the case.</P>
+                    <P>(b) In construing and complying with these Rules due regard shall be had to all dangers of navigation and collision and to any special circumstances, including the limitations of the vessels involved, which may make a departure from these Rules necessary to avoid immediate danger.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.03</SECTNO>
+                    <SUBJECT>General definitions (Rule 3).</SUBJECT>
+                    <P>For the purpose of these Rules and Subchapter E, except where the context otherwise requires:</P>
+                    <P>
+                        (a) The word 
+                        <E T="03">vessel</E>
+                         includes every description of water craft, including non-displacement craft, WIG craft and seaplanes, used or capable of being used as a means of transportation on water.
+                    </P>
+                    <P>
+                        (b) The term 
+                        <E T="03">power-driven vessel</E>
+                         means any vessel propelled by machinery.
+                    </P>
+                    <P>
+                        (c) The term 
+                        <E T="03">sailing vessel</E>
+                         means any vessel under sail provided that propelling machinery, if fitted, is not being used.
+                    </P>
+                    <P>
+                        (d) The term 
+                        <E T="03">vessel engaged in fishing</E>
+                         means any vessel fishing with nets, lines, trawls, or other fishing apparatus which restricts maneuverability, but does not include a vessel fishing with trolling lines or other fishing apparatus which do not restrict maneuverability.
+                    </P>
+                    <P>
+                        (e) The word 
+                        <E T="03">seaplane</E>
+                         includes any aircraft designed to maneuver on the water.
+                    </P>
+                    <P>
+                        (f) The term 
+                        <E T="03">vessel not under command</E>
+                         means a vessel which, through some exceptional circumstance, is unable to maneuver as required by these Rules and is therefore unable to keep out of the way of another vessel.
+                    </P>
+                    <P>
+                        (g) The term 
+                        <E T="03">vessel restricted in her ability to maneuver</E>
+                         means a vessel which, from the nature of her work, is restricted in her ability to maneuver as required by these Rules and is therefore unable to keep out of the way of another vessel. The term 
+                        <E T="03">vessels restricted in their ability to maneuver</E>
+                         include, but are not limited to:
+                    </P>
+                    <P>(i) A vessel engaged in laying, servicing, or picking up a navigation mark, submarine cable, or pipeline;</P>
+                    <P>(ii) a vessel engaged in dredging, surveying, or underwater operations;</P>
+                    <P>(iii) a vessel engaged in replenishment or transferring persons, provisions, or cargo while underway;</P>
+                    <P>
+                        (iv) a vessel engaged in the launching or recovery of aircraft;
+                        <PRTPAGE P="206"/>
+                    </P>
+                    <P>(v) a vessel engaged in mine clearance operations;</P>
+                    <P>(vi) a vessel engaged in a towing operation such as severely restricts the towing vessel and her tow in their ability to deviate from their course.</P>
+                    <P>(h) [Reserved]</P>
+                    <P>
+                        (i) The word 
+                        <E T="03">underway</E>
+                         means that a vessel is not at anchor, or made fast to the shore, or aground.
+                    </P>
+                    <P>
+                        (j) The words 
+                        <E T="03">length</E>
+                         and 
+                        <E T="03">breadth</E>
+                         of a vessel mean her length overall and greatest breadth.
+                    </P>
+                    <P>(k) Vessels shall be deemed to be in sight of one another only when one can be observed visually from the other.</P>
+                    <P>
+                        (l) The term 
+                        <E T="03">restricted visibility</E>
+                         means any condition in which visibility is restricted by fog, mist, falling snow, heavy rainstorms, sandstorms, or any other similar causes.
+                    </P>
+                    <P>
+                        (m) The term 
+                        <E T="03">Wing-In-Ground</E>
+                         (WIG) craft means a multimodal craft which, in its main operational mode, flies in close proximity to the surface by utilizing surface-effect action.
+                    </P>
+                    <P>
+                        (n) 
+                        <E T="03">Western Rivers</E>
+                         means the Mississippi River, its tributaries, South Pass, and Southwest Pass, to the navigational demarcation lines dividing the high seas from harbors, rivers, and other inland waters of the United States, and the Port Allen-Morgan City Alternate Route, and that part of the Atchafalaya River above its junction with the Port Allen-Morgan City Alternate Route including the Old River and the Red River.
+                    </P>
+                    <P>
+                        (o) 
+                        <E T="03">Great Lakes</E>
+                         means the Great Lakes and their connecting and tributary waters including the Calumet River as far as the Thomas J. O'Brien Lock and Controlling Works (between mile 326 and 327), the Chicago River as far as the east side of the Ashland Avenue Bridge (between mile 321 and 322), and the Saint Lawrence River as far east as the lower exit of Saint Lambert Lock.
+                    </P>
+                    <P>
+                        (p) 
+                        <E T="03">Secretary</E>
+                         means the Secretary of the Department in which the Coast Guard is operating.
+                    </P>
+                    <P>
+                        (q) 
+                        <E T="03">Inland Waters</E>
+                         means the navigable waters of the United States shoreward of the navigational demarcation lines dividing the high seas from harbors, rivers, and other inland waters of the United States and the waters of the Great Lakes on the United States side of the International Boundary.
+                    </P>
+                    <P>
+                        (r) 
+                        <E T="03">Inland Rules</E>
+                         or 
+                        <E T="03">Rules</E>
+                         means these Inland Navigational Rules and the annexes thereto, which govern the conduct of vessels and specify the lights, shapes, and sound signals that apply on inland waters.
+                    </P>
+                    <P>
+                        (s) 
+                        <E T="03">International Regulations</E>
+                         means the International Regulations for Preventing Collisions at Sea, 1972, including annexes currently in force for the United States.
+                    </P>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart B—Steering and Sailing Rules</HD>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Conduct of Vessels in Any Condition of Visibility</HD>
+                    <SECTION>
+                        <SECTNO>§ 83.04</SECTNO>
+                        <SUBJECT>Application (Rule 4).</SUBJECT>
+                        <P>Rules 4 through 10 (§§ 83.04 through 83.10) apply in any condition of visibility.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.05</SECTNO>
+                        <SUBJECT>Look-out (Rule 5).</SUBJECT>
+                        <P>Every vessel shall at all times maintain a proper look-out by sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions so as to make a full appraisal of the situation and of the risk of collision.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.06</SECTNO>
+                        <SUBJECT>Safe speed (Rule 6).</SUBJECT>
+                        <P>Every vessel shall at all times proceed at a safe speed so that she can take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions. In determining a safe speed the following factors shall be among those taken into account:</P>
+                        <P>(a) By all vessels:</P>
+                        <P>(i) The state of visibility;</P>
+                        <P>(ii) The traffic density including concentration of fishing vessels or any other vessels;</P>
+                        <P>(iii) The maneuverability of the vessel with special reference to stopping distance and turning ability in the prevailing conditions;</P>
+                        <P>(iv) At night, the presence of background light such as from shore lights or from back scatter of her own lights;</P>
+                        <P>
+                            (v) The state of wind, sea, and current, and the proximity of navigational hazards;
+                            <PRTPAGE P="207"/>
+                        </P>
+                        <P>(vi) The draft in relation to the available depth of water.</P>
+                        <P>(b) Additionally, by vessels with operational radar:</P>
+                        <P>(i) The characteristics, efficiency and limitations of the radar equipment;</P>
+                        <P>(ii) Any constraints imposed by the radar range scale in use;</P>
+                        <P>(iii) The effect on radar detection of the sea state, weather, and other sources of interference;</P>
+                        <P>(iv) The possibility that small vessels, ice and other floating objects may not be detected by radar at an adequate range;</P>
+                        <P>(v) The number, location, and movement of vessels detected by radar;</P>
+                        <P>(vi) The more exact assessment of the visibility that may be possible when radar is used to determine the range of vessels or other objects in the vicinity.</P>
+                        <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68621, Nov. 18, 2014]</CITA>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.07</SECTNO>
+                        <SUBJECT>Risk of collision (Rule 7).</SUBJECT>
+                        <P>(a) Every vessel shall use all available means appropriate to the prevailing circumstances and conditions to determine if risk of collision exists. If there is any doubt such risk shall be deemed to exist.</P>
+                        <P>(b) Proper use shall be made of radar equipment if fitted and operational, including long-range scanning to obtain early warning of risk of collision and radar plotting or equivalent systematic observation of detected objects.</P>
+                        <P>(c) Assumptions shall not be made on the basis of scanty information, especially scanty radar information.</P>
+                        <P>(d) In determining if risk of collision exists the following considerations shall be among those taken into account:</P>
+                        <P>(i) Such risk shall be deemed to exist if the compass bearing of an approaching vessel does not appreciably change.</P>
+                        <P>(ii) Such risk may sometimes exist even when an appreciable bearing change is evident, particularly when approaching a very large vessel or a tow or when approaching a vessel at close range.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.08</SECTNO>
+                        <SUBJECT>Action to avoid collision (Rule 8).</SUBJECT>
+                        <P>(a) Any action taken to avoid collision shall be taken in accordance with the Rules of this subpart (Rules 4-19) (§§ 83.04 through 83.19) and shall, if the circumstances of the case admit, be positive, made in ample time and with due regard to the observance of good seamanship.</P>
+                        <P>(b) Any alteration of course and/or speed to avoid collision shall, if the circumstances of the case admit, be large enough to be readily apparent to another vessel observing visually or by radar; a succession of small alterations of course and/or speed should be avoided.</P>
+                        <P>(c) If there is sufficient sea room, alteration of course alone may be the most effective action to avoid a close-quarters situation provided that it is made in good time, is substantial and does not result in another close-quarters situation.</P>
+                        <P>(d) Action taken to avoid collision with another vessel shall be such as to result in passing at a safe distance. The effectiveness of the action shall be carefully checked until the other vessel is finally past and clear.</P>
+                        <P>(e) If necessary to avoid collision or allow more time to assess the situation, a vessel shall slacken her speed or take all way off by stopping or reversing her means of propulsion.</P>
+                        <P>(f)(i) A vessel which, by any of these Rules, is required not to impede the passage or safe passage of another vessel shall, when required by the circumstances of the case, take early action to allow sufficient sea room for the safe passage of the other vessel.</P>
+                        <P>(ii) A vessel required not to impede the passage or safe passage of another vessel is not relieved of this obligation if approaching the other vessel so as to involve risk of collision and shall, when taking action, have full regard to the action which may be required by the Rules of Subpart B (Rules 4-19).</P>
+                        <P>(iii) A vessel the passage of which is not to be impeded remains fully obliged to comply with the Rules of Subpart B (Rules 4-19) when the two vessels are approaching one another so as to involve risk of collision.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.09</SECTNO>
+                        <SUBJECT>Narrow channels (Rule 9).</SUBJECT>
+                        <P>
+                            (a)(i) A vessel proceeding along the course of a narrow channel or fairway shall keep as near to the outer limit of the channel or fairway which lies on 
+                            <PRTPAGE P="208"/>
+                            her starboard side as is safe and practicable.
+                        </P>
+                        <P>(ii) Notwithstanding paragraph (a)(i) of this Rule and Rule 14(a) (§ 83.14(a)), a power-driven vessel operating in narrow channels or fairways on the Great Lakes, Western Rivers, or waters specified by the Secretary, and proceeding downbound with a following current shall have the right-of-way over an upbound vessel, shall propose the manner and place of passage, and shall initiate the maneuvering signals prescribed by Rule 34(a)(i) (§ 83.34(a)(i)), as appropriate. The vessel proceeding upbound against the current shall hold as necessary to permit safe passing.</P>
+                        <P>(b) A vessel of less than 20 meters in length or a sailing vessel shall not impede the passage of a vessel that can safely navigate only within a narrow channel or fairway.</P>
+                        <P>(c) A vessel engaged in fishing shall not impede the passage of any other vessel navigating within a narrow channel or fairway.</P>
+                        <P>(d) A vessel must not cross a narrow channel or fairway if such crossing impedes the passage of a vessel which can safely navigate only within such channel or fairway. The latter vessel must use the signal prescribed in Rule 34(d) (§ 83.34(d)) if in doubt as to the intention of the crossing vessel.</P>
+                        <P>(e)(i) In a narrow channel or fairway when overtaking, the power-driven vessel intending to overtake another power-driven vessel shall indicate her intention by sounding the appropriate signal prescribed in Rule 34(c) (§ 83.34(c)) and take steps to permit safe passing. The power-driven vessel being overtaken, if in agreement, shall sound the same signal and may, if specifically agreed to, take steps to permit safe passing. If in doubt she shall sound the signal prescribed in Rule 34(d) (§ 83.34(d)).</P>
+                        <P>(ii) This Rule does not relieve the overtaking vessel of her obligation under Rule 13 (§ 83.13).</P>
+                        <P>(f) A vessel nearing a bend or an area of a narrow channel or fairway where other vessels may be obscured by an intervening obstruction shall navigate with particular alertness and caution and shall sound the appropriate signal prescribed in Rule 34(e) (§ 83.34(e)).</P>
+                        <P>(g) Any vessel shall, if the circumstances of the case admit, avoid anchoring in a narrow channel.</P>
+                        <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2015-0433, 80 FR 44280, July 27, 2015; USCG-2016-0498, 82 FR 35080, July 28, 2017]</CITA>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.10</SECTNO>
+                        <SUBJECT>Traffic separation schemes (Rule 10).</SUBJECT>
+                        <P>(a) This Rule applies to traffic separation schemes and does not relieve any vessel of her obligation under any other Rule in subchapter E.</P>
+                        <P>(b) A vessel using a traffic separation scheme shall:</P>
+                        <P>(i) Proceed in the appropriate traffic lane in the general direction of traffic flow for that lane;</P>
+                        <P>(ii) So far as practicable keep clear of a traffic separation line or separation zone;</P>
+                        <P>(iii) Normally join or leave a traffic lane at the termination of the lane, but when joining or leaving from either side shall do so at as small an angle to the general direction of traffic flow as practicable.</P>
+                        <P>(c) A vessel shall, so far as practicable, avoid crossing traffic lanes but if obliged to do so shall cross on a heading as nearly as practicable at right angles to the general direction of traffic flow.</P>
+                        <P>(d)(i) A vessel shall not use an inshore traffic zone when she can safely use the appropriate traffic lane within the adjacent traffic separation scheme. However, vessels of less than 20 meters in length, sailing vessels, and vessels engaged in fishing may use the inshore traffic zone.</P>
+                        <P>(ii) Notwithstanding paragraph (d)(i) of this Rule, a vessel may use an inshore traffic zone when en route to or from a port, offshore installation or structure, pilot station, or any other place situated within the inshore traffic zone, or to avoid immediate danger.</P>
+                        <P>(e) A vessel other than a crossing vessel or a vessel joining or leaving a lane shall not normally enter a separation zone or cross a separation line except:</P>
+                        <P>(i) In cases of emergency to avoid immediate danger;</P>
+                        <P>(ii) To engage in fishing within a separation zone.</P>
+                        <P>
+                            (f) A vessel navigating in areas near the terminations of traffic separation 
+                            <PRTPAGE P="209"/>
+                            schemes shall do so with particular caution.
+                        </P>
+                        <P>(g) A vessel shall so far as practicable avoid anchoring in a traffic separation scheme or in areas near its terminations.</P>
+                        <P>(h) A vessel not using a traffic separation scheme shall avoid it by as wide a margin as is practicable.</P>
+                        <P>(i) A vessel engaged in fishing shall not impede the passage of any vessel following a traffic lane.</P>
+                        <P>(j) A vessel of less than 20 meters in length or a sailing vessel shall not impede the safe passage of a power-driven vessel following a traffic lane.</P>
+                        <P>(k) A vessel restricted in her ability to maneuver when engaged in an operation for the maintenance of safety of navigation in a traffic separation scheme is exempted from complying with this Rule to the extent necessary to carry out the operation.</P>
+                        <P>(l) A vessel restricted in her ability to maneuver when engaged in an operation for the laying, servicing, or picking up of a submarine cable, within a traffic separation scheme, is exempted from complying with this Rule to the extent necessary to carry out the operation.</P>
+                    </SECTION>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Conduct of Vessels in Sight of One Another</HD>
+                    <SECTION>
+                        <SECTNO>§ 83.11</SECTNO>
+                        <SUBJECT>Application (Rule 11).</SUBJECT>
+                        <P>Rules 11 through 18 (§§ 83.11 through 83.18) apply to vessels in sight of one another.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.12</SECTNO>
+                        <SUBJECT>Sailing vessels (Rule 12).</SUBJECT>
+                        <P>(a) When two sailing vessels are approaching one another, so as to involve risk of collision, one of them shall keep out of the way of the other as follows:</P>
+                        <P>(i) When each has the wind on a different side, the vessel which has the wind on the port side shall keep out of the way of the other.</P>
+                        <P>(ii) When both have the wind on the same side, the vessel which is to windward shall keep out of the way of the vessel which is to leeward.</P>
+                        <P>(iii) If a vessel with the wind on the port side sees a vessel to windward and cannot determine with certainty whether the other vessel has the wind on the port or on the starboard side, she shall keep out of the way of the other.</P>
+                        <P>(b) For the purpose of this Rule, the windward side shall be deemed to be the side opposite to that on which the mainsail is carried or, in the case of a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.13</SECTNO>
+                        <SUBJECT>Overtaking (Rule 13).</SUBJECT>
+                        <P>(a) Notwithstanding anything contained in Rules 4 through 18 (§§ 83.04 through 83.18), any vessel overtaking any other shall keep out of the way of the vessel being overtaken.</P>
+                        <P>(b) A vessel shall be deemed to be overtaking when coming up with another vessel from a direction more than 22.5 degrees abaft her beam; that is, in such a position with reference to the vessel she is overtaking, that at night she would be able to see only the sternlight of that vessel but neither of her sidelights.</P>
+                        <P>(c) When a vessel is in any doubt as to whether she is overtaking another, she shall assume that this is the case and act accordingly.</P>
+                        <P>(d) Any subsequent alteration of the bearing between the two vessels shall not make the overtaking vessel a crossing vessel within the meaning of these Rules or relieve her of the duty of keeping clear of the overtaken vessel until she is finally past and clear.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.14</SECTNO>
+                        <SUBJECT>Head-on situation (Rule 14).</SUBJECT>
+                        <P>(a) Unless otherwise agreed, when two power-driven vessels are meeting on reciprocal or nearly reciprocal courses so as to involve risk of collision each shall alter her course to starboard so that each shall pass on the port side of the other.</P>
+                        <P>(b) Such a situation shall be deemed to exist when a vessel sees the other ahead or nearly ahead and by night she could see the masthead lights of the other in a line or nearly in a line and/or both sidelights and by day she observes the corresponding aspect of the other vessel.</P>
+                        <P>
+                            (c) When a vessel is in any doubt as to whether such a situation exists she shall assume that it does exist and act accordingly.
+                            <PRTPAGE P="210"/>
+                        </P>
+                        <P>(d) Notwithstanding paragraph (a) of this Rule, a power-driven vessel operating on the Great Lakes, Western Rivers, or waters specified by the Secretary, and proceeding downbound with a following current shall have the right-of-way over an upbound vessel, shall propose the manner of passage, and shall initiate the maneuvering signals prescribed by Rule 34(a)(i) (§ 83.34(a)(i)), as appropriate.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.15</SECTNO>
+                        <SUBJECT>Crossing situation (Rule 15).</SUBJECT>
+                        <P>(a) When two power-driven vessels are crossing so as to involve risk of collision, the vessel which has the other on her starboard side shall keep out of the way and shall, if the circumstances of the case admit, avoid crossing ahead of the other vessel.</P>
+                        <P>(b) Notwithstanding paragraph (a) of this Rule, on the Great Lakes, Western Rivers, or water specified by the Secretary, a power-driven vessel crossing a river shall keep out of the way of a power-driven vessel ascending or descending the river.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.16</SECTNO>
+                        <SUBJECT>Action by give-way vessel (Rule 16).</SUBJECT>
+                        <P>Every vessel which is directed to keep out of the way of another vessel shall, so far as possible, take early and substantial action to keep well clear.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.17</SECTNO>
+                        <SUBJECT>Action by stand-on vessel (Rule 17).</SUBJECT>
+                        <P>(a)(i) Where one of two vessels is to keep out of the way, the other shall keep her course and speed.</P>
+                        <P>(ii) The latter vessel may, however, take action to avoid collision by her maneuver alone, as soon as it becomes apparent to her that the vessel required to keep out of the way is not taking appropriate action in compliance with these Rules.</P>
+                        <P>(b) When, from any cause, the vessel required to keep her course and speed finds herself so close that collision cannot be avoided by the action of the give-way vessel alone, she shall take such action as will best aid to avoid collision.</P>
+                        <P>(c) A power-driven vessel which takes action in a crossing situation in accordance with paragraph (a)(ii) of this Rule to avoid collision with another power-driven vessel shall, if the circumstances of the case admit, not alter course to port for a vessel on her own port side.</P>
+                        <P>(d) This Rule does not relieve the give-way vessel of her obligation to keep out of the way.</P>
+                    </SECTION>
+                    <SECTION>
+                        <SECTNO>§ 83.18</SECTNO>
+                        <SUBJECT>Responsibilities between vessels (Rule 18).</SUBJECT>
+                        <P>Except where Rules 9, 10, and 13 (§§ 83.09, 83.10, and 83.13) otherwise require:</P>
+                        <P>(a) A power-driven vessel underway shall keep out of the way of:</P>
+                        <P>(i) A vessel not under command;</P>
+                        <P>(ii) A vessel restricted in her ability to maneuver;</P>
+                        <P>(iii) A vessel engaged in fishing;</P>
+                        <P>(iv) A sailing vessel.</P>
+                        <P>(b) A sailing vessel underway shall keep out of the way of:</P>
+                        <P>(i) A vessel not under command;</P>
+                        <P>(ii) A vessel restricted in her ability to maneuver; and</P>
+                        <P>(iii) A vessel engaged in fishing.</P>
+                        <P>(c) A vessel engaged in fishing when underway shall, so far as possible, keep out of the way of:</P>
+                        <P>(i) A vessel not under command; and</P>
+                        <P>(ii) A vessel restricted in her ability to maneuver.</P>
+                        <P>(d) [Reserved]</P>
+                        <P>(e) A seaplane on the water shall, in general, keep well clear of all vessels and avoid impeding their navigation. In circumstances, however, where risk of collision exists, she shall comply with the Rules of this Subpart (Rules 4-19) (§§ 83.04 through 83.19); and</P>
+                        <P>(f)(i) a WIG craft shall, when taking off, landing and in flight near the surface, keep well clear of all other vessels and avoid impeding their navigation; and</P>
+                        <P>(ii) a WIG craft operating on the water surface shall comply with the Rules of this Subpart (Rules 4-19) (§§ 83.04 through 83.19) as a power-driven vessel.</P>
+                        <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68621, Nov. 18, 2014]</CITA>
+                    </SECTION>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <PRTPAGE P="211"/>
+                    <HD SOURCE="HED">Conduct of Vessels in Restricted Visibility</HD>
+                    <SECTION>
+                        <SECTNO>§ 83.19</SECTNO>
+                        <SUBJECT>Conduct of vessels in restricted visibility (Rule 19).</SUBJECT>
+                        <P>(a) This Rule applies to vessels not in sight of one another when navigating in or near an area of restricted visibility.</P>
+                        <P>(b) Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility. A power-driven vessel shall have her engines ready for immediate maneuver.</P>
+                        <P>(c) Every vessel shall have due regard to the prevailing circumstances and conditions of restricted visibility when complying with Rules 4 through 10 (§§ 83.04 through 83.10).</P>
+                        <P>(d) A vessel which detects by radar alone the presence of another vessel shall determine if a close-quarters situation is developing and/or risk of collision exists. If so, she shall take avoiding action in ample time, provided that when such action consists of an alteration of course, so far as possible the following shall be avoided:</P>
+                        <P>(i) An alteration of course to port for a vessel forward of the beam, other than for a vessel being overtaken;</P>
+                        <P>(ii) An alteration of course toward a vessel abeam or abaft the beam.</P>
+                        <P>(e) Except where it has been determined that a risk of collision does not exist, every vessel which hears apparently forward of her beam the fog signal of another vessel, or which cannot avoid a close-quarters situation with another vessel forward of her beam, shall reduce her speed to the minimum at which she can be kept on course. She shall if necessary take all her way off and, in any event, navigate with extreme caution until danger of collision is over.</P>
+                        <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2015-0433, 80 FR 44280, July 27, 2015]</CITA>
+                    </SECTION>
+                </SUBJGRP>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart C—Lights and Shapes</HD>
+                <SECTION>
+                    <SECTNO>§ 83.20</SECTNO>
+                    <SUBJECT>Application (Rule 20).</SUBJECT>
+                    <P>(a) Rules in this subpart (Rules 20-31) (§§ 83.20 through 83.31) shall be complied with in all weathers.</P>
+                    <P>(b) The Rules concerning lights (§§ 83.20 through 83.31) shall be complied with from sunset to sunrise, and during such times no other lights shall be exhibited, except such lights as cannot be mistaken for the lights specified in these Rules or do not impair their visibility or distinctive character, or interfere with the keeping of a proper lookout.</P>
+                    <P>(c) The lights prescribed by these Rules shall, if carried, also be exhibited from sunrise to sunset in restricted visibility and may be exhibited in all other circumstances when it is deemed necessary.</P>
+                    <P>(d) The Rules concerning shapes shall be complied with by day.</P>
+                    <P>(e) The lights and shapes specified in these Rules shall comply with the provisions of Annex I of these Rules (33 CFR part 84).</P>
+                    <P>(f) A vessel's navigation lights and shapes may be lowered if necessary to pass under a bridge.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.21</SECTNO>
+                    <SUBJECT>Definitions (Rule 21).</SUBJECT>
+                    <P>
+                        (a) 
+                        <E T="03">Masthead light</E>
+                         means a white light placed over the fore and aft centerline of the vessel showing an unbroken light over an arc of the horizon of 225 degrees and so fixed as to show the light from right ahead to 22.5 degrees abaft the beam on either side of the vessel, except that on a vessel of less than 12 meters in length the masthead light shall be placed as nearly as practicable to the fore and aft centerline of the vessel.
+                    </P>
+                    <P>
+                        (b) 
+                        <E T="03">Sidelights</E>
+                         mean a green light on the starboard side and a red light on the port side each showing an unbroken light over an arc of the horizon of 112.5 degrees and so fixed as to show the light from right ahead to 22.5 degrees abaft the beam on its respective side. On a vessel of less than 20 meters in length the side lights may be combined in one lantern carried on the fore and aft centerline of the vessel, except that on a vessel of less than 12 meters in length the sidelights when combined in one lantern shall be placed as nearly as practicable to the fore and aft centerline of the vessel.
+                    </P>
+                    <P>
+                        (c) 
+                        <E T="03">Sternlight</E>
+                         means a white light placed as nearly as practicable at the stern showing an unbroken light over an arc of the horizon of 135 degrees and 
+                        <PRTPAGE P="212"/>
+                        so fixed as to show the light 67.5 degrees from right aft on each side of the vessel.
+                    </P>
+                    <P>
+                        (d) 
+                        <E T="03">Towing light</E>
+                         means a yellow light having the same characteristics as the “sternlight” defined in paragraph (c) of this Rule.
+                    </P>
+                    <P>
+                        (e) 
+                        <E T="03">All-round light</E>
+                         means a light showing an unbroken light over an arc of the horizon of 360 degrees.
+                    </P>
+                    <P>
+                        (f) 
+                        <E T="03">Flashing light</E>
+                         means a light flashing at regular intervals at a frequency of 120 flashes or more per minute.
+                    </P>
+                    <P>
+                        (g) 
+                        <E T="03">Special flashing light</E>
+                         means a yellow light flashing at regular intervals at a frequency of 50 to 70 flashes per minute, placed as far forward and as nearly as practicable on the fore and aft centerline of the tow and showing an unbroken light over an arc of the horizon of not less than 180 degrees nor more than 225 degrees and so fixed as to show the light from right ahead to abeam and no more than 22.5 degrees abaft the beam on either side of the vessel.
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.22</SECTNO>
+                    <SUBJECT>Visibility of lights (Rule 22).</SUBJECT>
+                    <P>The lights prescribed in these Rules (Subpart C) shall have an intensity as specified in Annex I to these Rules (33 CFR part 84), so as to be visible at the following minimum ranges:</P>
+                    <P>(a) In a vessel of 50 meters or more in length:</P>
+                    <P>(i) A masthead light, 6 miles;</P>
+                    <P>(ii) A sidelight, 3 miles;</P>
+                    <P>(iii) A sternlight, 3 miles;</P>
+                    <P>(iv) A towing light, 3 miles;</P>
+                    <P>(v) A white, red, green or yellow all-round light, 3 miles; and</P>
+                    <P>(vi) A special flashing light, 2 miles.</P>
+                    <P>(b) In a vessel of 12 meters or more in length but less than 50 meters in length:</P>
+                    <P>(i) A masthead light, 5 miles; except that where the length of the vessel is less than 20 meters, 3 miles;</P>
+                    <P>(ii) A sidelight, 2 miles;</P>
+                    <P>(iii) A sternlight, 2 miles;</P>
+                    <P>(iv) A towing light, 2 miles;</P>
+                    <P>(v) A white, red, green or yellow all-round light, 2 miles; and</P>
+                    <P>(vi) A special flashing light, 2 miles.</P>
+                    <P>(c) In a vessel of less than 12 meters in length:</P>
+                    <P>(i) A masthead light, 2 miles;</P>
+                    <P>(ii) A sidelight, 1 mile;</P>
+                    <P>(iii) A sternlight, 2 miles;</P>
+                    <P>(iv) A towing light, 2 miles;</P>
+                    <P>(v) A white, red, green or yellow all-round light, 2 miles; and</P>
+                    <P>(vi) A special flashing light, 2 miles.</P>
+                    <P>(d) In an inconspicuous, partly submerged vessel or objects being towed:</P>
+                    <P>(i) A white all-round light, 3 miles.</P>
+                    <P>(ii) [Reserved]</P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68621, Nov. 18, 2014; USCG-2020-0304, 85 FR 58277, Sept. 18, 2020]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.23</SECTNO>
+                    <SUBJECT>Power-driven vessels underway (Rule 23).</SUBJECT>
+                    <P>(a) A power-driven vessel underway shall exhibit:</P>
+                    <P>(i) A masthead light forward;</P>
+                    <P>(ii) A second masthead light abaft of and higher than the forward one; except that a vessel of less than 50 meters in length shall not be obliged to exhibit such light but may do so;</P>
+                    <P>(iii) Sidelights; and</P>
+                    <P>(iv) A sternlight.</P>
+                    <P>(b) An air-cushion vessel when operating in the non-displacement mode shall, in addition to the lights prescribed in paragraph (a) of this Rule, exhibit an all-round flashing yellow light where it can best be seen.</P>
+                    <P>(c) A WIG craft only when taking off, landing and in flight near the surface shall, in addition to the lights prescribed in paragraph (a) of this Rule, exhibit a high intensity all-round flashing red light.</P>
+                    <P>(d) A power-driven vessel of less than 12 meters in length may, in lieu of the lights prescribed in paragraph (a) of this Rule, exhibit an all-round white light and sidelights.</P>
+                    <P>(e) A power-driven vessel when operating on the Great Lakes may carry an all-round white light in lieu of the second masthead light and sternlight prescribed in paragraph (a) of this Rule. The light shall be carried in the position of the second masthead light and be visible at the same minimum range.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.24</SECTNO>
+                    <SUBJECT>Towing and pushing (Rule 24).</SUBJECT>
+                    <P>(a) A power-driven vessel when towing astern shall exhibit:</P>
+                    <P>
+                        (i) Instead of the light prescribed either in Rule 23(a)(i) or 23(a)(ii) (§§ 83.23(a)(i) and (ii)), two masthead lights in a vertical line. When the length of the tow, measuring from the 
+                        <PRTPAGE P="213"/>
+                        stern of the towing vessel to the after end of the tow exceeds 200 meters, three such lights in a vertical line;
+                    </P>
+                    <P>(ii) Sidelights;</P>
+                    <P>(iii) A sternlight;</P>
+                    <P>(iv) A towing light in a vertical line above the sternlight; and</P>
+                    <P>(v) When the length of the tow exceeds 200 meters, a diamond shape where it can best be seen.</P>
+                    <P>(b) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and exhibit the lights prescribed in Rule 23 (§ 83.23).</P>
+                    <P>(c) A power-driven vessel when pushing ahead or towing alongside, except as required by paragraphs (b) and (i) of this Rule, shall exhibit:</P>
+                    <P>(i) Instead of the light prescribed either in Rule 23(a)(i) or 23(a)(ii) (§ 83.23(a)(i) or (ii)), two masthead lights in a vertical line;</P>
+                    <P>(ii) Sidelights; and</P>
+                    <P>(iii) Two towing lights in a vertical line.</P>
+                    <P>(d) A power-driven vessel to which paragraphs (a) or (c) of this Rule applies shall also comply with Rule 23(a) (i) and 23(a)(ii)(§ 83.23(a)(i) or (ii)).</P>
+                    <P>(e) A vessel or object other than those referred to in paragraph (g) of this Rule being towed shall exhibit:</P>
+                    <P>(i) Sidelights;</P>
+                    <P>(ii) A sternlight; and</P>
+                    <P>(iii) When the length of the tow exceeds 200 meters, a diamond shape where it can best be seen.</P>
+                    <P>(f) Provided that any number of vessels being towed alongside or pushed in a group shall be lighted as one vessel, except as provided in paragraph (f)(iii) of this Rule.</P>
+                    <P>(i) A vessel being pushed ahead, not being part of a composite unit, shall exhibit at the forward end, sidelights and a special flashing light.</P>
+                    <P>(ii) A vessel being towed alongside shall exhibit a sternlight and at the forward end, sidelights and a special flashing light.</P>
+                    <P>(iii) When vessels are towed alongside on both sides of the towing vessel, a sternlight shall be exhibited on the stern of the outboard vessel on each side of the towing vessel, and a single set of sidelights as far forward and as far outboard as is practicable, and a single special flashing light.</P>
+                    <P>(g) An inconspicuous, partly submerged vessel or object, or combination of such vessels or objects being towed, shall exhibit:</P>
+                    <P>(i) If it is less than 25 meters in breadth, one all-round white light at or near each end;</P>
+                    <P>(ii) If it is 25 meters or more in breadth, four all-round white lights to mark its length and breadth;</P>
+                    <P>(iii) If it exceeds 100 meters in length, additional all-round white lights between the lights prescribed in paragraphs (g)(i) and (ii) of this Rule so that the distance between the lights shall not exceed 100 meters: provided, that any vessels or objects being towed alongside each other shall be lighted as one vessel or object;</P>
+                    <P>(iv) A diamond shape at or near the aftermost extremity of the last vessel or object being towed; and</P>
+                    <P>(v) The towing vessel may direct a searchlight in the direction of the tow to indicate its presence to an approaching vessel.</P>
+                    <P>(h) Where from any sufficient cause it is impracticable for a vessel or object being towed to exhibit the lights or shapes prescribed in paragraph (e) or (g) of this Rule, all possible measures shall be taken to light the vessel or object towed or at least to indicate the presence of such vessel or object.</P>
+                    <P>(i) Where from any sufficient cause it is impracticable for a vessel not normally engaged in towing operations to display the lights prescribed by paragraph (a), (c), or (j) of this Rule, such vessel shall not be required to exhibit those lights when engaged in towing another vessel in distress or otherwise in need of assistance. All possible measures shall be taken to indicate the nature of the relationship between the towing vessel and the vessel being assisted. The searchlight authorized by Rule 36 (§ 83.36) may be used to illuminate the tow.</P>
+                    <P>
+                        (j) Notwithstanding paragraph (c) of this Rule, on the Western Rivers (except below the Huey P. Long Bridge at mile 106.1 Above Head of Passes on the Mississippi River) and on waters specified by the Secretary, a power-driven vessel when pushing ahead or towing 
+                        <PRTPAGE P="214"/>
+                        alongside, except as paragraph (b) of this Rule applies, shall exhibit:
+                    </P>
+                    <P>(i) Sidelights; and</P>
+                    <P>(ii) Two towing lights in a vertical line.</P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68622, Nov. 18, 2014; USCG-2015-0433, 80 FR 44280, July 27, 2015; USCG-2016-0498, 82 FR 35080, July 28, 2017; USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.25</SECTNO>
+                    <SUBJECT>Sailing vessels underway and vessels under oars (Rule 25).</SUBJECT>
+                    <P>(a) A sailing vessel underway shall exhibit:</P>
+                    <P>(i) Sidelights; and</P>
+                    <P>(ii) A sternlight.</P>
+                    <P>(b) In a sailing vessel of less than 20 meters in length the lights prescribed in paragraph (a) of this Rule may be combined in one lantern carried at or near the top of the mast where it can best be seen.</P>
+                    <P>(c) A sailing vessel underway may, in addition to the lights prescribed in paragraph (a) of this Rule, exhibit at or near the top of the mast, where they can best be seen, two all-round lights in a vertical line, the upper being red and the lower green, but these lights shall not be exhibited in conjunction with the combined lantern permitted by paragraph (b) of this Rule.</P>
+                    <P>(d)(i) A sailing vessel of less than 7 meters in length shall, if practicable, exhibit the lights prescribed in paragraph (a) or (b) of this Rule, but if she does not, she shall exhibit an all-round white light or have ready at hand an electric torch or lighted lantern showing a white light which shall be exhibited in sufficient time to prevent collision.</P>
+                    <P>(ii) A vessel under oars may exhibit the lights prescribed in this Rule for sailing vessels, but if she does not, she shall exhibit an all-round white light or have ready at hand an electric torch or lighted lantern showing a white light which shall be exhibited in sufficient time to prevent collision.</P>
+                    <P>(e) A vessel proceeding under sail when also being propelled by machinery shall exhibit forward, where it can best be seen, a conical shape, apex downward. A vessel of less than 12 meters in length is not required to exhibit this shape, but may do so.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.26</SECTNO>
+                    <SUBJECT>Fishing vessels (Rule 26).</SUBJECT>
+                    <P>(a) A vessel engaged in fishing, whether underway or at anchor, shall exhibit only the lights and shapes prescribed in this Rule.</P>
+                    <P>(b) A vessel when engaged in trawling, by which is meant the dragging through the water of a dredge net or other apparatus used as a fishing appliance, shall exhibit:</P>
+                    <P>(i) Two all-round lights in a vertical line, the upper being green and the lower white, or a shape consisting of two cones with their apexes together in a vertical line one above the other;</P>
+                    <P>(ii) A masthead light abaft of and higher than the all-round green light; a vessel of less than 50 meters in length shall not be obliged to exhibit such a light but may do so;</P>
+                    <P>(iii) When making way through the water, in addition to the lights prescribed in this paragraph, sidelights and a sternlight.</P>
+                    <P>(c) A vessel engaged in fishing, other than trawling, shall exhibit:</P>
+                    <P>(i) Two all-round lights in a vertical line, the upper being red and the lower white, or a shape consisting of two cones with apexes together in a vertical line one above the other;</P>
+                    <P>(ii) When there is outlying gear extending more than 150 meters horizontally from the vessel, an all-round white light or a cone apex upward in the direction of the gear;</P>
+                    <P>(iii) When making way through the water, in addition to the lights prescribed in this paragraph, sidelights and a sternlight.</P>
+                    <P>(d) [Reserved]</P>
+                    <P>(e) A vessel when not engaged in fishing shall not exhibit the lights or shapes prescribed in this Rule, but only those prescribed for a vessel of her length.</P>
+                    <P>(f) Additional signals for fishing vessels fishing in close proximity:</P>
+                    <P>(i) The lights mentioned herein shall be placed where they can best be seen. They shall be at least 0.9 meters apart but at a lower level than lights prescribed in this Rule. The lights shall be visible all round the horizon at a distance of at least 1 mile but at a lesser distance from the lights prescribed by paragraphs (a) through (c) of this Rule for fishing vessels.</P>
+                    <P>
+                        (ii) 
+                        <E T="03">Signals for trawlers.</E>
+                        <PRTPAGE P="215"/>
+                    </P>
+                    <P>(1) Vessels when engaged in trawling, whether using demersal or pelagic gear, may exhibit:</P>
+                    <P>(A) When shooting their nets: Two white lights in a vertical line;</P>
+                    <P>(B) When hauling their nets: One white light over one red light in a vertical line;</P>
+                    <P>(C) When a net has come fast upon an obstruction: Two red lights in a vertical line.</P>
+                    <P>(2) Each vessel engaged in pair trawling may exhibit:</P>
+                    <P>(A) By night, a searchlight directed forward and in the direction of the other vessel of the pair;</P>
+                    <P>(B) When shooting or hauling their nets or when their nets have come fast upon an obstruction, the lights prescribed in paragraph (f)(ii)(1) of this Rule.</P>
+                    <P>
+                        (iii) 
+                        <E T="03">Signals for purse seiners.</E>
+                    </P>
+                    <P>(1) Vessels engaged in fishing with purse seine gear may exhibit two yellow lights in a vertical line. These lights shall flash alternately every second and with equal light and occultation duration. These lights may be exhibited only when the vessel is hampered by its fishing gear.</P>
+                    <P>(2) [Reserved]</P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.27</SECTNO>
+                    <SUBJECT>Vessels not under command or restricted in their ability to maneuver (Rule 27).</SUBJECT>
+                    <P>(a) A vessel not under command shall exhibit:</P>
+                    <P>(i) Two all-round red lights in a vertical line where they can best be seen;</P>
+                    <P>(ii) Two balls or similar shapes in a vertical line where they can best be seen; and</P>
+                    <P>(iii) When making way through the water, in addition to the lights prescribed in this paragraph, sidelights and a sternlight.</P>
+                    <P>(b) A vessel restricted in her ability to maneuver, except a vessel engaged in mine clearance operations, shall exhibit:</P>
+                    <P>(i) Three all-round lights in a vertical line where they can best be seen. The highest and lowest of these lights shall be red and the middle light shall be white;</P>
+                    <P>(ii) Three shapes in a vertical line where they can best be seen. The highest and lowest of these shapes shall be balls and the middle one a diamond;</P>
+                    <P>(iii) When making way through the water, a masthead light or lights, sidelights and a sternlight, in addition to the lights prescribed in paragraph (b)(i) of this Rule; and</P>
+                    <P>(iv) When at anchor, in addition to the lights or shapes prescribed in paragraphs (b)(i) and (ii) of this Rule, the light, lights or shapes prescribed in Rule 30 (§ 83.30).</P>
+                    <P>(c) A vessel engaged in a towing operation which severely restricts the towing vessel and her tow in their ability to deviate from their course shall, in addition to the lights or shapes prescribed in paragraphs (b)(i) and (ii) of this Rule, exhibit the lights or shapes prescribed in Rule 24 (§ 83.24).</P>
+                    <P>(d) A vessel engaged in dredging or underwater operations, when restricted in her ability to maneuver, shall exhibit the lights and shapes prescribed in paragraphs (b)(i), (ii), and (iii) of this Rule and shall in addition, when an obstruction exists, exhibit:</P>
+                    <P>(i) Two all-round red lights or two balls in a vertical line to indicate the side on which the obstruction exists;</P>
+                    <P>(ii) Two all-round green lights or two diamonds in a vertical line to indicate the side on which another vessel may pass; and</P>
+                    <P>(iii) When at anchor, the lights or shapes prescribed by this paragraph, instead of the lights or shape prescribed in Rule 30 (§ 83.30).</P>
+                    <P>(iv) Dredge pipelines that are floating or supported on trestles shall display the following lights at night and in periods of restricted visibility.</P>
+                    <P>(1) One row of yellow lights. The lights must be:</P>
+                    <P>(A) Flashing 50 to 70 times per minute,</P>
+                    <P>(B) Visible all round the horizon,</P>
+                    <P>(C) Visible for at least 2 miles,</P>
+                    <P>(D) Not less than 1 and not more than 3.5 meters above the water,</P>
+                    <P>(E) Approximately equally spaced, and</P>
+                    <P>
+                        (F) Not more than 10 meters apart where the pipeline crosses a navigable channel. Where the pipeline does not cross a navigable channel the lights 
+                        <PRTPAGE P="216"/>
+                        must be sufficient in number to clearly show the pipeline's length and course.
+                    </P>
+                    <P>(2) Two red lights at each end of the pipeline, including the ends in a channel where the pipeline is separated to allow vessels to pass (whether open or closed). The lights must be:</P>
+                    <P>(A) Visible all round the horizon, and</P>
+                    <P>(B) Visible for at least 2 miles, and</P>
+                    <P>(C) One meter apart in a vertical line with the lower light at the same height above the water as the flashing yellow light.</P>
+                    <P>(e) Whenever the size of a vessel engaged in diving operations makes it impracticable to exhibit all lights and shapes prescribed in paragraph (d) of this Rule, as appropriate, the following shall instead be exhibited:</P>
+                    <P>(i) Three all-round lights in a vertical line where they can best be seen. The highest and lowest of these lights shall be red and the middle light shall be white;</P>
+                    <P>(ii) A rigid replica of the International Code flag “A” not less than 1 meter in height. Measures shall be taken to ensure its all-round visibility.</P>
+                    <P>(f) A vessel engaged in mine clearance operations shall, in addition to the lights prescribed for a power-driven vessel in Rule 23 (§ 83.23) or to the lights or shape prescribed for a vessel at anchor in Rule 30 (§ 83.30), as appropriate, exhibit three all-round green lights or three balls. One of these lights or shapes shall be exhibited near the foremast head and one at each end of the fore yard. These lights or shapes indicate that it is dangerous for another vessel to approach within 1000 meters of the mine clearance vessel.</P>
+                    <P>(g) A vessel of less than 12 meters in length, except when engaged in diving operations, is not required to exhibit the lights or shapes prescribed in this Rule.</P>
+                    <P>(h) The signals prescribed in this Rule are not signals of vessels in distress and requiring assistance. Such signals are contained in Annex IV to these Rules (33 CFR part 87).</P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68622, Nov. 18, 2014; USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.28</SECTNO>
+                    <SUBJECT>[Reserved] (Rule 28).</SUBJECT>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.29</SECTNO>
+                    <SUBJECT>Pilot vessels (Rule 29).</SUBJECT>
+                    <P>(a) A vessel engaged on pilotage duty shall exhibit:</P>
+                    <P>(i) At or near the masthead, two all-round lights in a vertical line, the upper being white and the lower red;</P>
+                    <P>(ii) When underway, in addition, sidelights and a sternlight; and</P>
+                    <P>(iii) When at anchor, in addition to the lights prescribed in paragraph (i) of this Rule, the anchor light, lights, or shape prescribed in Rule 30 (§ 83.30) for vessels at anchor.</P>
+                    <P>(b) A pilot vessel when not engaged on pilotage duty shall exhibit the lights or shapes prescribed for a vessel of her length.</P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2015-0433, 80 FR 44280, July 27, 2015]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.30</SECTNO>
+                    <SUBJECT>Vessels anchored, aground and moored barges (Rule 30).</SUBJECT>
+                    <P>(a) A vessel at anchor shall exhibit where it can best be seen:</P>
+                    <P>(i) In the fore part, an all-round white light or one ball;</P>
+                    <P>(ii) At or near the stern and at a lower level than the light prescribed in paragraph (i) of this Rule, an all-round white light.</P>
+                    <P>(b) A vessel of less than 50 meters in length may exhibit an all-round white light where it can best be seen instead of the lights prescribed in paragraph (a) of this Rule.</P>
+                    <P>(c) A vessel at anchor may, and a vessel of 100 meters or more in length shall, also use the available working or equivalent lights to illuminate her decks.</P>
+                    <P>(d) A vessel aground shall exhibit the lights prescribed in paragraph (a) or (b) of this Rule and in addition, if practicable, where they can best be seen:</P>
+                    <P>(i) Two all-round red lights in a vertical line; and</P>
+                    <P>(ii) Three balls in a vertical line.</P>
+                    <P>
+                        (e) A vessel of less than 7 meters in length, when at anchor, not in or near a narrow channel, fairway, anchorage, or where other vessels normally navigate, shall not be required to exhibit the lights or shape prescribed in paragraphs (a) and (b) of this Rule.
+                        <PRTPAGE P="217"/>
+                    </P>
+                    <P>(f) A vessel of less than 12 meters in length when aground shall not be required to exhibit the lights or shapes prescribed in paragraphs (d)(i) and (ii) of this Rule.</P>
+                    <P>(g) A vessel of less than 20 meters in length, when at anchor in a special anchorage area designated by the Coast Guard, shall not be required to exhibit the anchor lights and shapes required by this Rule.</P>
+                    <P>(h) The following barges shall display at night and if practicable in periods of restricted visibility the lights described in paragraph (i) of this Rule:</P>
+                    <P>(i) Every barge projecting into a buoyed or restricted channel.</P>
+                    <P>(ii) Every barge so moored that it reduces the available navigable width of any channel to less than 80 meters.</P>
+                    <P>(iii) Barges moored in groups more than two barges wide or to a maximum width of over 25 meters.</P>
+                    <P>(iv) Every barge not moored parallel to the bank or dock.</P>
+                    <P>(i) Barges described in paragraph (h) of this Rule shall carry two unobstructed all-round white lights of an intensity to be visible for at least 1 nautical mile and meeting the technical requirements as prescribed in Annex I (33 CFR part 84).</P>
+                    <P>(j) A barge or group of barges at anchor or made fast to one or more mooring buoys or other similar device, in lieu of the provisions of this Rule, may carry unobstructed all-round white lights of an intensity to be visible for at least 1 nautical mile that meet the requirements of Annex I (33 CFR part 84) and shall be arranged as follows:</P>
+                    <P>(i) Any barge that projects from a group formation, shall be lighted on its outboard corners.</P>
+                    <P>(ii) On a single barge moored in water where other vessels normally navigate on both sides of the barge, lights shall be placed to mark the corner extremities of the barge.</P>
+                    <P>(iii) On barges moored in group formation, moored in water where other vessels normally navigate on both sides of the group, lights shall be placed to mark the corner extremities of the group.</P>
+                    <P>(k) The following are exempt from the requirements of this Rule:</P>
+                    <P>(i) A barge or group of barges moored in a slip or slough used primarily for mooring purposes.</P>
+                    <P>(ii) A barge or group of barges moored behind a pierhead.</P>
+                    <P>(iii) A barge less than 20 meters in length when moored in a special anchorage area designated in accordance with § 109.10 of this chapter.</P>
+                    <P>(l) Barges moored in well-illuminated areas are exempt from the lighting requirements of this Rule. These areas are as follows:</P>
+                    <HD SOURCE="HD3">Chicago Sanitary Ship Canal</HD>
+                    <FP SOURCE="FP-2">(1) Mile 293.2 to 293.9</FP>
+                    <FP SOURCE="FP-2">(2) Mile 295.2 to 296.1</FP>
+                    <FP SOURCE="FP-2">(3) Mile 297.5 to 297.8</FP>
+                    <FP SOURCE="FP-2">(4) Mile 298 to 298.2</FP>
+                    <FP SOURCE="FP-2">(5) Mile 298.6 to 298.8</FP>
+                    <FP SOURCE="FP-2">(6) Mile 299.3 to 299.4</FP>
+                    <FP SOURCE="FP-2">(7) Mile 299.8 to 300.5</FP>
+                    <FP SOURCE="FP-2">(8) Mile 303 to 303.2</FP>
+                    <FP SOURCE="FP-2">(9) Mile 303.7 to 303.9</FP>
+                    <FP SOURCE="FP-2">(10) Mile 305.7 to 305.8</FP>
+                    <FP SOURCE="FP-2">(11) Mile 310.7 to 310.9</FP>
+                    <FP SOURCE="FP-2">(12) Mile 311 to 311.2</FP>
+                    <FP SOURCE="FP-2">(13) Mile 312.5 to 312.6</FP>
+                    <FP SOURCE="FP-2">(14) Mile 313.8 to 314.2</FP>
+                    <FP SOURCE="FP-2">(15) Mile 314.6</FP>
+                    <FP SOURCE="FP-2">(16) Mile 314.8 to 315.3</FP>
+                    <FP SOURCE="FP-2">(17) Mile 315.7 to 316</FP>
+                    <FP SOURCE="FP-2">(18) Mile 316.8</FP>
+                    <FP SOURCE="FP-2">(19) Mile 316.85 to 317.05</FP>
+                    <FP SOURCE="FP-2">(20) Mile 317.5</FP>
+                    <FP SOURCE="FP-2">(21) Mile 318.4 to 318.9</FP>
+                    <FP SOURCE="FP-2">(22) Mile 318.7 to 318.8</FP>
+                    <FP SOURCE="FP-2">(23) Mile 320 to 320.3</FP>
+                    <FP SOURCE="FP-2">(24) Mile 320.6</FP>
+                    <FP SOURCE="FP-2">(25) Mile 322.3 to 322.4</FP>
+                    <FP SOURCE="FP-2">(26) Mile 322.8</FP>
+                    <FP SOURCE="FP-2">(27) Mile 322.9 to 327.2</FP>
+                    <HD SOURCE="HD3">Calumet Sag Channel</HD>
+                    <FP SOURCE="FP-2">(28) Mile 316.5</FP>
+                    <HD SOURCE="HD3">Little Calumet River</HD>
+                    <FP SOURCE="FP-2">(29) Mile 321.2</FP>
+                    <FP SOURCE="FP-2">(30) Mile 322.3</FP>
+                    <HD SOURCE="HD3">Calumet River</HD>
+                    <FP SOURCE="FP-2">(31) Mile 328.5 to 328.7</FP>
+                    <FP SOURCE="FP-2">(32) Mile 329.2 to 329.4</FP>
+                    <FP SOURCE="FP-2">(33) Mile 330 west bank to 330.2</FP>
+                    <FP SOURCE="FP-2">(34) Mile 331.4 to 331.6</FP>
+                    <FP SOURCE="FP-2">(35) Mile 332.2 to 332.4</FP>
+                    <FP SOURCE="FP-2">
+                        (36) Mile 332.6 to 332.8
+                        <PRTPAGE P="218"/>
+                    </FP>
+                    <HD SOURCE="HD3">Cumberland River</HD>
+                    <FP SOURCE="FP-2">(37) Mile 126.8</FP>
+                    <FP SOURCE="FP-2">(38) Mile 191</FP>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.31</SECTNO>
+                    <SUBJECT>Seaplanes (Rule 31).</SUBJECT>
+                    <P>Where it is impracticable for a seaplane or a WIG craft to exhibit lights and shapes of the characteristics or in the positions prescribed in the Rules of this subpart, she shall exhibit lights and shapes as closely similar in characteristics and position as is possible.</P>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart D—Sound and Light Signals</HD>
+                <SECTION>
+                    <SECTNO>§ 83.32</SECTNO>
+                    <SUBJECT>Definitions (Rule 32).</SUBJECT>
+                    <P>
+                        (a) The word 
+                        <E T="03">whistle</E>
+                         means any sound signaling appliance capable of producing the prescribed blasts and which complies with specifications in Annex III to these Rules (33 CFR part 86).
+                    </P>
+                    <P>
+                        (b) The term 
+                        <E T="03">short blast</E>
+                         means a blast of about 1 second's duration.
+                    </P>
+                    <P>
+                        (c) The term 
+                        <E T="03">prolonged blast</E>
+                         means a blast of from 4 to 6 seconds' duration.
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.33</SECTNO>
+                    <SUBJECT>Equipment for sound signals (Rule 33).</SUBJECT>
+                    <P>(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a bell in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, bell and gong shall comply with the specifications in Annex III to these Rules (33 CFR part 86). The bell or gong or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.</P>
+                    <P>(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this Rule but if she does not, she shall be provided with some other means of making an efficient sound signal.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.34</SECTNO>
+                    <SUBJECT>Maneuvering and warning signals (Rule 34).</SUBJECT>
+                    <P>(a) When power-driven vessels are in sight of one another and meeting or crossing at a distance within half a mile of each other, each vessel underway, when maneuvering as authorized or required by these Rules:</P>
+                    <P>(i) Shall indicate that maneuver by the following signals on her whistle:</P>
+                    <P>(1) One short blast to mean “I intend to leave you on my port side”;</P>
+                    <P>(2) Two short blasts to mean “I intend to leave you on my starboard side”; and</P>
+                    <P>(3) Three short blasts to mean “I am operating astern propulsion”.</P>
+                    <P>(ii) Upon hearing the one or two blast signal of the other shall, if in agreement, sound the same whistle signal and take the steps necessary to effect a safe passing. If, however, from any cause, the vessel doubts the safety of the proposed maneuver, she shall sound the signal specified in paragraph (d) of this Rule and each vessel shall take appropriate precautionary action until a safe passing agreement is made.</P>
+                    <P>(b) A vessel may supplement the whistle signals prescribed in paragraph (a) of this Rule by light signals:</P>
+                    <P>(i) These signals shall have the following significance:</P>
+                    <P>(1) One flash to mean “I intend to leave you on my port side”;</P>
+                    <P>(2) Two flashes to mean “I intend to leave you on my starboard side”;</P>
+                    <P>(3) Three flashes to mean “I am operating astern propulsion”;</P>
+                    <P>(ii) The duration of each flash shall be about 1 second; and</P>
+                    <P>(iii) The light used for this signal shall, if fitted, be one all-round white or yellow light, visible at a minimum range of 2 miles, synchronized with the whistle, and shall comply with the provisions of Annex I to these Rules (33 CFR part 84).</P>
+                    <P>(c) When in sight of one another:</P>
+                    <P>(i) A power-driven vessel intending to overtake another power-driven vessel shall indicate her intention by the following signals on her whistle:</P>
+                    <P>(1) One short blast to mean “I intend to overtake you on your starboard side”;</P>
+                    <P>(2) Two short blasts to mean “I intend to overtake you on your port side”; and</P>
+                    <P>
+                        (ii) The power-driven vessel about to be overtaken shall, if in agreement, sound a similar sound signal. If in 
+                        <PRTPAGE P="219"/>
+                        doubt she shall sound the signal prescribed in paragraph (d) of this Rule.
+                    </P>
+                    <P>(d) When vessels in sight of one another are approaching each other and, from any cause, either vessel fails to understand the intentions or actions of the other, or is in doubt whether sufficient action is being taken by the other to avoid collision, the vessel in doubt shall immediately indicate such doubt by giving at least five short and rapid blasts on the whistle. Such signal may be supplemented by a light signal of at least five short and rapid flashes.</P>
+                    <P>(e) A vessel nearing a bend or an area of a channel or fairway where other vessels may be obscured by an intervening obstruction shall sound one prolonged blast. This signal shall be answered with a prolonged blast by any approaching vessel that may be within hearing around the bend or behind the intervening obstruction.</P>
+                    <P>(f) If whistles are fitted on a vessel at a distance apart of more than 100 meters, one whistle only shall be used for giving maneuvering and warning signals.</P>
+                    <P>(g) When a power-driven vessel is leaving a dock or berth, she shall sound one prolonged blast.</P>
+                    <P>
+                        (h) A vessel that reaches agreement with another vessel in a head-on, crossing, or overtaking situation, as for example, by using the radiotelephone as prescribed by the Vessel Bridge-to-Bridge Radiotelephone Act (85 Stat. 164; 33 U.S.C. 1201 
+                        <E T="03">et seq.</E>
+                        ), is not obliged to sound the whistle signals prescribed by this Rule, but may do so. If agreement is not reached, then whistle signals shall be exchanged in a timely manner and shall prevail.
+                    </P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2015-0433, 80 FR 44280, July 27, 2015; USCG-2017-1002, 83 FR 3274, Jan. 24, 2018]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.35</SECTNO>
+                    <SUBJECT>Sound signals in restricted visibility (Rule 35).</SUBJECT>
+                    <P>In or near an area of restricted visibility, whether by day or night, the signals prescribed in this Rule shall be used as follows:</P>
+                    <P>(a) A power-driven vessel making way through the water shall sound, at intervals of not more than 2 minutes, one prolonged blast.</P>
+                    <P>(b) A power-driven vessel underway but stopped and making no way through the water shall sound, at intervals of not more than 2 minutes, two prolonged blasts in succession, with an interval of about 2 seconds between them.</P>
+                    <P>(c) A vessel not under command; a vessel restricted in her ability to maneuver, whether underway or at anchor; a sailing vessel; a vessel engaged in fishing, whether underway or at anchor; and a vessel engaged in towing or pushing another vessel shall, instead of the signals prescribed in paragraphs (a) or (b) of this Rule, sound, at intervals of not more than 2 minutes, three blasts in succession, namely, one prolonged followed by two short blasts.</P>
+                    <P>(d) [Reserved]</P>
+                    <P>(e) A vessel towed or if more than one vessel is towed the last vessel of the tow, if manned, shall at intervals of not more than 2 minutes sound four blasts in succession, namely, one prolonged followed by three short blasts. When practicable, this signal shall be made immediately after the signal made by the towing vessel.</P>
+                    <P>(f) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and shall give the signals prescribed in paragraphs (a) or (b) of this Rule.</P>
+                    <P>(g) A vessel at anchor shall at intervals of not more than 1 minute ring the bell rapidly for about 5 seconds. In a vessel of 100 meters or more in length the bell shall be sounded in the forepart of the vessel and immediately after the ringing of the bell the gong shall be sounded rapidly for about 5 seconds in the after part of the vessel. A vessel at anchor may in addition sound three blasts in succession, namely, one short, one prolonged and one short blast, to give warning of her position and of the possibility of collision to an approaching vessel.</P>
+                    <P>
+                        (h) A vessel aground shall give the bell signal and if required the gong signal prescribed in paragraph (g) of this Rule and shall, in addition, give three separate and distinct strokes on the bell immediately before and after the rapid ringing of the bell. A vessel aground may in addition sound an appropriate whistle signal.
+                        <PRTPAGE P="220"/>
+                    </P>
+                    <P>(i) A vessel of 12 meters or more but less than 20 meters in length shall not be obliged to give the bell signals prescribed in paragraphs (g) and (h) of this Rule. However, if she does not, she shall make some other efficient sound signal at intervals of not more than 2 minutes.</P>
+                    <P>(j) A vessel of less than 12 meters in length shall not be obliged to give the above-mentioned signals but, if she does not, shall make some other efficient sound signal at intervals of not more than 2 minutes.</P>
+                    <P>(k) A pilot vessel when engaged on pilotage duty may, in addition to the signals prescribed in paragraphs (a), (b) or (g) of this Rule, sound an identity signal consisting of four short blasts.</P>
+                    <P>(l) The following vessels shall not be required to sound signals as prescribed in paragraph (g) of this Rule when anchored in a special anchorage area designated by the Coast Guard:</P>
+                    <P>(i) A vessel of less than 20 meters in length; and</P>
+                    <P>(ii) A barge, canal boat, scow, or other nondescript craft.</P>
+                    <CITA>[USCG-2012-0102, 79 FR 37912, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68622, Nov. 18, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.36</SECTNO>
+                    <SUBJECT>Signals to attract attention (Rule 36).</SUBJECT>
+                    <P>If necessary to attract the attention of another vessel, any vessel may make light or sound signals that cannot be mistaken for any signal authorized elsewhere in these Rules, or may direct the beam of her searchlight in the direction of the danger, in such a way as not to embarrass any vessel.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 83.37</SECTNO>
+                    <SUBJECT>Distress signals (Rule 37).</SUBJECT>
+                    <P>When a vessel is in distress and requires assistance she shall use or exhibit the signals described in Annex IV to these Rules (33 CFR part 87).</P>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart E—Exemptions</HD>
+                <SECTION>
+                    <SECTNO>§ 83.38</SECTNO>
+                    <SUBJECT>Exemptions (Rule 38).</SUBJECT>
+                    <P>Any vessel or class of vessels, the keel of which was laid or which was at a corresponding stage of construction before December 24, 1980, provided that she complies with the requirements of—</P>
+                    <P>(a) The Act of June 7, 1897 (30 Stat. 96), as amended (33 U.S.C. 154-232) for vessels navigating the waters subject to that statute;</P>
+                    <P>(b) Section 4233 of the Revised Statutes (33 U.S.C. 301-356) for vessels navigating the waters subject to that statute;</P>
+                    <P>(c) The Act of February 8, 1895 (28 Stat. 645), as amended (33 U.S.C. 241-295) for vessels navigating the waters subject to that statute; or</P>
+                    <P>(d) Sections 3, 4, and 5 of the Act of April 25, 1940 (54 Stat. 163), as amended (46 U.S.C. 526b, c, and d) for motorboats navigating the waters subject to that statute, shall be exempted from compliance with the technical Annexes to these Rules (33 CFR parts 84 through 88) as follows:</P>
+                    <P>(i) The installation of lights with ranges prescribed in Rule 22 (§ 83.22), vessels of less than 20 meters in length are permanently exempt.</P>
+                    <P>(ii) The installation of lights with color specifications as prescribed in Annex I to these Rules (33 CFR part 84), vessels of less than 20 meters in length are permanently exempt.</P>
+                    <P>(iii) The repositioning of lights as a result of conversion to metric units and rounding off measurement figures are permanently exempt.</P>
+                    <P>(iv) The horizontal repositioning of masthead lights prescribed by Annex I to these Rules (33 CFR part 84), vessels of less than 150 meters in length are permanently exempt; and</P>
+                    <P>(v) Power-driven vessels of 12 meters or more but less than 20 meters in length are permanently exempt from the provisions of Rule 23(a)(i) and (iv) (§ 83.23(a)(i) and (iv)) provided that, in place of these lights, the vessel exhibits a white light aft visible all-round the horizon.</P>
+                </SECTION>
+            </SUBPART>
+        </PART>
+        <PART>
+            <EAR>Pt. 84</EAR>
+            <HD SOURCE="HED">PART 84—ANNEX I: POSITIONING AND TECHNICAL DETAILS OF LIGHTS AND SHAPES</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>84.01</SECTNO>
+                <SUBJECT>Definitions.</SUBJECT>
+                <SECTNO>84.02</SECTNO>
+                <SUBJECT>Vertical positioning and spacing of lights.</SUBJECT>
+                <SECTNO>84.03</SECTNO>
+                <SUBJECT>Horizontal positioning and spacing of lights.</SUBJECT>
+                <SECTNO>84.04</SECTNO>
+                <SUBJECT>
+                    Details of location of direction-indicating lights for fishing vessels, dredgers 
+                    <PRTPAGE P="221"/>
+                    and vessels engaged in underwater operations.
+                </SUBJECT>
+                <SECTNO>84.05</SECTNO>
+                <SUBJECT>Screens.</SUBJECT>
+                <SECTNO>84.06</SECTNO>
+                <SUBJECT>Shapes.</SUBJECT>
+                <SECTNO>84.13</SECTNO>
+                <SUBJECT>Color specification of lights.</SUBJECT>
+                <SECTNO>84.14</SECTNO>
+                <SUBJECT>Intensity of lights.</SUBJECT>
+                <SECTNO>84.15</SECTNO>
+                <SUBJECT>Horizontal sectors.</SUBJECT>
+                <SECTNO>84.16</SECTNO>
+                <SUBJECT>Vertical sectors.</SUBJECT>
+                <SECTNO>84.17</SECTNO>
+                <SUBJECT>Intensity of non-electric lights.</SUBJECT>
+                <SECTNO>84.18</SECTNO>
+                <SUBJECT>Maneuvering light.</SUBJECT>
+                <SECTNO>84.19</SECTNO>
+                <SUBJECT>High-speed craft.</SUBJECT>
+                <SECTNO>84.20</SECTNO>
+                <SUBJECT>Approval.</SUBJECT>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>Sec. 303, Pub. L. 108-293, 118 Stat. 1042 (33 U.S.C. 2071); Department of Homeland Security Delegation No. 0170.1.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>79 FR 37921, July 2, 2014, unless otherwise noted.</P>
+            </SOURCE>
+            <SECTION>
+                <SECTNO>§ 84.01</SECTNO>
+                <SUBJECT>Definitions.</SUBJECT>
+                <P>
+                    (a) The term 
+                    <E T="03">height above the hull</E>
+                     means height above the uppermost continuous deck. This height shall be measured from the position vertically beneath the location of the light.
+                </P>
+                <P>
+                    (b) 
+                    <E T="03">High-speed craft</E>
+                     means a craft capable of maximum speed in meters per second (m/s) equal to or exceeding: 3.7▽
+                    <SU>0.1667</SU>
+                    ; where ▽ = displacement corresponding to the design waterline (cubic meters).
+                </P>
+                <NOTE>
+                    <HD SOURCE="HED">
+                        Note to paragraph (
+                        <E T="01">b</E>
+                        ):
+                    </HD>
+                    <P>
+                        The same formula expressed in pounds and knots is maximum speed in knots (kts) equal to exceeding 1.98 (lbs) 3.7▽
+                        <SU>0.1667</SU>
+                        ; where ▽ = displacement corresponding to design waterline in pounds.
+                    </P>
+                </NOTE>
+                <P>
+                    (c) The term 
+                    <E T="03">practical cut-off</E>
+                     means, for vessels 20 meters or more in length, 12.5 percent of the minimum luminous intensity (Table 84.14(b)) corresponding to the greatest range of visibility for which the requirements of Annex I (33 CFR part 84) are met.
+                </P>
+                <P>
+                    (d) The term 
+                    <E T="03">Rule</E>
+                     or 
+                    <E T="03">Rules</E>
+                     has the same meaning as in 33 CFR 83.03(r).
+                </P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.02</SECTNO>
+                <SUBJECT>Vertical positioning and spacing of lights.</SUBJECT>
+                <P>(a) On a power-driven vessel of 20 meters or more in length the masthead lights shall be placed as follows:</P>
+                <P>(i) The forward masthead light, or if only one masthead light is carried, then that light, at a height above the hull of not less than 5 meters, and, if the breadth of the vessel exceeds 5 meters, then at a height above the hull not less than such breadth, so however that the light need not be placed at a greater height above the hull than 8 meters.</P>
+                <P>(ii) When two masthead lights are carried the after one shall be at least 2 meters vertically higher than the forward one.</P>
+                <P>(b) The vertical separation of the masthead lights of power-driven vessels shall be such that in all normal conditions of trim the after light will be seen over and separate from the forward light at a distance of 1000 meters from the stem when viewed from water level.</P>
+                <P>(c) The masthead light of a power-driven vessel of 12 meters but less than 20 meters in length shall be placed at a height above the gunwale of not less than 2.5 meters.</P>
+                <P>(d) The masthead light, or the all-round light described in Rule 23(d)(§ 83.23(d) of this chapter), of a power-driven vessel of less than 12 meters in length shall be carried at least one meter higher than the sidelights.</P>
+                <P>(e) One of the two or three masthead lights prescribed for a power-driven vessel when engaged in towing or pushing another vessel shall be placed in the same position as either the forward masthead light or the after masthead light, provided that the lowest after masthead light shall be at least 2 meters vertically higher than the highest forward masthead light.</P>
+                <P>(f)(i) The masthead light or lights prescribed in Rule 23(a) (§ 83.23(a) of this chapter) shall be so placed as to be above and clear of all other lights and obstructions except as described in paragraph (f)(ii) of this section.</P>
+                <P>(ii) When it is impracticable to carry the all-round lights prescribed in Rule 27(b)(i)(§ 83.27(b)(i) of this chapter) below the masthead lights, they may be carried above the after masthead light(s) or vertically in between the forward masthead light(s) and after masthead light(s), provided that in the latter case the requirement of § 84.03(c) shall be complied with.</P>
+                <P>(g) The sidelights of a power-driven vessel shall be placed at least one meter lower than the forward masthead light. They shall not be so low as to be interfered with by deck lights.</P>
+                <P>(h) [Reserved]</P>
+                <P>
+                    (i) When the Rules in this subchapter E prescribe two or three lights to be carried in a vertical line, they shall be spaced as follows:
+                    <PRTPAGE P="222"/>
+                </P>
+                <P>(i) On a vessel of 20 meters in length or more such lights shall be spaced not less than 1 meter apart, and the lowest of these lights shall, except where a towing light is required, be placed at a height of not less than 4 meters above the hull.</P>
+                <P>(ii) On a vessel of less than 20 meters in length such lights shall be spaced not less than 1 meter apart and the lowest of these lights shall, except where a towing light is required, be placed at a height of not less than 2 meters above the gunwale.</P>
+                <P>(iii) When three lights are carried they shall be equally spaced.</P>
+                <P>(j) The lower of the two all-round lights prescribed for a vessel when engaged in fishing shall be at a height above the sidelights not less than twice the distance between the two vertical lights.</P>
+                <P>(k) The forward anchor light prescribed in Rule 30(a)(i) (§ 83.30(a)(i)), when two are carried, shall not be less than 4.5 meters above the after one. On a vessel of 50 meters or more in length this forward anchor light shall be placed at a height or not less than 6 meters above the hull.</P>
+                <CITA>[79 FR 37921, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68622, Nov. 18, 2014; USCG-2015-0433, 80 FR 44280, July 27, 2015]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.03</SECTNO>
+                <SUBJECT>Horizontal positioning and spacing of lights.</SUBJECT>
+                <P>(a) Except as specified in paragraph (e) of this section, when two masthead lights are prescribed for a power-driven vessel, the horizontal distance between them must not be less than one quarter of the length of the vessel but need not be more than 50 meters. The forward light must be placed not more than one half of the length of the vessel from the stem.</P>
+                <P>(b) On a power-driven vessel of 20 meters or more in length the sidelights shall not be placed in front of the forward masthead lights. They shall be placed at or near the side of the vessel.</P>
+                <P>(c) When the lights prescribed in Rule 27(b)(i) (§ 83.27(b)(i) of this chapter) are placed vertically between the forward masthead light(s) and the after masthead light(s), these all-round lights shall be placed at a horizontal distance of not less than 2 meters from the fore and aft centerline of the vessel in the athwartship direction.</P>
+                <P>(d) When only one masthead light is prescribed for a power-driven vessel, this light must be exhibited forward of amidships. For a vessel of less than 20 meters in length, the vessel shall exhibit one masthead light as far forward as is practicable.</P>
+                <P>(e) On power-driven vessels 50 meters but less than 60 meters in length operated on the Western Rivers, and those waters specified in § 89.25 of this chapter, the horizontal distance between masthead lights shall not be less than 10 meters.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.04</SECTNO>
+                <SUBJECT>Details of location of direction-indicating lights for fishing vessels, dredgers and vessels engaged in underwater operations.</SUBJECT>
+                <P>(a) The light indicating the direction of the outlying gear from a vessel engaged in fishing as prescribed in Rule 26(c)(ii) (§ 83.26(c)(ii) of this chapter) shall be placed at a horizontal distance of not less than 2 meters and not more than 6 meters away from the two all-round red and white lights. This light shall be placed not higher than the all-round white light prescribed in Rule 26(c)(i)(§ 83.26(c)(i) of this chapter) and not lower than the sidelights.</P>
+                <P>(b) The lights and shapes on a vessel engaged in dredging or underwater operations to indicate the obstructed side and/or the side on which it is safe to pass, as prescribed in Rule 27(d)(i) and (ii)(§ 83.27(d)(i) and (ii) of this chapter), shall be placed at the maximum practical horizontal distance, but in no case less than 2 meters, from the lights or shapes prescribed in Rule 27(b)(i) and (ii)(§ 83.27(b)(i)and (ii) of this chapter). In no case shall the upper of these lights or shapes be at a greater height than the lower of the three lights or shapes prescribed in Rule 27(b)(i) and (ii) (§ 83.27(b)(i) and (ii) of this chapter).</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.05</SECTNO>
+                <SUBJECT>Screens.</SUBJECT>
+                <P>
+                    (a) The sidelights of vessels of 20 meters or more in length shall be fitted with matt black inboard screens and meet the requirements of § 84.15. On vessels of less than 20 meters in length, the sidelights, if necessary to meet the requirements of § 84.15, shall be fitted with matt black inboard screens. With 
+                    <PRTPAGE P="223"/>
+                    a combined lantern, using a single vertical filament and a very narrow division between the green and red sections, external screens need not be fitted.
+                </P>
+                <P>(b) On power-driven vessels less than 12 meters in length constructed after July 31, 1983, the masthead light, or the all-round light described in Rule 23(d)(§ 83.23(d) of this chapter) shall be screened to prevent direct illumination of the vessel forward of the operator's position.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.06</SECTNO>
+                <SUBJECT>Shapes.</SUBJECT>
+                <P>(a) Shapes shall be black and of the following sizes:</P>
+                <P>(i) A ball shall have a diameter of not less than 0.6 meter.</P>
+                <P>(ii) A cone shall have a base diameter of not less than 0.6 meters and a height equal to its diameter.</P>
+                <P>(iii) A diamond shape shall consist of two cones (as defined in paragraph (a)(ii) of this section) having a common base.</P>
+                <P>(b) The vertical distance between shapes shall be at least 1.5 meters.</P>
+                <P>(c) In a vessel of less than 20 meters in length shapes of lesser dimensions but commensurate with the size of the vessel may be used and the distance apart may be correspondingly reduced.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.13</SECTNO>
+                <SUBJECT>Color specification of lights.</SUBJECT>
+                <P>
+                    (a) The chromaticity of all navigation lights shall conform to the following standards, which lie within the boundaries of the area of the diagram specified for each color by the International Commission on Illumination (CIE), in the “Colors of Light Signals”, which is incorporated by reference. It is Publication CIE No. 2.2. (TC-1.6), 1975, and is available from the Illumination Engineering Society, 345 East 47th Street, New York, NY 10017 and is available for inspection at the Coast Guard, Shore Infrastructure Logistics Center, Aids to Navigation and Marine Environmental Response Product Line (CG-SILC-ATON/MER), 2703 Martin Luther King, Jr. Ave, Mailstop 7714, Washington, DC 20593-7714. It is also available for inspection at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, call 202-741-6030, or go to: 
+                    <E T="03">http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html.</E>
+                     This incorporation by reference was approved by the Director of the Federal Register.
+                </P>
+                <P>(b) The boundaries of the area for each color are given by indicating the corner co-ordinates, which are as follows:</P>
+                <P>
+                    (i) 
+                    <E T="03">White:</E>
+                </P>
+                <EXTRACT>
+                    <FP SOURCE="FP-2">x 0.525 0.525 0.452 0.310 0.310 0.443</FP>
+                    <FP SOURCE="FP-2">y 0.382 0.440 0.440 0.348 0.283 0.382</FP>
+                </EXTRACT>
+                <P>
+                    (ii) 
+                    <E T="03">Green:</E>
+                </P>
+                <EXTRACT>
+                    <FP SOURCE="FP-2">x 0.028 0.009 0.300 0.203</FP>
+                    <FP SOURCE="FP-2">y 0.385 0.723 0.511 0.356</FP>
+                </EXTRACT>
+                <P>
+                    (iii) 
+                    <E T="03">Red:</E>
+                </P>
+                <EXTRACT>
+                    <FP SOURCE="FP-2">x 0.680 0.660 0.735 0.721</FP>
+                    <FP SOURCE="FP-2">y 0.320 0.320 0.265 0.259</FP>
+                </EXTRACT>
+                <P>
+                    (iv) 
+                    <E T="03">Yellow:</E>
+                </P>
+                <EXTRACT>
+                    <FP SOURCE="FP-2">x 0.612 0.618 0.575 0.575</FP>
+                    <FP SOURCE="FP-2">y 0.382 0.382 0.425 0.406</FP>
+                </EXTRACT>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.14</SECTNO>
+                <SUBJECT>Intensity of lights.</SUBJECT>
+                <P>(a) The minimum luminous intensity of lights shall be calculated by using the formula:</P>
+                <FP SOURCE="FP-2">
+                    I = 3.43 × 10
+                    <SU>6</SU>
+                     × T × D
+                    <SU>2</SU>
+                     × K
+                    <E T="51">−D</E>
+                </FP>
+                <EXTRACT>
+                    <FP>Where:</FP>
+                    <FP SOURCE="FP-2">I is luminous intensity in candelas under service conditions,</FP>
+                    <FP SOURCE="FP-2">
+                        T is threshold factor 2 × 10
+                        <E T="51">−7</E>
+                        lux,
+                    </FP>
+                    <FP SOURCE="FP-2">D is range of visibility (luminous range) of the light in nautical miles,</FP>
+                    <FP SOURCE="FP-2">K is atmospheric transmissivity. For prescribed lights the value of K shall be 0.8, corresponding to a meteorological visibility of approximately 13 nautical miles.</FP>
+                </EXTRACT>
+                <P>(b) A selection of figures derived from the formula is given in the following table (Table 84.14(b)):</P>
+                <GPOTABLE COLS="2" OPTS="L2" CDEF="s50,15">
+                    <TTITLE>
+                        Table 84.14(
+                        <E T="01">b</E>
+                        )
+                    </TTITLE>
+                    <BOXHD>
+                        <CHED H="1">
+                            Range of visibility
+                            <LI>(luminous range) of light</LI>
+                            <LI>in nautical miles D</LI>
+                        </CHED>
+                        <CHED H="1">Minimum luminous intensity of light in candelas for K = 0.8 I</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">1</ENT>
+                        <ENT>0.9</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">2</ENT>
+                        <ENT>4.3</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">3</ENT>
+                        <ENT>12</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">4</ENT>
+                        <ENT>27</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">5</ENT>
+                        <ENT>52</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">6</ENT>
+                        <ENT>94</ENT>
+                    </ROW>
+                </GPOTABLE>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.15</SECTNO>
+                <SUBJECT>Horizontal sectors.</SUBJECT>
+                <P>
+                    (a)(i) In the forward direction, sidelights as fitted on the vessel shall 
+                    <PRTPAGE P="224"/>
+                    show the minimum required intensities. The intensities shall decrease to reach practical cut-off between 1 and 3 degrees outside the prescribed sectors.
+                </P>
+                <P>(ii) For sternlights and masthead lights and at 22.5 degrees abaft the beam for sidelights, the minimum required intensities shall be maintained over the arc of the horizon up to 5 degrees within the limits of the sectors prescribed in Rule 21 (§ 83.21 of this chapter). From 5 degrees within the prescribed sectors the intensity may decrease by 50 percent up to the prescribed limits; it shall decrease steadily to reach practical cut-off at not more than 5 degrees outside the prescribed sectors.</P>
+                <P>(b)(i) All-round lights shall be so located as not to be obscured by masts, topmasts or structures within angular sectors of more than 6 degrees, except anchor lights prescribed in Rule 30 (§ 83.30 of this chapter), which need not be placed at an impracticable height above the hull, and the all-round white light described in Rule 23(e) (§ 83.23(e) of this chapter), which may not be obscured at all.</P>
+                <P>(ii) If it is impracticable to comply with paragraph (b)(i) of this section by exhibiting only one all-round light, two all-round lights shall be used suitably positioned or screened to appear, as far as practicable, as one light at a minimum distance of one nautical mile.</P>
+                <NOTE>
+                    <HD SOURCE="HED">
+                        Note 1 to paragraph (
+                        <E T="01">b)(ii)</E>
+                        :
+                    </HD>
+                    <P>Two unscreened all-round lights that are 1.28 meters apart or less will appear as one light to the naked eye at a distance of one nautical mile.</P>
+                </NOTE>
+                <CITA>[79 FR 37921, July 2, 2014, as amended by USCG-2016-0498, 82 FR 35080, July 28, 2017]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.16</SECTNO>
+                <SUBJECT>Vertical sectors.</SUBJECT>
+                <P>(a) The vertical sectors of electric lights as fitted, with the exception of lights on sailing vessels underway and on unmanned barges, shall ensure that:</P>
+                <P>(i) At least the required minimum intensity is maintained at all angles from 5 degrees above to 5 degrees below the horizontal;</P>
+                <P>(ii) At least 60 percent of the required minimum intensity is maintained from 7.5 degrees above to 7.5 degrees below the horizontal.</P>
+                <P>(b) In the case of sailing vessels underway, the vertical sectors of electric lights, as fitted, shall ensure that:</P>
+                <P>(i) At least the required minimum intensity is maintained at all angles from 5 degrees above to 5 degrees below the horizontal;</P>
+                <P>(ii) At least 50 percent of the required minimum intensity is maintained from 25 degrees above to 25 degrees below the horizontal.</P>
+                <P>(c) In the case of unmanned barges the minimum required intensity of electric lights as fitted shall be maintained on the horizontal.</P>
+                <P>(d) In the case of lights other than electric lights these specifications shall be met as closely as possible.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.17</SECTNO>
+                <SUBJECT>Intensity of non-electric lights.</SUBJECT>
+                <P>Non-electric lights shall so far as practicable comply with the minimum intensities, as specified in the Table 84.14(b).</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.18</SECTNO>
+                <SUBJECT>Maneuvering light.</SUBJECT>
+                <P>Notwithstanding the provisions of § 84.02(f), the maneuvering light described in Rule 34(b)(§ 83.34(b) of this chapter) shall be placed approximately in the same fore and aft vertical plane as the masthead light or lights and, where practicable, at a minimum height of one-half meter vertically above the forward masthead light, provided that it shall be carried not less than one-half meter vertically above or below the after masthead light. On a vessel where only one masthead light is carried the maneuvering light, if fitted, shall be carried where it can best be seen, not less than one-half meter vertically apart from the masthead light.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.19</SECTNO>
+                <SUBJECT>High-speed craft.</SUBJECT>
+                <P>(a) The masthead light of high-speed craft may be placed at a height related to the breadth of the craft lower than that prescribed in § 84.02(a)(i), provided that the base angle of the isosceles triangle formed by the sidelights and masthead light, when seen in end elevation is not less than 27°.</P>
+                <P>
+                    (b) On high-speed craft of 50 meters or more in length, the vertical separation between foremast and mainmast light of 4.5 meters required by § 84.02(k) may be modified provided that such 
+                    <PRTPAGE P="225"/>
+                    distance shall not be less than the value determined by the following formula:
+                </P>
+                <GPH SPAN="2" DEEP="25">
+                    <GID>ER02JY14.001</GID>
+                </GPH>
+                <EXTRACT>
+                    <FP>Where:</FP>
+                    <FP SOURCE="FP-2">
+                        <E T="03">y</E>
+                         is the height of the mainmast light above the foremast light in meters;
+                    </FP>
+                    <FP SOURCE="FP-2">
+                        <E T="03">a</E>
+                         is the height of the foremast light above the water surface in service condition in meters;
+                    </FP>
+                    <FP SOURCE="FP-2">Ψ is the trim in service condition in degrees;</FP>
+                    <FP SOURCE="FP-2">
+                        <E T="03">C</E>
+                         is the horizontal separation of masthead lights in meters.
+                    </FP>
+                </EXTRACT>
+                <NOTE>
+                    <HD SOURCE="HED">Note to § 84.19:</HD>
+                    <P>Refer to the International Code of Safety for High-Speed Craft, 1994 and the International Code of Safety for High-Speed Craft, 2000.</P>
+                </NOTE>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 84.20</SECTNO>
+                <SUBJECT>Approval.</SUBJECT>
+                <P>The construction of lights and shapes and the installation of lights on board the vessel must satisfy the Commandant, U.S. Coast Guard.</P>
+            </SECTION>
+        </PART>
+        <PART>
+            <RESERVED>PART 85 [RESERVED]</RESERVED>
+        </PART>
+        <PART>
+            <EAR>Pt. 86</EAR>
+            <HD SOURCE="HED">PART 86—ANNEX III: TECHNICAL DETAILS OF SOUND SIGNAL APPLIANCES</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>86.01</SECTNO>
+                <SUBJECT>Whistles.</SUBJECT>
+                <SECTNO>86.02</SECTNO>
+                <SUBJECT>Bell or Gong.</SUBJECT>
+                <SECTNO>86.03</SECTNO>
+                <SUBJECT>Approval. [Reserved]</SUBJECT>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>Sec. 303, Pub. L. 108-293, 118 Stat. 1042 (33 U.S.C. 2071); Department of Homeland Security Delegation No. 0170.1.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>79 FR 37924, July 2, 2014, unless otherwise noted.</P>
+            </SOURCE>
+            <SECTION>
+                <SECTNO>§ 86.01</SECTNO>
+                <SUBJECT>Whistles.</SUBJECT>
+                <P>
+                    (a) 
+                    <E T="03">Frequencies and range of audibility.</E>
+                     The fundamental frequency of the signal shall lie within the range 70-700 Hz. The range of audibility of the signal from a whistle shall be determined by those frequencies, which may include the fundamental and/or one or more higher frequencies, which lie within the range 180-700 Hz (±1%) for a vessel of 20 meters or more in length, or 180-2100 Hz (±1%) for a vessel of less than 20 meters in length and which provide the sound pressure levels specified in paragraph (c) of this section.
+                </P>
+                <P>
+                    (b) 
+                    <E T="03">Limits of fundamental frequencies.</E>
+                     To ensure a wide variety of whistle characteristics, the fundamental frequency of a whistle shall be between the following limits:
+                </P>
+                <P>(i) 70-200 Hz, for a vessel 200 meters or more in length.</P>
+                <P>(ii) 130-350 Hz, for a vessel 75 meters but less than 200 meters in length.</P>
+                <P>(iii) 250-700 Hz, for a vessel less than 75 meters in length.</P>
+                <P>
+                    (c) 
+                    <E T="03">Sound signal intensity and range of audibility.</E>
+                     A whistle fitted in a vessel shall provide, in the direction of maximum intensity of the whistle and at a distance of 1 meter from it, a sound pressure level in at least one 
+                    <FR>1/3</FR>
+                    rd-octave band within the range of frequencies 180-700 Hz (±1%) for a vessel of 20 meters or more in length, or 180-2100 Hz (±1%) for a vessel of less than 20 meters in length, of not less than the appropriate figure given in Table 86.01(c) of this section. The range of audibility in Table 86.01(c) is the approximate range at which a whistle may be heard on its forward axis with 90% probability in conditions of still air on board a vessel having average background noise level at the listening posts (taken to be 68 dB in the octave band centered on 250 Hz and 63 dB in the octave band centered on 500 Hz). It is shown for information purposes only. In practice, the range at which a whistle may be heard is extremely variable and depends critically on weather conditions; the values given can be regarded as typical but under conditions of strong wind or high ambient noise level at the listening post the range may be reduced.
+                    <PRTPAGE P="226"/>
+                </P>
+                <GPOTABLE COLS="3" OPTS="L2" CDEF="s50,20,19.1">
+                    <TTITLE>
+                        Table 86.01(
+                        <E T="01">c</E>
+                        )
+                    </TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Length of vessel in meters</CHED>
+                        <CHED H="1">
+                            <FR>1/3</FR>
+                            rd-octave band level at 1 meter in dB referred to 2 × 10
+                            <E T="51">−5</E>
+                            N/m
+                            <SU>2</SU>
+                        </CHED>
+                        <CHED H="1">
+                            Audibility range in
+                            <LI>nautical miles</LI>
+                        </CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">200 or more</ENT>
+                        <ENT>143</ENT>
+                        <ENT>2</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">75 but less than 200</ENT>
+                        <ENT>138</ENT>
+                        <ENT>1.5</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">20 but less than 75</ENT>
+                        <ENT>130</ENT>
+                        <ENT>1</ENT>
+                    </ROW>
+                    <ROW>
+                        <ENT I="01">Less than 20</ENT>
+                        <ENT>
+                            <SU>1</SU>
+                             120
+                            <LI>
+                                <SU>2</SU>
+                                 115
+                            </LI>
+                            <LI>
+                                <SU>3</SU>
+                                 111
+                            </LI>
+                        </ENT>
+                        <ENT>0.5</ENT>
+                    </ROW>
+                    <TNOTE>
+                        <SU>1</SU>
+                         When the measured frequencies lie within the range 180-450 Hz.
+                    </TNOTE>
+                    <TNOTE>
+                        <SU>2</SU>
+                         When the measured frequencies lie within the range 450-800 Hz.
+                    </TNOTE>
+                    <TNOTE>
+                        <SU>3</SU>
+                         When the measured frequencies lie within the range 800-2100 Hz.
+                    </TNOTE>
+                </GPOTABLE>
+                <P>
+                    (d) 
+                    <E T="03">Directional properties.</E>
+                     The sound pressure level of a directional whistle shall be not more than 4 dB below the sound pressure level, specified in paragraph (c) of this section, in any direction in the horizontal plane within ±45 degrees of the forward axis. The sound pressure level of the whistle in any other direction in the horizontal plane shall not be more than 10 dB less than the sound pressure level specified for the forward axis, so that the range of audibility in any direction will be at least half the range required on the forward axis. The sound pressure level shall be measured in that one 
+                    <FR>1/3</FR>
+                    <SU>rd</SU>
+                    -octave band which determines the audibility range.
+                </P>
+                <P>
+                    (e) 
+                    <E T="03">Positioning of whistles.</E>
+                     (i) When a directional whistle is to be used as the only whistle on the vessel and is permanently installed, it shall be installed with its forward axis directed forward.
+                </P>
+                <P>(ii) A whistle shall be placed as high as practicable on a vessel, in order to reduce interception of the emitted sound by obstructions and also to minimize hearing damage risk to personnel. The sound pressure level of the vessel's own signal at listening posts shall not exceed 110 dB(A) and so far as practicable should not exceed 100 dB(A).</P>
+                <P>
+                    (f) 
+                    <E T="03">Fitting of more than one whistle.</E>
+                     If whistles are fitted at a distance apart of more than 100 meters, they shall not be sounded simultaneously.
+                </P>
+                <P>
+                    (g) 
+                    <E T="03">Combined whistle systems.</E>
+                     (i) A combined whistle system is a number of whistles (sound emitting sources) operated together. For the purposes of the Rules of Subchapter E a combined whistle system is to be regarded as a single whistle.
+                </P>
+                <P>(ii) The whistles of a combined system shall:</P>
+                <P>(1) Be located at a distance apart of not more than 100 meters;</P>
+                <P>(2) Be sounded simultaneously;</P>
+                <P>(3) Each have a fundamental frequency different from those of the others by at least 10 Hz; and</P>
+                <P>(4) Have a tonal characteristic appropriate for the length of vessel which shall be evidenced by at least two-thirds of the whistles in the combined system having fundamental frequencies falling within the limits prescribed in paragraph (b) of this section, or if there are only two whistles in the combined system, by the higher fundamental frequency falling within the limits prescribed in paragraph (b) of this section.</P>
+                <NOTE>
+                    <HD SOURCE="HED">
+                        Note to paragraph (
+                        <E T="01">g</E>
+                        ):
+                    </HD>
+                    <P>If, due to the presence of obstructions, the sound field of a single whistle or of one of the whistles referred to in paragraph (f) of this section is likely to have a zone of greatly reduced signal level, a combined whistle system should be fitted so as to overcome this reduction.</P>
+                </NOTE>
+                <P>
+                    (h) 
+                    <E T="03">Towing vessel whistles.</E>
+                     A power-driven vessel normally engaged in pushing ahead or towing alongside may, at all times, use a whistle whose characteristic falls within the limits prescribed by paragraph (b) of this section for the longest customary composite length of the vessel and its tow.
+                </P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 86.02</SECTNO>
+                <SUBJECT>Bell or gong.</SUBJECT>
+                <P>
+                    (a) 
+                    <E T="03">Intensity of signal.</E>
+                     A bell or gong, or other device having similar sound characteristics shall produce a sound pressure level of not less than 110 dB at 1 meter.
+                </P>
+                <P>
+                    (b) 
+                    <E T="03">Construction.</E>
+                     Bells and gongs shall be made of corrosion-resistant material and designed to give clear tone. 
+                    <PRTPAGE P="227"/>
+                    The diameter of the mouth of the bell shall be not less than 300 mm for vessels of 20 meters or more in length. Where practicable, a power-driven bell striker is recommended to ensure constant force but manual operation shall be possible. The mass of the striker shall be not less than 3 percent of the mass of the bell.
+                </P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 86.03</SECTNO>
+                <RESERVED>Approval. [Reserved]</RESERVED>
+            </SECTION>
+        </PART>
+        <PART>
+            <EAR>Pt. 87</EAR>
+            <HD SOURCE="HED">PART 87—ANNEX IV: DISTRESS SIGNALS</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>87.01</SECTNO>
+                <SUBJECT>Need of assistance.</SUBJECT>
+                <SECTNO>87.02</SECTNO>
+                <SUBJECT>Exclusive use.</SUBJECT>
+                <SECTNO>87.03</SECTNO>
+                <SUBJECT>Supplemental signals.</SUBJECT>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>Sec. 303, Pub. L. 108-293, 118 Stat. 1042 (33 U.S.C. 2071); Department of Homeland Security Delegation No. 0170.1.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>79 FR 37925, July 2, 2014, unless otherwise noted.</P>
+            </SOURCE>
+            <SECTION>
+                <SECTNO>§ 87.01</SECTNO>
+                <SUBJECT>Need of assistance.</SUBJECT>
+                <P>The following signals, used or exhibited either together or separately, indicate distress and need of assistance:</P>
+                <P>(a) A gun or other explosive signal fired at intervals of about a minute;</P>
+                <P>(b) A continuous sounding with any fog-signaling apparatus;</P>
+                <P>(c) Rockets or shells, throwing red stars fired one at a time at short intervals;</P>
+                <P>(d) A signal made by any method consisting of the group . . . - - - . . . (SOS) in the Morse Code;</P>
+                <P>(e) A signal sent by radiotelephony consisting of the spoken word “Mayday”;</P>
+                <P>(f) The International Code Signal of distress indicated by N.C.;</P>
+                <P>(g) A signal consisting of a square flag having above or below it a ball or anything resembling a ball;</P>
+                <P>(h) Flames on the vessel (as from a burning tar barrel, oil barrel, etc.);</P>
+                <P>(i) A rocket parachute flare or a hand flare showing a red light;</P>
+                <P>(j) A smoke signal giving off orange-colored smoke;</P>
+                <P>(k) Slowly and repeatedly raising and lowering arms outstretched to each side;</P>
+                <P>(l) A distress alert by means of digital selective calling (DSC) transmitted on:</P>
+                <P>(i) VHF channel 70, or</P>
+                <P>(ii) MF/HF on the frequencies 2187.5 kHz, 8414.5 kHz, 4207.5 kHz, 6312 kHz, 12577 kHz or 16804.5 kHz;</P>
+                <P>(m) A ship-to-shore distress alert transmitted by the ship's Inmarsat or other mobile satellite service provider ship earth station;</P>
+                <P>(n) Signals transmitted by emergency position-indicating radio beacons;</P>
+                <P>(o) Signals transmitted by radiocommunication systems, including survival craft radar transponders meeting the requirements of 47 CFR 80.1095; and</P>
+                <P>(p) A high intensity white light flashing at regular intervals from 50 to 70 times per minute.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 87.02</SECTNO>
+                <SUBJECT>Exclusive use.</SUBJECT>
+                <P>The use or exhibition of any of the foregoing signals except for the purpose of indicating distress and need of assistance and the use of other signals which may be confused with any of the above signals is prohibited.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 87.03</SECTNO>
+                <SUBJECT>Supplemental signals.</SUBJECT>
+                <P>Attention is drawn to the relevant sections of the International Code of Signals, the International Aeronautical and Maritime Search and Rescue Manual, Volume III, the International Telecommunication Union Radio Regulations and the following signals:</P>
+                <P>(a) A piece of orange-colored canvas with either a black square and circle or other appropriate symbol (for identification from the air);</P>
+                <P>(b) A dye marker.</P>
+            </SECTION>
+        </PART>
+        <PART>
+            <EAR>Pt. 88</EAR>
+            <HD SOURCE="HED">PART 88—ANNEX V: PILOT RULES</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>88.01</SECTNO>
+                <SUBJECT>Purpose and applicability.</SUBJECT>
+                <SECTNO>88.03</SECTNO>
+                <SUBJECT>Definitions.</SUBJECT>
+                <SECTNO>88.05</SECTNO>
+                <SUBJECT>Law enforcement vessels.</SUBJECT>
+                <SECTNO>88.07</SECTNO>
+                <SUBJECT>Public safety activities.</SUBJECT>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>Sec. 303, Pub. L. 108-293, 118 Stat. 1042 (33 U.S.C. 2071); Department of Homeland Security Delegation No. 0170.1.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>79 FR 37925, July 2, 2014, unless otherwise noted.</P>
+            </SOURCE>
+            <SECTION>
+                <SECTNO>§ 88.01</SECTNO>
+                <SUBJECT>Purpose and applicability.</SUBJECT>
+                <P>
+                    This part applies to all vessels operating on United States inland waters 
+                    <PRTPAGE P="228"/>
+                    and to United States vessels operating on the Canadian waters of the Great Lakes to the extent there is no conflict with Canadian law.
+                </P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 88.03</SECTNO>
+                <SUBJECT>Definitions.</SUBJECT>
+                <P>The terms used in this part have the same meaning as the terms defined in part 83 of this subchapter.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 88.05</SECTNO>
+                <SUBJECT>Law enforcement vessels.</SUBJECT>
+                <P>(a) Law enforcement vessels may display a flashing blue light when engaged in direct law enforcement or public safety activities. This light must be located so that it does not interfere with the visibility of the vessel's navigation lights.</P>
+                <P>(b) The blue light described in this section may be displayed by law enforcement vessels of the United States and the States and their political subdivisions.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 88.07</SECTNO>
+                <SUBJECT>Public safety activities.</SUBJECT>
+                <P>(a) Vessels engaged in government sanctioned public safety activities, and commercial vessels performing similar functions, may display an alternately flashing red and yellow light signal. This identification light signal must be located so that it does not interfere with the visibility of the vessel's navigation lights. The identification light signal may be used only as an identification signal and conveys no special privilege. Vessels using the identification light signal during public safety activities must abide by the Inland Navigation Rules, and must not presume that the light or the exigency gives them precedence or right of way.</P>
+                <P>(b) Public safety activities include but are not limited to patrolling marine parades, regattas, or special water celebrations; traffic control; salvage; firefighting; medical assistance; assisting disabled vessels; and search and rescue.</P>
+                <CITA>[79 FR 37925, July 2, 2014, as amended by USCG-2012-0102, 79 FR 68622, Nov. 18, 2014]</CITA>
+            </SECTION>
+        </PART>
+        <PART>
+            <EAR>Pt. 89</EAR>
+            <HD SOURCE="HED">PART 89—INLAND NAVIGATION RULES: IMPLEMENTING RULES</HD>
+            <CONTENTS>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart A—Certificate of Alternative Compliance</HD>
+                    <SECHD>Sec.</SECHD>
+                    <SECTNO>89.1</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <SECTNO>89.3</SECTNO>
+                    <SUBJECT>General.</SUBJECT>
+                    <SECTNO>89.5</SECTNO>
+                    <SUBJECT>Application for a Certificate of Alternative Compliance.</SUBJECT>
+                    <SECTNO>89.9</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Contents.</SUBJECT>
+                    <SECTNO>89.17</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Termination.</SUBJECT>
+                    <SECTNO>89.18</SECTNO>
+                    <SUBJECT>Record of certification of vessels of special construction or purpose.</SUBJECT>
+                </SUBPART>
+                <SUBPART>
+                    <HD SOURCE="HED">Subpart B—Waters Upon Which Certain Inland Navigation Rules Apply</HD>
+                    <SECTNO>89.21</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <SECTNO>89.23</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <SECTNO>89.25</SECTNO>
+                    <SUBJECT>Waters upon which Inland Rules 9(a)(ii), 14(d), and 15(b) apply.</SUBJECT>
+                    <SECTNO>89.27</SECTNO>
+                    <SUBJECT>Waters upon which Inland Rule 24(j) applies.</SUBJECT>
+                </SUBPART>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>33 U.S.C. 2071; 49 CFR 1.46(n)(14).</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>CGD 80-157, 47 FR 13801, Apr. 1, 1982, unless otherwise noted.</P>
+            </SOURCE>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart A—Certificate of Alternative Compliance</HD>
+                <SECTION>
+                    <SECTNO>§ 89.1</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <P>As used in this subpart:</P>
+                    <P>
+                        <E T="03">Inland Rules</E>
+                         refers to the Inland Navigation Rules contained in the Inland Navigational Rules Act of 1980 (Pub. L. 96-591) and the technical annexes established under that act.
+                    </P>
+                    <P>
+                        <E T="03">A vessel of special construction or purpose</E>
+                         means a vessel designed or modified to perform a special function and whose arrangement is thereby made relatively inflexible.
+                    </P>
+                    <P>
+                        <E T="03">Interference with the special function of the vessel</E>
+                         occurs when installation or use of lights, shapes, or sound-signaling appliances under the Inland Rules prevents or significantly hinders the operation in which the vessel is usually engaged.
+                    </P>
+                    <CITA>[CGD 80-157, 47 FR 13801, Apr. 1, 1982, as amended by CGD 83-028, 49 FR 33876, Aug. 27, 1984]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.3</SECTNO>
+                    <SUBJECT>General.</SUBJECT>
+                    <P>
+                        Vessels of special construction or purpose which cannot fully comply 
+                        <PRTPAGE P="229"/>
+                        with the light, shape, and sound signal provisions of the Inland Rules without interfering with their special function may instead meet alternative requirements. The Chief of the Prevention Division in each Coast Guard District Office makes this determination and requires that alternative compliance be as close as possible with the Inland Rules. These regulations set out the procedure by which a vessel may be certified for alternative compliance. The information collection and recordkeeping requirements in §§ 89.5 and 89.18 have been approved by the Office of Management and Budget under OMB control No. 1625-0019.
+                    </P>
+                    <CITA>[CGD 80-157, 47 FR 13801, Apr. 1, 1982, as amended by USCG-2006-25150, 71 FR 39208, July 12, 2006; USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.5</SECTNO>
+                    <SUBJECT>Application for a Certificate of Alternative Compliance.</SUBJECT>
+                    <P>(a) The owner, builder, operator, or agent of a vessel of special construction or purpose who believes the vessel cannot fully comply with the Inland Rules light, shape, or sound signal provisions without interference with its special function may apply for a determination that alternative compliance is justified. The application must be in writing, submitted to the Chief of the Prevention Division of the Coast Guard District in which the vessel is being built or operated, and include the following information:</P>
+                    <P>(1) The name, address, and telephone number of the applicant.</P>
+                    <P>(2) The identification of the vessel by its:</P>
+                    <P>(i) Official number;</P>
+                    <P>(ii) Shipyard hull number;</P>
+                    <P>(iii) Hull identification number; or</P>
+                    <P>(iv) State number, if the vessel does not have an official number or hull identification number.</P>
+                    <P>(3) Vessel name and home port, if known.</P>
+                    <P>(4) A description of the vessel's area of operation.</P>
+                    <P>(5) A description of the provision for which the Certificate of Alternative Compliance is sought, including:</P>
+                    <P>(i) The Inland Rules Rule or Annex section number for which the Certificate of Alternative Compliance is sought;</P>
+                    <P>(ii) A description of the special function of the vessel that would be interfered with by full compliance with the provision of that Rule or Annex section; and</P>
+                    <P>(iii) A statement of how full compliance would interfere with the special function of the vessel.</P>
+                    <P>(6) A description of the alternative installation that is in closest possible compliance with the applicable Inland Navigation Rules Rule or Annex section.</P>
+                    <P>(7) A copy of the vessel's plans or an accurate scale drawing that clearly shows:</P>
+                    <P>(i) The required installation of the equipment under the Inland Rules,</P>
+                    <P>(ii) The proposed installation of the equipment for which certification is being sought, and</P>
+                    <P>(iii) Any obstructions that may interfere with the equipment when installed in:</P>
+                    <P>(A) The required location; and</P>
+                    <P>(B) The proposed location.</P>
+                    <P>(b) The Coast Guard may request from the applicant additional information concerning the application.</P>
+                    <CITA>[CGD 80-157, 47 FR 13801, Apr. 1, 1982; 47 FR 18332, Apr. 29, 1982; USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.9</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Contents.</SUBJECT>
+                    <P>The Chief of the Prevention Division issues the Certificate of Alternative Compliance to the vessel based on a determination that it cannot comply fully with Inland Rules light, shape, and sound signal provisions without interference with its special function. This Certificate includes:</P>
+                    <P>(a) Identification of the vessel as supplied in the application under § 89.5(a)(2);</P>
+                    <P>(b) The provision of the Inland Rules for which the Certificate authorizes alternative compliance;</P>
+                    <P>(c) A certification that the vessel is unable to comply fully with the Inland Rules light, shape, and sound signal requirements without interference with its special function;</P>
+                    <P>(d) A statement of why full compliance would interfere with the special function of the vessel;</P>
+                    <P>
+                        (e) The required alternative installation;
+                        <PRTPAGE P="230"/>
+                    </P>
+                    <P>(f) A statement that the required alternative installation is in the closest possible compliance with the Inland Rules without interfering with the special function of the vessel;</P>
+                    <P>(g) The date of issuance;</P>
+                    <P>(h) A statement that the Certificate of Alternative Compliance terminates when the vessel ceases to be usually engaged in the operation for which the certificate is issued.</P>
+                    <CITA>[CGD 80-157, 47 FR 13801, Apr. 1, 1982, as amended by USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.17</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Termination.</SUBJECT>
+                    <P>The Certificate of Alternative Compliance terminates if the information supplied under § 89.5(a) or the Certificate issued under § 89.9 is no longer applicable to the vessel.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.18</SECTNO>
+                    <SUBJECT>Record of certification of vessels of special construction or purpose.</SUBJECT>
+                    <P>(a) Copies of Certificates of Alternative Compliance and documentation concerning Coast Guard vessels are available for inspection at the offices of the Marine Transportation Systems Directorate, U.S. Coast Guard Headquarters (CG-5PW), Stop 7509, 2703 Martin Luther King Avenue SE., Washington, DC 20593-7509.</P>
+                    <P>(b) The owner or operator of a vessel issued a Certificate shall ensure that the vessel does not operate unless the Certificate of Alternative Compliance or a certified copy of that Certificate is on board the vessel and available for inspection by Coast Guard personnel.</P>
+                    <CITA>[CGD 80-187, 47 FR 13801, Apr. 1, 1982, as amended by CGD 88-052, 53 FR 25120, July 1, 1988; CGD 96-026, 61 FR 33663, June 28, 1996; CGD 97-023, 62 FR 33363, June 19, 1997; USCG-2002-12471, 67 FR 41332, June 18, 2002; USCG-2010-0351, 75 FR 36281, June 25, 2010; USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+            </SUBPART>
+            <SUBPART>
+                <HD SOURCE="HED">Subpart B—Waters Upon Which Certain Inland Navigation Rules Apply</HD>
+                <SECTION>
+                    <SECTNO>§ 89.21</SECTNO>
+                    <SUBJECT>Purpose.</SUBJECT>
+                    <P>Inland Navigation Rules 9(a)(ii), 14(d), and 15(b) apply to the Great Lakes, and along with 24(i), apply on the “Western Rivers” as defined in Rule 3(1), and to additional specifically designated waters. The purpose of this Subpart is to specify those additional waters upon which Inland Navigation Rules 9(a)(ii), 14(d), 15(b), and 24(i) apply.</P>
+                    <CITA>[CGD 85-081, 51 FR 4592, Feb. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.23</SECTNO>
+                    <SUBJECT>Definitions.</SUBJECT>
+                    <P>As used in this subpart:</P>
+                    <P>
+                        <E T="03">Inland Rules</E>
+                         refers to the Inland Navigation Rules contained in the Inland Navigational Rules Act of 1980 (Pub. L. 96-591, 33 U.S.C. 2001 et. seq.) and the technical annexes established under that Act.
+                    </P>
+                    <CITA>[CGD 83-028, 49 FR 33876, Aug. 27, 1984]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.25</SECTNO>
+                    <SUBJECT>Waters upon which Inland Rules 9(a)(ii), 14(d), and 15(b) apply.</SUBJECT>
+                    <P>Inland Rules 9(a)(ii), 14(d), and 15(b) apply on the Great Lakes, the Western Rivers, and the following specified waters:</P>
+                    <P>(a) Tennessee-Tombigbee Waterway.</P>
+                    <P>(b) Tombigbee River.</P>
+                    <P>(c) Black Warrior River.</P>
+                    <P>(d) Alabama River.</P>
+                    <P>(e) Coosa River.</P>
+                    <P>(f) Mobile River above the Cochrane Bridge at St. Louis Point.</P>
+                    <P>(g) Flint River.</P>
+                    <P>(h) Chattahoochee River.</P>
+                    <P>(i) The Apalachicola River above its confluence with the Jackson River.</P>
+                    <CITA>[CGD 91-050, 58 FR 27625, May 10, 1993, as amended by USCG-2014-0410, 79 FR 38432, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 89.27</SECTNO>
+                    <SUBJECT>Waters upon which Inland Rule 24(j) applies.</SUBJECT>
+                    <P>(a) Inland Rule 24(j) applies on the Western Rivers and the specified waters listed in § 89.25 (a) through (i).</P>
+                    <P>(b) Inland Rule 24(j) applies on the Gulf Intracoastal Waterway from St. Marks, Florida, to the Rio Grande, Texas, including the Morgan City-Port Allen Alternate Route and the Galveston-Freeport Cutoff, except that a power-driven vessel pushing ahead or towing alongside shall exhibit the lights required by Inland Rule 24(c), while transiting within the following areas:</P>
+                    <P>
+                        (1) St. Andrews Bay from the Hathaway Fixed Bridge at Mile 284.6 East of 
+                        <PRTPAGE P="231"/>
+                        Harvey Locks (EHL) to the DuPont Fixed Bridge at Mile 295.4 EHL.
+                    </P>
+                    <P>(2) Pensacola Bay, Santa Rosa Sound and Big Lagoon from the Light “10” off of Trout Point at Mile 176.9 EHL to the Pensacola Fixed Bridge at Mile 189.1 EHL.</P>
+                    <P>(3) Mobile Bay and Bon Secour Bay from the Dauphin Island Causeway Fixed Bridge at Mile 127.7 EHL to Little Point Clear at Mile 140 EHL.</P>
+                    <P>(4) Mississippi Sound from Grand Island Waterway Light “1” at Mile 53.8 EHL to Light “40” off the West Point of Dauphin Island at Mile 118.7 EHL.</P>
+                    <P>(5) The Mississippi River at New Orleans, Mississippi River-Gulf Outlet Canal and the Inner Harbor Navigation Canal from the junction of the Harvey Canal and the Algiers Alternate Route at Mile 6.5 West of Harvey Locks (WHL) to the Michoud Canal at Mile 18 EHL.</P>
+                    <P>(6) The Calcasieu River from the Calcasieu Lock at Mile 238.6 WHL to the Ellender Lift Bridge at Mile 243.6 WHL.</P>
+                    <P>(7) The Sabine Neches Canal from mile 262.5 WHL to mile 291.5 WHL.</P>
+                    <P>(8) Bolivar Roads from the Bolivar Assembling Basin at Mile 346 WHL to the Galveston Causeway Bridge at Mile 357.3 WHL.</P>
+                    <P>(9) Freeport Harbor from Surfside Beach Fixed Bridge at Mile 393.8 WHL to the Bryan Beach Pontoon Bridge at Mile 397.6 WHL.</P>
+                    <P>(10) Matagorda Ship Channel area of Matagorda Bay from Range “K” Front Light at Mile 468.7 WHL to the Port O'Connor Jetty at Mile 472.2 WHL.</P>
+                    <P>(11) Corpus Christi Bay from Redfish Bay Day Beacon “55” at Mile 537.4 WHL when in the Gulf Intracoastal Waterway main route or from the north end of Lydia Ann Island Mile 531.1A when in the Gulf Intracoastal Waterway Alternate Route to Corpus Christi Bay LT 76 at Mile 543.7 WHL.</P>
+                    <P>(12) Port Isabel and Brownsville Ship Channel south of the Padre Island Causeway Fixed Bridge at Mile 665.1 WHL.</P>
+                    <CITA>[CGD 91-050, 58 FR 27625, May 10, 1993, as amended by USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+            </SUBPART>
+        </PART>
+        <PART>
+            <EAR>Pt. 90</EAR>
+            <HD SOURCE="HED">PART 90—INLAND RULES: INTERPRETATIVE RULES</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>90.1</SECTNO>
+                <SUBJECT>Purpose.</SUBJECT>
+                <SECTNO>90.3</SECTNO>
+                <SUBJECT>Pushing vessel and vessel being pushed: Composite unit.</SUBJECT>
+                <SECTNO>90.5</SECTNO>
+                <SUBJECT>Lights for moored vessels.</SUBJECT>
+                <SECTNO>90.7</SECTNO>
+                <SUBJECT>Sidelights for unmanned barges.</SUBJECT>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>33 U.S.C. 2071; 49 CFR 1.46(n)(14).</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>CGD 83-011, 48 FR 51622, Nov. 10, 1983, unless otherwise noted.</P>
+            </SOURCE>
+            <SECTION>
+                <SECTNO>§ 90.1</SECTNO>
+                <SUBJECT>Purpose.</SUBJECT>
+                <P>This part contains the interpretative rules for the Inland Rules. These interpretative rules are intended as a guide to assist the public and promote compliance with the Inland Rules.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 90.3</SECTNO>
+                <SUBJECT>Pushing vessel and vessel being pushed: Composite unit.</SUBJECT>
+                <P>Rule 24(b) of the Inland Rules states that when a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit, they are regarded as a power-driven vessel and must exhibit the lights prescribed in Rule 23. A “composite unit” is interpreted to be the combination of a pushing vessel and a vessel being push ahead that are rigidly connected by mechanical means so they react to sea and swell as one vessel. Mechanical means does not include lines, wires, hawsers, or chains.</P>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 90.5</SECTNO>
+                <SUBJECT>Lights for moored vessels.</SUBJECT>
+                <P>
+                    A 
+                    <E T="03">vessel at anchor</E>
+                     includes a vessel made fast to one or more mooring buoys or other similar device attached to the ocean floor. Such vessels may be lighted as a vessel at anchor in accordance with Rule 30, or may be lighted on the corners in accordance with 33 CFR 88.30(h) through (l).
+                </P>
+                <CITA>[CGD 94-011, 63 FR 5732, Feb. 4, 1998, as amended by USCG-2015-0433, 80 FR 44281, July 27, 2015]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 90.7</SECTNO>
+                <SUBJECT>Sidelights for unmanned barges.</SUBJECT>
+                <P>An unmanned barge being towed may use the exception of COLREGS Rule 24(h). However, this exception only applies to the vertical sector requirements for sidelights.</P>
+                <CITA>[CGD 94-011, 63 FR 5732, Feb. 4, 1998]</CITA>
+            </SECTION>
+        </PART>
+    </SUBCHAP>
+</CFRGRANULE>

@@ -1,0 +1,34 @@
+<?php
+require 'db_connect.php';
+require 'session_check.php';
+
+$vessel_id = intval($_POST['vessel_id'] ?? 0);
+
+if ($vessel_id <= 0 || empty($_FILES['photo'])) {
+    header("Location: vessel_dashboard.php?vessel_id=$vessel_id&error=Invalid upload.");
+    exit;
+}
+
+$photo = $_FILES['photo'];
+$uploadDir = 'uploads/vessels/';
+
+if (!is_dir($uploadDir)) {
+    mkdir($uploadDir, 0755, true);
+}
+
+$ext = pathinfo($photo['name'], PATHINFO_EXTENSION);
+$filename = 'vessel_' . $vessel_id . '_' . time() . '.' . strtolower($ext);
+$destination = $uploadDir . $filename;
+
+if (move_uploaded_file($photo['tmp_name'], $destination)) {
+    // Save to database
+    $stmt = $pdo->prepare("UPDATE vessels SET photo_path = ? WHERE vessel_id = ?");
+    $stmt->execute([$destination, $vessel_id]);
+
+    header("Location: vessel_dashboard.php?vessel_id=$vessel_id#top&success=photo_uploaded");
+    exit;
+} else {
+    header("Location: vessel_dashboard.php?vessel_id=$vessel_id&error=Upload failed.");
+    exit;
+}
+?>

@@ -1,0 +1,1511 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cfr.xsl"?>
+<CFRGRANULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFRMergedXML.xsd">
+    <FDSYS>
+        <CFRTITLE>33</CFRTITLE>
+        <CFRTITLETEXT>Navigation and Navigable Waters</CFRTITLETEXT>
+        <VOL>1</VOL>
+        <DATE>2024-07-01</DATE>
+        <ORIGINALDATE>2024-07-01</ORIGINALDATE>
+        <COVERONLY>false</COVERONLY>
+        <TITLE>INTERNATIONAL NAVIGATION RULES</TITLE>
+        <GRANULENUM>D</GRANULENUM>
+        <HEADING>SUBCHAPTER D</HEADING>
+        <ANCESTORS>
+            <PARENT HEADING="Title 33" SEQ="1">Navigation and Navigable Waters</PARENT>
+            <PARENT HEADING="CHAPTER I" SEQ="0">COAST GUARD, DEPARTMENT OF HOMELAND SECURITY</PARENT>
+        </ANCESTORS>
+    </FDSYS>
+    <SUBCHAP TYPE="P">
+        <PRTPAGE P="182"/>
+        <HD SOURCE="HED">SUBCHAPTER D—INTERNATIONAL NAVIGATION RULES</HD>
+        <PART>
+            <HD SOURCE="HED">Special Note—Application of the 72 COLREGS to territories and possessions.</HD>
+            <EXTRACT>
+                <P>a. Article III of the Convention on the International Regulations for Preventing Collisons at Sea, 1972 (72 COLREGS), done at London, October 20, 1972, as rectified by Proces-Verbal of December 1, 1973, provides that a party may notify the Secretary-General of the International Maritime Organization (IMO, formerly Inter-Governmental Maritime Consultative Organization or IMCO) that it extends the application of the Convention to territory for which it is responsible for international relations. Since it is the intention of the United States that the 72 COLREGS apply to all U.S. territories and possessions to the same extent that the International Regulations for Preventing Collisions at Sea, 1960 (60 COLREGS) (16 USC 794, TIAS 5813) previously applied, the United States has given notice to the Secretary-General that the provisions of the 1972 COLREGS are applicable on July 15, 1977, to the following territories and possessions for which the United States is responsible for international relations:</P>
+                <FP SOURCE="FP-1">Puerto Rico</FP>
+                <FP SOURCE="FP-1">Guam</FP>
+                <FP SOURCE="FP-1">The Canal Zone</FP>
+                <FP SOURCE="FP-1">The Virgin Islands of the United States</FP>
+                <FP SOURCE="FP-1">American Samoa</FP>
+                <FP SOURCE="FP-1">Midway Island</FP>
+                <FP SOURCE="FP-1">Wake Island</FP>
+                <FP SOURCE="FP-1">Johnston Island</FP>
+                <FP SOURCE="FP-1">Palmyra Island</FP>
+                <FP SOURCE="FP-1">Kingman Reef</FP>
+                <FP SOURCE="FP-1">Howland Island</FP>
+                <FP SOURCE="FP-1">Baker Island</FP>
+                <FP SOURCE="FP-1">Jarvis Island</FP>
+                <FP SOURCE="FP-1">Navassa Island</FP>
+                <P>b. In accordance with Article III, other parties to the Convention have notified the Secretary-General that application of 72 COLREGS is extended. These parties with their territorial extensions are listed in Table 1.</P>
+                <GPOTABLE COLS="2" OPTS="L2" CDEF="s80,r60">
+                    <TTITLE>Table 1. Territorial Extensions of Other Parties to 72 COLREGS</TTITLE>
+                    <BOXHD>
+                        <CHED H="1">Party to convention</CHED>
+                        <CHED H="1">Territories to which 72 COLREGS are extended</CHED>
+                    </BOXHD>
+                    <ROW>
+                        <ENT I="01">United Kingdom</ENT>
+                        <ENT>Hong Kong.</ENT>
+                    </ROW>
+                </GPOTABLE>
+                <P>Because earlier formulations of the COLREGS were not elaborated as treaties, they came into force by the almost simultaneous enactment of domestic legislation by the majority of maritime nations. The COLREGS were judicially considered as being customary international law, that is to say international law based upon the consensus of maritime nations rather than upon an express instrument. Because 72 COLREGS was elaborated as a treaty, and under usual treaty practice only parties are bound, there may be a period of time after the 72 COLREGS come into force during which the ships of a nation not party to 72 COLREGS might not be considered as being bound to comply with the convention. While it is most likely that the 72 COLREGS will rapidly achieve the status of customary international law, thereby obviating any concern on the part of the mariner as to whether a particular nation is a party, it does not necessarily follow that the courts in all nations will apply 72 COLREGS to the vessels of a non-party nation. In the absence of changes in their domestic law there may be certain nations that will feel compelled to continue 60 COLREGS in force, despite the coming into force of 72 COLREGS.</P>
+                <P>The following nations are Contracting Parties for which 72 COLREGS will apply upon the Convention's entry into force:</P>
+                <SCOL2>
+                    <LI>Algeria</LI>
+                    <LI>Bahamas</LI>
+                    <LI>Belgium</LI>
+                    <LI>Brazil</LI>
+                    <LI>Bulgaria</LI>
+                    <LI>Canada</LI>
+                    <LI>Denmark</LI>
+                    <LI>Finland</LI>
+                    <LI>France</LI>
+                    <LI>German Democratic Republic</LI>
+                    <LI>Germany, Federal Republic</LI>
+                    <LI>Ghana</LI>
+                    <LI>Greece</LI>
+                    <LI>Hungary</LI>
+                    <LI>Iceland</LI>
+                    <LI>India</LI>
+                    <LI>Liberia</LI>
+                    <LI>Mexico</LI>
+                    <LI>Monaco</LI>
+                    <LI>Netherlands</LI>
+                    <LI>New Zealand</LI>
+                    <LI>Nigeria</LI>
+                    <LI>Norway</LI>
+                    <LI>Papua New Guinea</LI>
+                    <LI>Poland</LI>
+                    <LI>Romania</LI>
+                    <LI>South Africa</LI>
+                    <LI>Spain</LI>
+                    <LI>Sweden</LI>
+                    <LI>Switzerland</LI>
+                    <LI>Syrian Arab Republic</LI>
+                    <LI>USSR</LI>
+                    <LI>United Kingdom</LI>
+                    <LI>United States</LI>
+                    <LI>Yugloslavia</LI>
+                    <LI>Zaire</LI>
+                </SCOL2>
+                <P>The following nations have accepted the 60 COLREGS but are not Contracting Parties to 72 COLREGS:</P>
+                <SCOL2>
+                    <LI>Argentina</LI>
+                    <LI>Australia</LI>
+                    <LI>Austria</LI>
+                    <LI>Barbados</LI>
+                    <LI>Burma</LI>
+                    <LI>China</LI>
+                    <LI>Cuba</LI>
+                    <LI>Cyprus</LI>
+                    <LI>Czechoslovakia</LI>
+                    <LI>Ecuador</LI>
+                    <LI>Egypt</LI>
+                    <LI>Fiji</LI>
+                    <LI>Gambia</LI>
+                    <LI>Indonesia</LI>
+                    <LI>Ireland</LI>
+                    <LI>Israel</LI>
+                    <LI>Italy</LI>
+                    <LI>Ivory Coast</LI>
+                    <LI>Jamaica</LI>
+                    <LI>Japan</LI>
+                    <LI>Kuwait</LI>
+                    <LI>Lebanon</LI>
+                    <LI>
+                        Libyan Arab Republic
+                        <PRTPAGE P="183"/>
+                    </LI>
+                    <LI>Madagascar</LI>
+                    <LI>Maldives</LI>
+                    <LI>Morocco</LI>
+                    <LI>Oman</LI>
+                    <LI>Pakistan</LI>
+                    <LI>Paraguay</LI>
+                    <LI>Peru</LI>
+                    <LI>Philippines</LI>
+                    <LI>Portugal</LI>
+                    <LI>Republic of Korea</LI>
+                    <LI>Singapore</LI>
+                    <LI>Surinam</LI>
+                    <LI>Tonga</LI>
+                    <LI>Trinidad</LI>
+                    <LI>Tobago</LI>
+                    <LI>Tunisia</LI>
+                    <LI>Turkey</LI>
+                    <LI>United Republic of</LI>
+                    <LI>Cameroon</LI>
+                </SCOL2>
+            </EXTRACT>
+            <CITA>[CGD 77-075, 42 FR 26976, May 26, 1977. Redesignated by CGD 81-017, 46 FR 28153, May 26, 1981; CGD 95-053, 61 FR 9, Jan. 2, 1996]</CITA>
+        </PART>
+        <PART>
+            <EAR>Pt. 80</EAR>
+            <HD SOURCE="HED">PART 80—COLREGS DEMARCATION LINES</HD>
+            <CONTENTS>
+                <SUBJGRP>
+                    <HD SOURCE="HED">General</HD>
+                    <SECHD>Sec.</SECHD>
+                    <SECTNO>80.01</SECTNO>
+                    <SUBJECT>General basis and purpose of demarcation lines.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Atlantic Coast</HD>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">first district</HD>
+                    <SECTNO>80.105</SECTNO>
+                    <SUBJECT>Calais, ME to Cape Small, ME.</SUBJECT>
+                    <SECTNO>80.110</SECTNO>
+                    <SUBJECT>Casco Bay, ME.</SUBJECT>
+                    <SECTNO>80.115</SECTNO>
+                    <SUBJECT>Portland Head, ME to Cape Ann, MA.</SUBJECT>
+                    <SECTNO>80.120</SECTNO>
+                    <SUBJECT>Cape Ann, MA to Marblehead Neck, MA.</SUBJECT>
+                    <SECTNO>80.125</SECTNO>
+                    <SUBJECT>Marblehead Neck, MA to Nahant, MA.</SUBJECT>
+                    <SECTNO>80.130</SECTNO>
+                    <SUBJECT>Boston Harbor entrance.</SUBJECT>
+                    <SECTNO>80.135</SECTNO>
+                    <SUBJECT>Hull, MA to Race Point, MA.</SUBJECT>
+                    <SECTNO>80.145</SECTNO>
+                    <SUBJECT>Race Point, MA to Watch Hill, RI.</SUBJECT>
+                    <SECTNO>80.150</SECTNO>
+                    <SUBJECT>Block Island, RI.</SUBJECT>
+                    <SECTNO>80.155</SECTNO>
+                    <SUBJECT>Watch Hill, RI to Montauk Point, NY.</SUBJECT>
+                    <SECTNO>80.160</SECTNO>
+                    <SUBJECT>Montauk Point, NY to Atlantic Beach, NY.</SUBJECT>
+                    <SECTNO>80.165</SECTNO>
+                    <SUBJECT>New York Harbor.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">fifth district</HD>
+                    <SECTNO>80.501</SECTNO>
+                    <SUBJECT>Sandy Hook, NJ to Tom's River, NJ.</SUBJECT>
+                    <SECTNO>80.502</SECTNO>
+                    <SUBJECT>Tom's River, NJ to Cape May, NJ.</SUBJECT>
+                    <SECTNO>80.503</SECTNO>
+                    <SUBJECT>Delaware Bay.</SUBJECT>
+                    <SECTNO>80.505</SECTNO>
+                    <SUBJECT>Cape Henlopen, DE to Cape Charles, VA.</SUBJECT>
+                    <SECTNO>80.510</SECTNO>
+                    <SUBJECT>Chesapeake Bay Entrance, VA.</SUBJECT>
+                    <SECTNO>80.515</SECTNO>
+                    <SUBJECT>Cape Henry, VA to Cape Hatteras, NC.</SUBJECT>
+                    <SECTNO>80.520</SECTNO>
+                    <SUBJECT>Cape Hatteras, NC to Cape Lookout, NC.</SUBJECT>
+                    <SECTNO>80.525</SECTNO>
+                    <SUBJECT>Cape Lookout, NC to Cape Fear, NC.</SUBJECT>
+                    <SECTNO>80.530</SECTNO>
+                    <SUBJECT>Cape Fear, NC to New River Inlet, NC.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">seventh district</HD>
+                    <SECTNO>80.703</SECTNO>
+                    <SUBJECT>Little River Inlet, SC to Cape Romain, SC.</SUBJECT>
+                    <SECTNO>80.707</SECTNO>
+                    <SUBJECT>Cape Romain, SC to Sullivans Island, SC.</SUBJECT>
+                    <SECTNO>80.710</SECTNO>
+                    <SUBJECT>Charleston Harbor, SC.</SUBJECT>
+                    <SECTNO>80.712</SECTNO>
+                    <SUBJECT>Morris Island, SC to Hilton Head Island, SC.</SUBJECT>
+                    <SECTNO>80.715</SECTNO>
+                    <SUBJECT>Savannah River.</SUBJECT>
+                    <SECTNO>80.717</SECTNO>
+                    <SUBJECT>Tybee Island, GA to St. Simons Island, GA.</SUBJECT>
+                    <SECTNO>80.720</SECTNO>
+                    <SUBJECT>St. Simons Island, GA to Amelia Island, FL.</SUBJECT>
+                    <SECTNO>80.723</SECTNO>
+                    <SUBJECT>Amelia Island, FL to Cape Canaveral, FL.</SUBJECT>
+                    <SECTNO>80.727</SECTNO>
+                    <SUBJECT>Cape Canaveral, FL to Miami Beach, FL.</SUBJECT>
+                    <SECTNO>80.730</SECTNO>
+                    <SUBJECT>Miami Harbor, FL.</SUBJECT>
+                    <SECTNO>80.735</SECTNO>
+                    <SUBJECT>Miami, FL to Long Key, FL.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Puerto Rico and Virgin Islands</HD>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">seventh district</HD>
+                    <SECTNO>80.738</SECTNO>
+                    <SUBJECT>Puerto Rico and Virgin Islands.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Gulf Coast</HD>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">seventh district</HD>
+                    <SECTNO>80.740</SECTNO>
+                    <SUBJECT>Long Key, FL to Cape Sable, FL.</SUBJECT>
+                    <SECTNO>80.745</SECTNO>
+                    <SUBJECT>Cape Sable, FL to Cape Romano, FL.</SUBJECT>
+                    <SECTNO>80.748</SECTNO>
+                    <SUBJECT>Cape Romano, FL to Sanibel Island, FL.</SUBJECT>
+                    <SECTNO>80.750</SECTNO>
+                    <SUBJECT>Sanibel Island, FL to St. Petersburg, FL.</SUBJECT>
+                    <SECTNO>80.753</SECTNO>
+                    <SUBJECT>St. Petersburg, FL to Anclote, FL.</SUBJECT>
+                    <SECTNO>80.755</SECTNO>
+                    <SUBJECT>Anclote, FL to the Suncoast Keys, FL.</SUBJECT>
+                    <SECTNO>80.757</SECTNO>
+                    <SUBJECT>Suncoast Keys, FL to Horseshoe Point, FL.</SUBJECT>
+                    <SECTNO>80.760</SECTNO>
+                    <SUBJECT>Horseshoe Point, FL to Rock Island, FL.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">eighth district</HD>
+                    <SECTNO>80.805</SECTNO>
+                    <SUBJECT>Rock Island, FL to Cape San Blas, FL.</SUBJECT>
+                    <SECTNO>80.810</SECTNO>
+                    <SUBJECT>Cape San Blas, FL to Perdido Bay, FL.</SUBJECT>
+                    <SECTNO>80.815</SECTNO>
+                    <SUBJECT>Mobile Bay, AL to the Chandeleur Islands, LA.</SUBJECT>
+                    <SECTNO>80.825</SECTNO>
+                    <SUBJECT>Mississippi Passes, LA.</SUBJECT>
+                    <SECTNO>80.830</SECTNO>
+                    <SUBJECT>Mississippi Passes, LA to Point Au Fer, LA.</SUBJECT>
+                    <SECTNO>80.835</SECTNO>
+                    <SUBJECT>Point Au Fer, LA to Calcasieu Pass, LA.</SUBJECT>
+                    <SECTNO>80.840</SECTNO>
+                    <SUBJECT>Sabine Pass, TX to Galveston, TX.</SUBJECT>
+                    <SECTNO>80.845</SECTNO>
+                    <SUBJECT>Galveston, TX to Freeport, TX.</SUBJECT>
+                    <SECTNO>80.850</SECTNO>
+                    <SUBJECT>Brazos River, TX to the Rio Grande, TX.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Pacific Coast</HD>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">eleventh district</HD>
+                    <SECTNO>80.1102</SECTNO>
+                    <SUBJECT>Santa Catalina Island, CA.</SUBJECT>
+                    <SECTNO>80.1104</SECTNO>
+                    <SUBJECT>San Diego Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1106</SECTNO>
+                    <SUBJECT>Mission Bay, CA.</SUBJECT>
+                    <SECTNO>80.1108</SECTNO>
+                    <SUBJECT>Oceanside Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1110</SECTNO>
+                    <SUBJECT>Dana Point Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1112</SECTNO>
+                    <SUBJECT>Newport Bay, CA.</SUBJECT>
+                    <SECTNO>80.1114</SECTNO>
+                    <SUBJECT>San Pedro Bay—Anaheim Bay, CA.</SUBJECT>
+                    <SECTNO>80.1116</SECTNO>
+                    <SUBJECT>Redondo Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1118</SECTNO>
+                    <SUBJECT>Marina Del Rey, CA.</SUBJECT>
+                    <SECTNO>80.1120</SECTNO>
+                    <SUBJECT>Port Hueneme, CA.</SUBJECT>
+                    <SECTNO>80.1122</SECTNO>
+                    <SUBJECT>Channel Islands Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1124</SECTNO>
+                    <SUBJECT>Ventura Marina, CA.</SUBJECT>
+                    <SECTNO>80.1126</SECTNO>
+                    <SUBJECT>
+                        Santa Barbara Harbor, CA.
+                        <PRTPAGE P="184"/>
+                    </SUBJECT>
+                    <SECTNO>80.1130</SECTNO>
+                    <SUBJECT>San Luis Obispo Bay, CA.</SUBJECT>
+                    <SECTNO>80.1132</SECTNO>
+                    <SUBJECT>Estero—Morro Bay, CA.</SUBJECT>
+                    <SECTNO>80.1134</SECTNO>
+                    <SUBJECT>Monterey Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1136</SECTNO>
+                    <SUBJECT>Moss Landing Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1138</SECTNO>
+                    <SUBJECT>Santa Cruz Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1140</SECTNO>
+                    <SUBJECT>Pillar Point Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1142</SECTNO>
+                    <SUBJECT>San Francisco Harbor, CA.</SUBJECT>
+                    <SECTNO>80.1144</SECTNO>
+                    <SUBJECT>Bodega and Tomales Bay, CA.</SUBJECT>
+                    <SECTNO>80.1146</SECTNO>
+                    <SUBJECT>Albion River, CA.</SUBJECT>
+                    <SECTNO>80.1148</SECTNO>
+                    <SUBJECT>Noyo River, CA.</SUBJECT>
+                    <SECTNO>80.1150</SECTNO>
+                    <SUBJECT>Arcato—Humboldt Bay, CA.</SUBJECT>
+                    <SECTNO>80.1152</SECTNO>
+                    <SUBJECT>Crescent City Harbor, CA.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">thirteenth district</HD>
+                    <SECTNO>80.1305</SECTNO>
+                    <SUBJECT>Chetco River, OR.</SUBJECT>
+                    <SECTNO>80.1310</SECTNO>
+                    <SUBJECT>Rogue River, OR.</SUBJECT>
+                    <SECTNO>80.1315</SECTNO>
+                    <SUBJECT>Coquille River, OR.</SUBJECT>
+                    <SECTNO>80.1320</SECTNO>
+                    <SUBJECT>Coos Bay, OR.</SUBJECT>
+                    <SECTNO>80.1325</SECTNO>
+                    <SUBJECT>Umpqua River, OR.</SUBJECT>
+                    <SECTNO>80.1330</SECTNO>
+                    <SUBJECT>Siuslaw River, OR.</SUBJECT>
+                    <SECTNO>80.1335</SECTNO>
+                    <SUBJECT>Alsea Bay, OR.</SUBJECT>
+                    <SECTNO>80.1340</SECTNO>
+                    <SUBJECT>Yaquina Bay, OR.</SUBJECT>
+                    <SECTNO>80.1345</SECTNO>
+                    <SUBJECT>Depoe Bay, OR.</SUBJECT>
+                    <SECTNO>80.1350</SECTNO>
+                    <SUBJECT>Netarts Bay, OR.</SUBJECT>
+                    <SECTNO>80.1355</SECTNO>
+                    <SUBJECT>Tillamook Bay, OR.</SUBJECT>
+                    <SECTNO>80.1360</SECTNO>
+                    <SUBJECT>Nehalem River, OR.</SUBJECT>
+                    <SECTNO>80.1365</SECTNO>
+                    <SUBJECT>Columbia River Entrance, OR/WA.</SUBJECT>
+                    <SECTNO>80.1370</SECTNO>
+                    <SUBJECT>Willapa Bay, WA.</SUBJECT>
+                    <SECTNO>80.1375</SECTNO>
+                    <SUBJECT>Grays Harbor, WA.</SUBJECT>
+                    <SECTNO>80.1380</SECTNO>
+                    <SUBJECT>Quillayute River, WA.</SUBJECT>
+                    <SECTNO>80.1385</SECTNO>
+                    <SUBJECT>Strait of Juan de Fuca</SUBJECT>
+                    <SECTNO>80.1390</SECTNO>
+                    <SUBJECT>Haro Strait and Strait of Georgia</SUBJECT>
+                    <SECTNO>80.1395</SECTNO>
+                    <SUBJECT>Puget Sound and adjacent waters.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Pacific Islands</HD>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">fourteenth district</HD>
+                    <SECTNO>80.1410</SECTNO>
+                    <SUBJECT>Hawaiian Island Exemption from General Rule.</SUBJECT>
+                    <SECTNO>80.1420</SECTNO>
+                    <SUBJECT>Mamala Bay, Oahu, HI.</SUBJECT>
+                    <SECTNO>80.1430</SECTNO>
+                    <SUBJECT>Kaneohe Bay, Oahu, HI.</SUBJECT>
+                    <SECTNO>80.1440</SECTNO>
+                    <SUBJECT>Port Allen, Kauai, HI.</SUBJECT>
+                    <SECTNO>80.1450</SECTNO>
+                    <SUBJECT>Nawiliwili Harbor, Kauai, HI.</SUBJECT>
+                    <SECTNO>80.1460</SECTNO>
+                    <SUBJECT>Kahului Harbor, Maui, HI.</SUBJECT>
+                    <SECTNO>80.1470</SECTNO>
+                    <SUBJECT>Kawaihae Harbor, Hawaii, HI.</SUBJECT>
+                    <SECTNO>80.1480</SECTNO>
+                    <SUBJECT>Hilo Harbor, Hawaii, HI.</SUBJECT>
+                    <SECTNO>80.1490</SECTNO>
+                    <SUBJECT>Apra Harbor, U.S. Territory of Guam.</SUBJECT>
+                    <SECTNO>80.1495</SECTNO>
+                    <SUBJECT>U.S. Pacific Island Possessions.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Alaska</HD>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">seventeenth district</HD>
+                    <SECTNO>80.1705</SECTNO>
+                    <SUBJECT>Alaska.</SUBJECT>
+                </SUBJGRP>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>14 U.S.C. 102, 503; 33 U.S.C. 151(a).</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>CGD 77-118a, 42 FR 35784, July 11, 1977, unless otherwise noted. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981.</P>
+            </SOURCE>
+            <SUBJGRP>
+                <HD SOURCE="HED">General</HD>
+                <SECTION>
+                    <SECTNO>§ 80.01</SECTNO>
+                    <SUBJECT>General basis and purpose of demarcation lines.</SUBJECT>
+                    <P>(a) The regulations in this part establish the lines of demarcation delineating those waters upon which mariners shall comply with the International Regulations for Preventing Collisions at Sea, 1972 (72 COLREGS) and those water upon which mariners shall comply with the Inland Navigation Rules.</P>
+                    <P>(b) The waters inside of the lines are Inland Rules waters. The waters outside the lines are COLREGS waters.</P>
+                    <P>(c) Geographic coordinates expressed in terms of latitude or longitude, or both, are not intended for plotting on maps or charts whose referenced horizontal datum is the North American Datum of 1983 (NAD 83), unless such geographic coordinates are expressly labeled NAD 83. Geographic coordinates without the NAD 83 reference may be plotted on maps or charts referenced to NAD 83 only after application of the appropriate corrections that are published on the particular map or chart being used.</P>
+                    <CITA>[CGD 82-029, 47 FR 19519, May 6, 1982, as amended by CGD 83-003, 48 FR 7442, Feb. 18, 1983; CGD 86-082, 52 FR 33810, Sept. 8, 1987]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">Atlantic Coast</HD>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">first district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.105</SECTNO>
+                    <SUBJECT>Calais, ME to Cape Small, ME.</SUBJECT>
+                    <P>The 72 COLREGS shall apply on the harbors, bays, and inlets on the east coast of Maine from International Bridge at Calais, ME to the southwesternmost extremity of Bald Head at Cape Small.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.110</SECTNO>
+                    <SUBJECT>Casco Bay, ME.</SUBJECT>
+                    <P>(a) A line drawn from the southwesternmost extremity of Bald Head at Cape Small to the southeasternmost extremity of Ragged Island; thence to the southern tangent of Jaquish Island thence to Little Mark Island Monument Light; thence to the northernmost extremity of Jewell Island.</P>
+                    <P>
+                        (b) A line drawn from the tower on Jewell Island charted in approximate position latitude 43°40.6′ N., longitude 
+                        <PRTPAGE P="185"/>
+                        70°05.9′ W. to the northeasternmost extremity of Outer Green Island.
+                    </P>
+                    <P>(c) A Line drawn from the southwesternmost extremity of Outer Green Island to Ram Island Ledge Light; thence to Portland Head Light.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.115</SECTNO>
+                    <SUBJECT>Portland Head, ME to Cape Ann, MA.</SUBJECT>
+                    <P>(a) Except inside lines specifically described in this section, the 72 COLREGS shall apply on the harbors, bays, and inlets on the east coast of Maine, New Hampshire, and Massachusetts from Portland Head to Halibut Point at Cape Ann.</P>
+                    <P>(b) A line drawn from the southernmost tower on Gerrish Island charted in approximate position latitude 43°04.0′ N., longitude 70°41.2′ W. to Whaleback Light; thence to Jaffrey Point Light 2A; thence to the northeasternmost extremity of Frost Point.</P>
+                    <P>(c) A line drawn from the northernmost extremity of Farm Point to Annisquam Harbor Light.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.120</SECTNO>
+                    <SUBJECT>Cape Ann, MA to Marblehead Neck, MA.</SUBJECT>
+                    <P>(a) Except inside lines specifically described in this section, the 72 COLREGS shall apply on the harbors, bays and inlets on the east coast of Massachusetts from Halibut Point at Cape Ann to Marblehead Neck.</P>
+                    <P>(b) A line drawn from Gloucester Breakwater Light to the twin towers charted in approximate position latitude 42°35.1′ N., longitude 70°41.6′ W.</P>
+                    <P>(c) A line drawn from the westernmost extremity of Gales Point to the easternmost extremity of House Island; thence to Bakers Island Light; thence to Marblehead Light.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977; 42 FR 63169, Dec. 15, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981; USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.125</SECTNO>
+                    <SUBJECT>Marblehead Neck, MA to Nahant, MA.</SUBJECT>
+                    <P>The 72 COLREGS apply on the harbors, bays, and inlets on the east coast of Massachusetts from Marblehead Neck to the easternmost tower at Nahant, charted in approximate position latitude 42°25.4′ N., longitude 70°54.6′ W.</P>
+                    <CITA>[CGD 79-066, 45 FR 15176, Mar. 10, 1980. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.130</SECTNO>
+                    <SUBJECT>Boston Harbor entrance.</SUBJECT>
+                    <P>A line drawn from the easternmost tower at Nahant, charted in approximate position latitude 42°25.4′ N., longitude 70°54.6′ W., to Boston Lighted Horn Buoy “B”; thence to the esternmost radio tower at Hull, charted in approximate position latitude 42°16.7′ N., longitude 70°52.6′ W.</P>
+                    <CITA>[CGD 79-066, 45 FR 15176, Mar. 10, 1980. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.135</SECTNO>
+                    <SUBJECT>Hull, MA to Race Point, MA.</SUBJECT>
+                    <P>(a) Except inside lines described in this section, the 72 COLREGS apply on the harbors, bays, and inlets on the east coast of Massachusetts from the easternmost radio tower at Hull, charted in approximate position latitude 42°16.7′ N., longitude 70°52.6′ W., to Race Point on Cape Cod.</P>
+                    <P>(b) A line drawn from Canal Breakwater Light 6 south to the shoreline.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977, as amended by CGD 79-066, 45 FR 15176, Mar. 10, 1980. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; USCG-2022-0323, 88 FR 10028, Feb. 16, 2023]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.145</SECTNO>
+                    <SUBJECT>Race Point, MA, to Watch Hill, RI.</SUBJECT>
+                    <P>(a) Except inside lines specifically described in this section, the 72 COLREGS shall apply on the sounds, bays, harbors, and inlets along the coast of Cape Cod and the southern coasts of Massachusetts and Rhode Island from Race Point to Watch Hill.</P>
+                    <P>
+                        (b) A line drawn from Nobska Point Light to Tarpaulin Cove Light on the southeastern side of Naushon Island; thence from the southernmost tangent of Naushon Island to the easternmost 
+                        <PRTPAGE P="186"/>
+                        extremity of Nashawena Island; thence from the southwestern most extremity of Nashawena Island to the easternmost extremity of Cuttyhunk Island; thence from the southwestern tangent of Cuttyhunk Island to the tower on Gooseberry Neck charted in approximate position latitude 41°29.1′ N., longitude 71°02.3′ W.
+                    </P>
+                    <P>(c) A line drawn from Sakonnet Breakwater Light 2 tangent to the southernmost part of Sachuest Point charted in approximate position latitude 41°28.5′ N., longitude 71°14.8′ W.</P>
+                    <P>(d) An east-west line drawn through Beavertail Light between Brenton Point and the Boston Neck shoreline.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977, as amended by CGD 79-036, 44 FR 22458, Apr. 16, 1979. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.150</SECTNO>
+                    <SUBJECT>Block Island, RI.</SUBJECT>
+                    <P>The 72 COLREGS shall apply on the harbors of Block Island.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.155</SECTNO>
+                    <SUBJECT>Watch Hill, RI to Montauk Point, NY.</SUBJECT>
+                    <P>(a) A line drawn from 41°18′13.999″ N., 071°51′30.300″ W. (Watch Hill Light) to East Point on Fishers Island.</P>
+                    <P>(b) A line drawn from Race Point to 41°14′36.509″ N., 072°02′49.676″ W. (Race Rock Light); thence to 41°12′22.900″ N., 072°06′24.700″ W. (Little Gull Island Light) thence to East Point on Plum Island.</P>
+                    <P>(c) A line drawn from 41°10′16.704″ N., 072°12′21.684″ W. (Plum Island Harbor East Dolphin Light) to 41°10′17.262″ N., 072°12′23.796″ W. (Plum Island Harbor West Dolphin Light).</P>
+                    <P>(d) A line drawn from 41°10′25.745″ N., 072°12′42.137′ W. (Plum Gut Light) to 41°09′48.393″ N., 072°13′25.014″ W. (Orient Point Light); thence to Orient Point.</P>
+                    <P>(e) A line drawn from 41°06′35.100″ N., 072°18′21.400″ W. (Long Beach Bar Light) to Cornelius Point.</P>
+                    <P>(f) A line drawn from 41°04′12.000″ N., 072°16′48.000″ W. (Coecles Harbor Entrance Light) to Sungic Point.</P>
+                    <P>(g) A line drawn from Nicholl Point to 41°02′25.166″ N., 072°15′42.971″ W. (Cedar Island Light 3CI).</P>
+                    <P>(h) A line drawn from 41°02′06.060″ N., 072°11′19.560″ W. (Threemile Harbor West Breakwater Light) to 41°02′05.580″ N., 072°11′15.777″ W. (Threemile Harbor East Breakwater Light).</P>
+                    <P>(i) A line drawn from 41°04′44.210″ N., 071°56′20.308″ W. (Montauk West Jetty Light 2) to 41°04′46.095″ N., 071°56′14.168″ W. (Montauk East Jetty Light 1).</P>
+                    <CITA>[USCG-2015-0433, 80 FR 44280, July 27, 2015, as amended by USCG-2016-0498, 82 FR 35080, July 28, 2017]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.160</SECTNO>
+                    <SUBJECT>Montauk Point, NY to Atlantic Beach, NY.</SUBJECT>
+                    <P>(a) A line drawn from the 40°50′17.952″ N., 072°28′29.010″ W. (Shinnecock Inlet Breakwater Light 2) to 40°50′23.490″ N., 072°28′40.122″ W. (Shinnecock Inlet Breakwater Light 1).</P>
+                    <P>(b) A line drawn from 40°45′47.763″ N., 072°45′11.095″ W. (Moriches Inlet Breakwater Light 2) to 40°45′49.692″ N., 072°45′21.719″ W. (Moriches Inlet Breakwater Light 1).</P>
+                    <P>(c) A line drawn from the westernmost point on Fire Island to the southernmost extremity of the spit of land at the western end of Oak Beach.</P>
+                    <P>(d) A line drawn from 40°34′23.568″ N., 073°34′32.364″ W. (Jones Inlet Light) 322° true across Jones Inlet to the shoreline.</P>
+                    <CITA>[USCG-2015-0433, 80 FR 44280, July 27, 2015]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.165</SECTNO>
+                    <SUBJECT>New York Harbor.</SUBJECT>
+                    <P>A line drawn from 40°34′56.600″ N., 073°45′17.200″ W. (East Rockaway Inlet Breakwater Light) to 40°27′42.177″ N., 074°00′07.309″ W. (Sandy Hook Light).</P>
+                    <CITA>[USCG-2015-0433, 80 FR 44280, July 27, 2015]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">fifth district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.501</SECTNO>
+                    <SUBJECT>Sandy Hook, NJ to Tom's River, NJ.</SUBJECT>
+                    <P>(a) A line drawn across the seaward extremity of Shark River Inlet.</P>
+                    <P>(b) A line drawn across the seaward extremity of Manasquan Inlet.</P>
+                    <P>(c) A line drawn across the seaward extremity of Barnegat Inlet.</P>
+                    <CITA>[USCG-2015-0433, 80 FR 44280, July 27, 2015]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.502</SECTNO>
+                    <SUBJECT>Tom's River, NJ to Cape May, NJ.</SUBJECT>
+                    <P>
+                        (a) A line drawn from the seaward tangent of Long Beach Island to the seaward tangent to Pullen Island across Beach Haven and Little Egg 
+                        <PRTPAGE P="187"/>
+                        Inlet, thence across Brigantine Inlet to Brigantine Island.
+                    </P>
+                    <P>(b) A line drawn from the seaward extremity of Absecon Inlet.</P>
+                    <P>(c) A line drawn parallel with the general trend of highwater shoreline from the southernmost point of Longport at latitude 39°17.6′ N., longitude 74°33.1′ W. across Great Egg Harbor Inlet.</P>
+                    <P>(d) A line drawn parallel with the general trend of highwater shoreline across Corson Inlet.</P>
+                    <P>(e) A line formed by the centerline of the Townsend Inlet Highway Bridge.</P>
+                    <P>(f) A line formed by the shoreline of Seven Mile Beach to 39°00′23.757″ N., 074°47′28.017″ W. (Hereford Inlet Light).</P>
+                    <P>(g) A line drawn across the seaward extremity of Cape May Inlet.</P>
+                    <CITA>[USCG-2015-0433, 80 FR 44280, July 27, 2015, as amended by USCG-2016-0498, 82 FR 35080, July 28, 2017]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.503</SECTNO>
+                    <SUBJECT>Delaware Bay.</SUBJECT>
+                    <P>A line drawn from Cape May Light to Harbor of Refuge Light; thence to the northernmost extremity of Cape Henlopen.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.505</SECTNO>
+                    <SUBJECT>Cape Henlopen, DE to Cape Charles, VA.</SUBJECT>
+                    <P>(a) A line drawn from the seaward extremity of Indian River Inlet North Jetty to Indian River Inlet South Jetty Light.</P>
+                    <P>(b) A line drawn from Ocean City Inlet Light 6, 225° true across Ocean City Inlet to the submerged south breakwater.</P>
+                    <P>(c) A line drawn from Assateague Beach Tower Light to the tower charted at latitude 37°52.6′ N., longitude 75°26.7′ W.</P>
+                    <P>(d) A line formed by the range of Wachapreague Inlet Light 3 and Parramore Beach Lookout Tower drawn across Wachapreague Inlet.</P>
+                    <P>(e) A line drawn from the lookout tower charted on the northern end of Hog Island to the seaward tangent of Parramore Beach.</P>
+                    <P>(f) A line drawn 207° true from the lookout tower charted on the southern end of Hog Island across Great Machipongo Inlet.</P>
+                    <P>(g) A line formed by the range of the two cupolas charted on the southern end of Cobb Island drawn across Sand Shoal Inlet.</P>
+                    <P>(h) Except as provided elsewhere in this section from Cape Henlopen to Cape Charles, lines drawn parallel with the general trend of the highwater shoreline across the entrances to small bays and inlets.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.510</SECTNO>
+                    <SUBJECT>Chesapeake Bay Entrance, VA.</SUBJECT>
+                    <P>A line drawn from Cape Charles Light to Cape Henry Light.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.515</SECTNO>
+                    <SUBJECT>Cape Henry, VA to Cape Hatteras, NC.</SUBJECT>
+                    <P>(a) A line drawn from Rudee Inlet Jetty Light 2 to Rudee Inlet Jetty Light 1.</P>
+                    <P>(b) A line formed by the centerline of the highway bridge across Oregon Inlet.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.520</SECTNO>
+                    <SUBJECT>Cape Hatteras, NC to Cape Lookout, NC.</SUBJECT>
+                    <P>(a) A line drawn from Hatteras Inlet Lookout Tower at latitude 35°11.85′ N., longitude 75°43.9′ W. 255° true to the eastern end of Ocracoke Island.</P>
+                    <P>(b) A line drawn from the westernmost extremity of Ocracoke Island at latitude 35°04.0′ N., longitude 76°00.8′ W. to the northeasternmost extremity of Portsmouth Island at latitude 35°03.7′ N., longitude 76°02.3′ W.</P>
+                    <P>(c) A line drawn across Drum Inlet parallel with the general trend of the highwater shoreline.</P>
+                    <CITA>[USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.525</SECTNO>
+                    <SUBJECT>Cape Lookout, NC to Cape Fear, NC.</SUBJECT>
+                    <P>(a) A line drawn from Cape lookout Light to the seaward tangent of the southeastern end of Shackleford Banks.</P>
+                    <P>
+                        (b) A line drawn from Morehead City Channel Range Front Light to the seaward extremity of the Beaufort Inlet west jetty.
+                        <PRTPAGE P="188"/>
+                    </P>
+                    <P>(c) A line drawn from the southernmost extremity of Bogue Banks at latitude 34°38.7′ N., longitude 77°06.0′ W., across Bogue Inlet to the northernmost extremity of Bear Beach at latitude 34°38.5′ N., longitude 77°07.1′ W.</P>
+                    <P>(d) A line drawn from the easternmost extremity on the southern side of New River Inlet at latitude 34°31.5′ N., longitude 77°20.6′ W., to the seaward tangent of the shoreline on the northeast side on New River Inlet.</P>
+                    <P>(e) A line drawn across New Topsail Inlet between the closest extremities of the shore on either side of the inlet parallel with the general trend of the highwater shoreline.</P>
+                    <P>(f) A line drawn from the seaward extremity of the jetty on the northeast side of Masonboro Inlet to the seaward extremity of the jetty on the southeast side of the Inlet.</P>
+                    <P>(g) Except as provided elsewhere in this section from Cape Lookout to Cape Fear, lines drawn parallel with the general trend of the highwater shoreline across the entrance of small bays and inlets.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.530</SECTNO>
+                    <SUBJECT>Cape Fear, NC to Little River Inlet, NC.</SUBJECT>
+                    <P>(a) A line drawn from the abandoned lighthouse charted in approximate position latitude 33°52.4′ N., longitude 78°00.1′ W., across the Cape Fear River Entrance to Oak Island Light.</P>
+                    <P>(b) Except as provided elsewhere in this section from Cape Fear to Little River Inlet, lines drawn parallel with the general trend of the highwater shoreline across the entrance to small inlets.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">seventh district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.703</SECTNO>
+                    <SUBJECT>Little River Inlet, SC to Cape Romain, SC.</SUBJECT>
+                    <P>(a) A line drawn from the westernmost extremity of the sand spit on Bird Island to the easternmost extremity of Waties Island across Little River Inlet.</P>
+                    <P>(b) From Little River Inlet, a line drawn parallel with the general trend of the highwater shoreline across Hog Inlet; thence a line drawn across the seaward ends of the Murrels Inlet jetties; thence a line drawn parallel with the general trend of the highwater shoreline across Midway Inlet, Pawleys Inlet, and North Inlet.</P>
+                    <P>(c) A line drawn from the charted position of Winyah Bay North Jetty End Buoy 2N south to the Winyah Bay South Jetty.</P>
+                    <P>(d) A line drawn from Santee Point to the seaward tangent of Cedar Island.</P>
+                    <P>(e) A line drawn from Cedar Island Point west to Murphy Island.</P>
+                    <P>(f) A north-south line drawn from the northernmost extremity of Cape Island Point to Murphy Island.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and amended by CGD 89-068, 55 FR 31831, Aug. 6, 1990; USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.707</SECTNO>
+                    <SUBJECT>Cape Romain, SC to Sullivans Island, SC.</SUBJECT>
+                    <P>(a) A line drawn from the westernmost point on Cape Romain to the southeasternmost point on Raccoon Key.</P>
+                    <P>(b) A line drawn from the westernmost extremity of Raccoon Key to the northernmost extremity of Northeast Point.</P>
+                    <P>(c) A line drawn from the southernmost extremity of Bull Island to the easternmost extremity of Capers Island.</P>
+                    <P>(d) A line formed by the overhead power cable from Capers Island to Dewees Island.</P>
+                    <P>(e) A line formed by the overhead power cable from Dewees Island to Isle of Palms.</P>
+                    <P>(f) A line formed by the centerline of the highway bridge between Isle of Palms and Sullivans Island over Breach Inlet.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="189"/>
+                    <SECTNO>§ 80.710</SECTNO>
+                    <SUBJECT>Charleston Harbor, SC.</SUBJECT>
+                    <P>(a) A line formed by the submerged north jetty from the shore to the west end of the north jetty.</P>
+                    <P>(b) A line drawn from across the seaward extremity of the Charleston Harbor Jetties.</P>
+                    <P>(c) A line drawn from the west end of the South Jetty across the South Entrance to Charleston Harbor to shore on a line formed by the submerged south jetty.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.712</SECTNO>
+                    <SUBJECT>Morris Island, SC to Hilton Head Island, SC.</SUBJECT>
+                    <P>(a) A line drawn from the easternmost tip of Folly Island to 32°41′37″ N., 079°53′03″ W. (abandoned lighthouse tower) on the northside of Lighthouse Inlet; thence west to the shoreline of Morris Island.</P>
+                    <P>(b) A line drawn from the seaward tangent of Folly Island across Stono River to the shoreline of Sandy Point.</P>
+                    <P>(c) A line drawn from the southernmost extremity of Seabrook Island 257° true across the North Edisto River Entrance to the shore of Botany Bay Island.</P>
+                    <P>(d) A line drawn from the microwave antenna tower on Edisto Beach charted in approximate position latitude 32°28.3′ N. longitude 80°19.2′ W. across St. Helena Sound to the abandoned lighthouse tower on Hunting Island.</P>
+                    <P>(e) A line formed by the centerline of the highway bridge between Hunting Island and Fripp Island.</P>
+                    <P>(f) A line drawn from the westernmost extremity of Bull Point on Capers Island to Port Royal Sound Channel Range Rear Light, latitude 32°13.7′ N., longitude 80°36.0′ W.; thence 259° true to the easternmost extremity of Hilton Head at latitude 32°13.0′ N., longitude 80°40.1′ W.</P>
+                    <CITA>[USCG-2014-0410, 79 FR 58681, Sept. 30, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.715</SECTNO>
+                    <SUBJECT>Savannah River.</SUBJECT>
+                    <P>A line drawn from the southernmost tank on Hilton Head Island charted in approximate position latitude 32°06.7′ N., longitude 80°49.3′ W., to Bloody Point Range Rear Light; thence to Tybee Light.</P>
+                    <CITA>[USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.717</SECTNO>
+                    <SUBJECT>Tybee Island, GA to St. Simons Island, GA.</SUBJECT>
+                    <P>(a) A line drawn from the southernmost extremity of Savannah Beach on Tybee Island 255° true across Tybee Inlet to the shore of Little Tybee Island south of the entrance to Buck Hammock Creek.</P>
+                    <P>(b) A straight line drawn from the northeasternmost extremity of Wassaw Island 031° true through Tybee River Daybeacon 1 to the shore of Little Tybee Island.</P>
+                    <P>(c) A line drawn approximately parallel with the general trend of the highwater shorelines from the seaward tangent of Wassaw Island to the seaward tangent of Bradley Point on Ossabaw Island.</P>
+                    <P>(d) A north-south line (longitude 81°08.4′ W.) drawn from the southernmost extremity of Ossabaw Island to St. Catherines Island.</P>
+                    <P>(e) A north-south line (longitude 81°10.6′ W.) drawn from the southernmost extremity of St. Catherines Island to Northeast Point on Blackbeard Island.</P>
+                    <P>(f) A line following the general trend of the seaward highwater shoreline across Cabretta Inlet.</P>
+                    <P>(g) A north-south line (longitude 81°16.9′ W.) drawn from the south-westernmost point on Sapelo Island to Wolf Island.</P>
+                    <P>(h) A north-south line (longitude 81°17.1′ W.) drawn from the south-easternmost point of Wolf Island to the northeasternmost point on Little St. Simons Island.</P>
+                    <P>(i) A line drawn from the northeasternmost extremity of Sea Island 045° true to Little St. Simons Island.</P>
+                    <P>(j) An east-west line from the southernmost extremity of Sea Island across Goulds Inlet to St. Simons Island.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by USCG-2013-0397, 78 FR 39171, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.720</SECTNO>
+                    <SUBJECT>St. Simons Island, GA to Amelia Island, FL.</SUBJECT>
+                    <P>
+                        (a) A line drawn from St. Simons Light to the northernmost tank on Jekyll Island charted in approximate position latitude 31°05.9′ N., longitude 81°24.5′ W.
+                        <PRTPAGE P="190"/>
+                    </P>
+                    <P>(b) A line drawn from the southernmost tank on Jekyll Island charted in approximate position latitude 31°01.6′ N., longitude 81°25.2′ W., to coordinate latitude 30°59.4′ N., longitude 81°23.7′ W. (0.5 nautical mile east of the charted position of St. Andrew Sound Lighted Buoy 32); thence to the abandoned lighthouse tower on the north end of Little Cumberland Island charted in approximate position latitude 30°58.5′ N., longitude 81°24.8′ W.</P>
+                    <P>(c) A line drawn across the seaward extremity of the St. Marys River Entrance Jetties.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.723</SECTNO>
+                    <SUBJECT>Amelia Island, FL to Cape Canaveral, FL.</SUBJECT>
+                    <P>(a) A line drawn from the southernmost extremity of Amelia Island to the northeasternmost extremity of Little Talbot Island.</P>
+                    <P>(b) A line formed by the centerline of the highway bridge from Little Talbot Island to Fort George Island.</P>
+                    <P>(c) A line drawn across the seaward extremity of the St. Johns River Entrance Jetties.</P>
+                    <P>(d) A line drawn across the seaward extremity of the St. Augustine Inlet Jetties.</P>
+                    <P>(e) A line formed by the centerline of the highway bridge over Matanzas Inlet.</P>
+                    <P>(f) A line drawn across the seaward extremity of the Ponce de Leon Inlet Jetties.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.727</SECTNO>
+                    <SUBJECT>Cape Canaveral, FL to Miami Beach, FL.</SUBJECT>
+                    <P>(a) A line drawn across the seaward extremity of the Port Canaveral Entrance Channel Jetties.</P>
+                    <P>(b) A line drawn across the seaward extremity of the Sebastian Inlet Jetties.</P>
+                    <P>(c) A line drawn across the seaward extremity of the Fort Pierce Inlet Jetties.</P>
+                    <P>(d) A north-south line (longitude 80°09.7′ W.) drawn across St. Lucie Inlet.</P>
+                    <P>(e) A line drawn from the seaward extremity of Jupiter Inlet North Jetty to the northeast extremity of the concrete apron on the south side of Jupiter Inlet.</P>
+                    <P>(f) A line drawn across the seaward extremity of the Lake Worth Inlet Jetties.</P>
+                    <P>(g) A line drawn across the seaward extremity of the Boynton Inlet Jetties.</P>
+                    <P>(h) A line drawn from Boca Raton Inlet North Jetty Light 2 to Boca Raton Inlet South Jetty Light 1.</P>
+                    <P>(i) A line drawn from Hillsboro Inlet Light to Hillsboro Inlet Entrance Light 2; thence to Hillsboro Inlet Entrance Light 1; thence west to the shoreline.</P>
+                    <P>(j) A line drawn across the seaward extremity of the Port Everglades Entrance Jetties.</P>
+                    <P>(k) A line formed by the centerline of the highway bridge over Bakers Haulover Inlet.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.730</SECTNO>
+                    <SUBJECT>Miami Harbor, FL.</SUBJECT>
+                    <P>A line drawn across the seaward extremity of the Miami Harbor Government Cut Jetties.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.735</SECTNO>
+                    <SUBJECT>Miami, FL to Long Key, FL.</SUBJECT>
+                    <P>(a) A line drawn from the southernmost extremity of Fisher Island 212° true to the point latitude 25°45.0′ N., longitude 80°08.6′ W., on Virginia Key.</P>
+                    <P>(b) A line formed by the centerline of the highway bridge between Virginia Key and Key Biscayne.</P>
+                    <P>(c) A line drawn from Cape Florida Light to the northernmost extremity on Soldier Key.</P>
+                    <P>(d) A line drawn from the southernmost extremity on Soldier Key to the northernmost extremity of the Ragged Keys.</P>
+                    <P>(e) A line drawn from the Ragged Keys to the southernmost extremity of Angelfish Key following the general trend of the seaward shoreline.</P>
+                    <P>
+                        (f) A line drawn on the centerline of the Overseas Highway (U.S. 1) and bridges from latitude 25°19.3′ N., longitude 80°16.0′ W., at Little Angelfish Creek to the radar dome charted on 
+                        <PRTPAGE P="191"/>
+                        Long Key at approximate position latitude 24°49.3′ N., longitude 80°49.2′ W.
+                    </P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977; 42 FR 63169, Dec. 15, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; 51 FR 21748, June 16, 1986; CGD 89-068, 55 FR 31831, Aug. 6, 1990; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">Puerto Rico and Virgin Islands</HD>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">seventh district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.738</SECTNO>
+                    <SUBJECT>Puerto Rico and Virgin Islands.</SUBJECT>
+                    <P>(a) Except inside lines specifically described in this section, the 72 COLREGS shall apply on all other bays, harbors and lagoons of Puerto Rico and the U.S. Virgin Islands.</P>
+                    <P>(b) A line drawn from Puerto San Juan Light to position18°28.5′ N., 066°08.4′ W, at the northwest extent of Isla de Cabras across the entrance of San Juan Harbor.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by USCG-2008-0179, 73 FR 35002, June 19, 2008; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">Gulf Coast</HD>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">seventh district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.740</SECTNO>
+                    <SUBJECT>Long Key, FL to Cape Sable, FL.</SUBJECT>
+                    <P>A line drawn from the microwave tower charted on Long Key at approximate position latitude 24°48.8′ N., longitude 80°49.6′ W., to Long Key Light 1; thence to Arsenic Bank Light 2; thence to Sprigger Bank Light 5; thence to Schooner Bank Light 6; thence to Oxfoot Bank Light 10; thence to East Cape Light 2; thence through East Cape Daybeacon 1A to the shoreline at East Cape.</P>
+                    <CITA>[USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.745</SECTNO>
+                    <SUBJECT>Cape Sable, FL to Cape Romano, FL.</SUBJECT>
+                    <P>(a) A line drawn following the general trend of the mainland, highwater shoreline from Cape Sable at East Cape to Little Shark River Light 1; thence to westernmost extremity of Shark Point; thence following the general trend of the mainland, highwater shoreline crossing the entrances of Harney River, Broad Creek, Broad River, Rodgers River First Bay, Chatham River, Huston River, to the shoreline at coordinate latitude 25°41.8′ N., longitude 81°17.9′ W.</P>
+                    <P>(b) The 72 COLREGS shall apply to the waters surrounding the Ten Thousand Islands and the bays, creeks, inlets, and rivers between Chatham Bend and Marco Island except inside lines specifically described in this part.</P>
+                    <P>(c) A north-south line drawn at longitude 81°20.2′ W., across the entrance to Lopez River.</P>
+                    <P>(d) A line drawn across the entrance to Turner River parallel to the general trend of the shoreline.</P>
+                    <P>(e) A line formed by the centerline of Highway 92 Bridge at Goodland.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.748</SECTNO>
+                    <SUBJECT>Cape Romano, FL to Sanibel Island, FL.</SUBJECT>
+                    <P>(a) A line drawn across Big Marco Pass parallel to the general trend of the seaward, highwater shoreline.</P>
+                    <P>(b) A line drawn from the northwesternmost extremity of Coconut Island 000°T across Capri Pass.</P>
+                    <P>(c) Lines drawn across Hurricane and Little Marco Passes parallel to the general trend of the seaward, highwater shoreline.</P>
+                    <P>(d) A line from the seaward extremity of Gordon Pass South Jetty 014° true to the shoreline at approximate coordinate latitude 26°05.7′ N., longitude 81°48.1′ W.</P>
+                    <P>(e) A line drawn across the seaward extremity of Doctors Pass Jetties.</P>
+                    <P>(f) Lines drawn across Wiggins, Big Hickory, New, and Big Carlos Passes parallel to the general trend of the seaward highwater shoreline.</P>
+                    <P>
+                        (g) A straight line drawn from Sanibel Island Light through Matanzas 
+                        <PRTPAGE P="192"/>
+                        Pass Channel Light 2 to the shore of Estero Island.
+                    </P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977; 42 FR 63169, Dec. 15, 1977, as amended by CGD 78-052, 44 FR 69298, Dec. 3, 1979. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7786, Mar. 6, 1986; USCG-2013-0397, 78 FR 39172, July 1, 2013; USCG-2015-0433, 80 FR 44280, July 27, 2015]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.750</SECTNO>
+                    <SUBJECT>Sanibel Island, FL to St. Petersburg, FL.</SUBJECT>
+                    <P>(a) A line formed by the centerline of the highway bridge over Blind Pass, between Captiva Island and Sanibel Island, and lines drawn across Redfish and Captiva Passes parallel to the general trend of the seaward, highwater shorelines.</P>
+                    <P>(b) A line drawn across the Charlotte Harbor entrance from position latitude 26°42.18′ N, longitude 070°41.2′ W to Port Boca Grande Light.</P>
+                    <P>(c) Lines drawn across Gasparilla and Stump Passes parallel to the general trend of the seaward, highwater shorelines.</P>
+                    <P>(d) A line across the seaward extremity of Venice Inlet Jetties.</P>
+                    <P>(e) A line drawn across Midnight Pass parallel to the general trend of the seaward, highwater shoreline.</P>
+                    <P>(f) A line drawn from position latitude 27°17.89′ N, longitude 082°33.55′ W to the southernmost extremity of Lido Key (position latitude 27°17.93′ N, longitude 082°33.99′ W).</P>
+                    <P>(g) A line drawn across New Pass tangent to the seaward, highwater shoreline of Longboat Key.</P>
+                    <P>(h) A line drawn across Longboat Pass parallel to the seaward, highwater shoreline.</P>
+                    <P>(i) A line drawn from the northwesternmost extremity of Bean Point to the southeasternmost extremity of Egmont Key.</P>
+                    <P>(j) A straight line drawn from Egmont Key Light through Egmont Channel Range Rear Light to the shoreline on Mullet Key.</P>
+                    <P>(k) A line drawn from the northernmost extremity of Mullet Key across Bunces Pass and South Channel to Pass-a-Grille Channel Light 8; thence to Pass-a-Grille Channel Daybeacon 9; thence to the southwesternmost extremity of Long Key.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977; 42 FR 63169, Dec. 15, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; CGD 93-071, 58 FR 65668, Dec. 16, 1993; USCG-2018-0874, 84 FR 30877, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.753</SECTNO>
+                    <SUBJECT>St. Petersburg, FL to the Anclote, FL.</SUBJECT>
+                    <P>(a) A line drawn across Blind Pass, from the seaward extremity of the Long Key jetty to the seaward extremity of the Treasure Island jetty.</P>
+                    <P>(b) Lines formed by the centerline of the highway bridges over Johns and Clearwater Passes.</P>
+                    <P>(c) A line drawn across Dunedin and Hurricane Passes parallel with the general trend of the seaward, highwater shoreline.</P>
+                    <P>(d) A line drawn from the northernmost extremity of Honeymoon Island to Anclote Anchorage South Entrance Light 3; thence to Anclote Key position latitude 28°10.0′ N longitude 082°50.6′ W; thence a straight line to position latitude 28°11.11′ N, longitude 082°47.91′ W.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 21748, June 16, 1986; CGD 93-071, 58 FR 65668, Dec. 16, 1993; USCG-2018-0874, 84 FR 30877, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.755</SECTNO>
+                    <SUBJECT>Anclote, FL to the Suncoast Keys, FL.</SUBJECT>
+                    <P>(a) Except inside lines specifically described in this section, the 72 COLREGS shall apply on the bays, bayous, creeks, marinas, and rivers from Anclote to the Suncoast Keys.</P>
+                    <P>(b) A north-south line drawn at longitude 82°38.3′ W. across the Chassahowitzka River Entrance.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.757</SECTNO>
+                    <SUBJECT>Suncoast Keys, FL to Horseshoe Point, FL.</SUBJECT>
+                    <P>(a) Except inside lines specifically decribed in this section, the 72 COLREGS shall apply on the bays, bayous, creeks, and marinas from the Suncoast Keys to Horseshoe Point.</P>
+                    <P>(b) A line formed by the centerline of Highway 44 Bridge over the Salt River.</P>
+                    <P>
+                        (c) A north-south line drawn through Crystal River Entrance Daybeacon 25 across the river entrance.
+                        <PRTPAGE P="193"/>
+                    </P>
+                    <P>(d) A north-south line drawn through the Cross Florida Barge Canal Daybeacon 48 across the canal.</P>
+                    <P>(e) A north-south line drawn through Withlacoochee River Daybeacon 40 across the river.</P>
+                    <P>(f) A line drawn from the westernmost extremity of South Point north to the shoreline across the Waccasassa River Entrance.</P>
+                    <P>(g) A line drawn from position latitude 29°16.6′ N., longitude 83°06.7′ W., 300° true to the shoreline of Hog Island.</P>
+                    <P>(h) A north-south line drawn through Suwannee River Mcgriff Pass Daybeacons 30 and 31 across the Suwannee River.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.760</SECTNO>
+                    <SUBJECT>Horseshoe Point, FL to Rock Island, FL.</SUBJECT>
+                    <P>(a) Except inside lines specifically described provided in this section, the 72 COLREGS shall apply on the bays, bayous, creeks, marinas, and rivers from Horseshoe Point to the Rock Islands.</P>
+                    <P>(b) A north-south line drawn through Steinhatchee River Light 21.</P>
+                    <P>(c) A line drawn from Fenholloway River Approach Light FR east across the entrance to Fenholloway River.</P>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">eighth district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.805</SECTNO>
+                    <SUBJECT>Rock Island, FL to Cape San Blas, FL.</SUBJECT>
+                    <P>(a) A south-north line drawn from the Econfina River Light to the opposite shore.</P>
+                    <P>(b) A line drawn from Gamble Point Light to the southernmost extremity of Cabell Point.</P>
+                    <P>(c) A line drawn from St. Mark's Range Rear Light to St. Mark's Channel Light 11; thence to the southernmost extremity of Live Oak Point; thence in a straight line through Shell Point Light to the southernmost extremity of Ochlockonee Point; thence to Bald Point along longitude 84°20.5′ W.</P>
+                    <P>(d) A line drawn from the south shore of Southwest Cape at longitude 84°22.7′ W., to Dog Island Reef East Light 1; thence a straight line to the easternmost extremity of Dog Island.</P>
+                    <P>(e) A line drawn from the westernmost extremity of Dog Island to the easternmost extremity of St. George Island.</P>
+                    <P>(f) A line drawn across the seaward extremity of the St. George Island Channel Jetties.</P>
+                    <P>(g) A line drawn from the northwesternmost extremity of Sand Island to West Pass Light 7.</P>
+                    <P>(h) A line drawn from the westernmost extremity of St. Vincent Island to the southeast, highwater shoreline of Indian Peninsula at Longitude 85°13.5′ W.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; USCG-2008-0179, 73 FR 35002, June 19, 2008; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.810</SECTNO>
+                    <SUBJECT>Cape San Blas, FL to Perdido Bay, FL.</SUBJECT>
+                    <P>(a) A line drawn from St. Joseph Bay Entrance Range A Rear Light through St. Joseph Bay Entrance Range B Front Light to St. Joseph Point.</P>
+                    <P>(b) A line drawn across the mouth of Salt Creek as an extension of the general trend of the shoreline to continue across the inlet to St. Andrews sound in the middle of Crooked Island.</P>
+                    <P>(c) A line drawn between the seaward end of the St. Andrews Bay Entrance Jetties.</P>
+                    <P>(d) A line drawn between the seaward end of the Choctawatchee Bay Entrance Jetties.</P>
+                    <P>(e) An east-west line drawn from Fort McRee Leading Light across the Pensacola Bay Entrance along latitude 30°19.5′ N.</P>
+                    <P>(f) A line drawn between the seaward end of the Perdido Pass Jetties.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.815</SECTNO>
+                    <SUBJECT>Mobile Bay, AL to the Chandeleur Islands, LA.</SUBJECT>
+                    <P>(a) A line drawn across the inlets to Little Lagoon as an extension of the general trend of the shoreline.</P>
+                    <P>
+                        (b) A line drawn from 30°14′41.4″ N., 088°01′26.5″ W. (Mobile Point Light) to 
+                        <PRTPAGE P="194"/>
+                        30°15′13.3″ N., 088°03′22.6″ W. (Dauphin Island Channel Light 1) to the eastern corner of Fort Gaines at Pelican Point.
+                    </P>
+                    <P>(c) A line drawn from the western-most extremity of Dauphin Island to the easternmost extremity of Petit Bois Island.</P>
+                    <P>(d) A line drawn from Horn Island Pass Entrance Range Front Light on Petit Bois Island to the easternmost extremity of Horn Island.</P>
+                    <P>(e) An east-west line (latitude 30°14.7′ N.) drawn between the westernmost extremity of Horn Island to the easternmost extremity of Ship Island.</P>
+                    <P>(f) A curved line drawn following the general trend of the seaward, highwater shoreline of Ship Island.</P>
+                    <P>(g) A line drawn from the Ship Island Light to Chandeleur Light; thence in a curved line following the general trend of the seaward, highwater shorelines of the Chandeleur Islands to the island at latitude 29°44.1′ N., longitude 88°53.0′ W.; thence to latitude 29°26.5′ N., longitude 88°55.6′ W.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; CGD 89-068, 55 FR 31831, Aug. 6, 1990; 55 FR 33577, Aug. 14, 1990; USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.825</SECTNO>
+                    <SUBJECT>Mississippi Passes, LA.</SUBJECT>
+                    <P>(a) A line drawn from latitude 29°26.5′ N., longitude 88°55.6′ W. to latitude 29°10.6′ N., longitude 88°59.8′ W.; thence to latitude 29°03.5′ N., longitude 89°03.7′ W.; thence to latitude 28°58.8′ N., longitude 89°04.3′ W.</P>
+                    <P>(b) A line drawn from latitude 28°58.8′ N., longitude 89°04.3′ W.; to latitude 28°57.3′ N., longitude 89°05.3′ W.; thence to latitude 28°56.95′ N., longitude 89°05.6′ W.; thence to latitude 29°00.4′ N., longitude 89°09.8′ W.; thence following the general trend of the seaward highwater shoreline in a northwesterly direction to latitude 29°03.4′ N., longitude 89°13.0′ W.; thence west to latitude 29°03.5′ N., longitude 89°15.5′ W.; thence following the general trend of the seaward highwater shoreline in a southwesterly direction to latitude 28°57.7′ N., longitude 89°22.3′ W.</P>
+                    <P>(c) A line drawn from latitude 28°57.7′ N., longitude 89°22.3′ W.; to latitude 28°51.4′ N., longitude 89°24.5′ W.; thence to latitude 28°52.65′ N., longitude 89°27.1′ W.; thence to the seaward extremity of the Southwest Pass West Jetty located at latitude 28°54.5′ N., longitude 89°26.1′ W.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; CGD 89-068, 55 FR 31831, Aug. 6, 1990; USCG-2012-0306, 77 FR 37312, June 21, 2012]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.830</SECTNO>
+                    <SUBJECT>Mississippi Passes, LA to Point Au Fer, LA.</SUBJECT>
+                    <P>(a) A line drawn from the seaward extremity of the Southwest Pass West Jetty located at coordinate latitude 28°54.5′ N., longitude 89°26.1′ W.; thence following the general trend of the seaward, highwater jetty and shoreline in a north, northeasterly direction to Old Tower latitude 28°58.8′ N., longitude 89°23.3′ W.; thence to westernmost point near Pass du Bois; thence to coordinate latitude 29°05.2′ N., longitude 89°24.3′ W.; thence a curved line following the general trend of the highwater shoreline to Point Au Fer Island except as otherwise described in this section.</P>
+                    <P>(b) A line drawn across the seaward extremity of the Empire Waterway (Bayou Fontanelle) entrance jetties.</P>
+                    <P>(c) An east-west line drawn from the westernmost extremity of Grand Terre Islands in the direction of 194° true to the Grand Isle Fishing Jetty Light.</P>
+                    <P>(d) A line drawn between the seaward extremity of the Belle Pass Jetties.</P>
+                    <P>(e) A line drawn from the westernmost extremity of the Timbalier Island to the easternmost extremity of Isles Dernieres.</P>
+                    <P>(f) A south-north line drawn from Caillou Bay Light 13 across Caillou Boca.</P>
+                    <P>(g) A line drawn 107° true from Caillou Bay Boat Landing Light across the entrances to Grand Bayou du Large and Bayou Grand Caillou.</P>
+                    <P>(h) A line drawn on an axis of 103° true through Taylors Bayou Entrance Light 2 across the entrances to Jack Stout Bayou, Taylors Bayou, Pelican Pass, and Bayou de West.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="195"/>
+                    <SECTNO>§ 80.835</SECTNO>
+                    <SUBJECT>Point Au Fer, LA to Calcasieu Pass, LA.</SUBJECT>
+                    <P>(a) A line drawn from Point Au Fer to Atchafalaya Channel Light 34; thence to Atchafalaya Channel Light 33; thence to latitude 29°25.0′ N., longitude 91°31.7′ W.; thence to Atchafalaya Bay Light 1 latitude 29°25.3′ N., longitude 91°35.8′ W.; thence to South Point.</P>
+                    <P>(b) Lines following the general trend of the highwater shoreline drawn across the bayou and canal inlets from the Gulf of Mexico between South Point and Calcasieu Pass except as otherwise described in this section.</P>
+                    <P>(c) A line drawn on an axis of 140° true through Southwest Pass Vermillion Bay Light 4 across Southwest Pass.</P>
+                    <P>(d) A line drawn across the seaward extremity of the Freshwater Bayou Canal Entrance Jetties.</P>
+                    <P>(e) A line drawn from Mermentau Channel East Jetty Light 6 to Mermentau Channel West Jetty Light 7.</P>
+                    <P>(f) A line drawn from the radio tower charted in approximate position latitude 29°45.7′ N., longitude 93°06.3′ W., 115° true across Mermentau Pass.</P>
+                    <P>(g) A line drawn across the seaward extremity of the Calcasieu Pass Jetties.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.840</SECTNO>
+                    <SUBJECT>Sabine Pass, TX to Galveston, TX.</SUBJECT>
+                    <P>(a) A line drawn from the Sabine Pass East Jetty Light to the seaward end of the Sabine Pass West Jetty.</P>
+                    <P>(b) Lines drawn across the small boat passes through the Sabine Pass East and West Jetties.</P>
+                    <P>(c) A line formed by the centerline of the highway bridge over Rollover Pass at Gilchrist.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.845</SECTNO>
+                    <SUBJECT>Galveston, TX to Freeport, TX.</SUBJECT>
+                    <P>(a) A line drawn from Galveston North Jetty Light 6A to Galveston South Jetty Light 5A.</P>
+                    <P>(b) A line formed by the centerline of the highway bridge over San Luis Pass.</P>
+                    <P>(c) Lines formed by the centerlines of the highway bridges over the inlets to Christmas Bay (Cedar Cut) and Drum Bay.</P>
+                    <P>(d) A line drawn from the seaward extremity of the Freeport North Jetty to Freeport Entrance Light 6; thence Freeport Entrance Light 7; thence the seaward extremity of Freeport South Jetty.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.850</SECTNO>
+                    <SUBJECT>Brazos River, TX to the Rio Grande, TX.</SUBJECT>
+                    <P>(a) Except as otherwise described in this section lines drawn continuing the general trend of the seaward, highwater shorelines across the inlets to Brazos River Diversion Channel, San Bernard River, Cedar Lakes, Brown Cedar Cut, Colorado River, Matagorda Bay, Cedar Bayou, Corpus Christi Bay, and Laguna Madre.</P>
+                    <P>(b) A line drawn across the seaward extremity of Matagorda Ship Channel North Jetties.</P>
+                    <P>(c) A line drawn from the seaward tangent of Matagorda Peninsula at Decros Point to Matagorda Light.</P>
+                    <P>(d) A line drawn across the seaward extremity of the Aransas Pass Jetties.</P>
+                    <P>(e) A line drawn across the seaward extremity of the Port Mansfield Entrance Jetties.</P>
+                    <P>(f) A line drawn across the seaward extremity of the Brazos Santiago Pass Jetties.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">Pacific Coast</HD>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">eleventh district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.1102</SECTNO>
+                    <SUBJECT>Santa Catalina Island, CA.</SUBJECT>
+                    <P>The 72 COLREGS shall apply to the harbors on Santa Catalina Island.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="196"/>
+                    <SECTNO>§ 80.1104</SECTNO>
+                    <SUBJECT>San Diego Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Zuniga Jetty Light “V” to Zuniga Jetty Light “Z”; thence to Point Loma Light.</P>
+                    <CITA>[CGD 84-091, 51 FR 7787, Mar. 6, 1986. Redesignated by CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1106</SECTNO>
+                    <SUBJECT>Mission Bay, CA.</SUBJECT>
+                    <P>A line drawn from Mission Bay South Jetty Light 2 to Mission Bay North Jetty Light 1.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1108</SECTNO>
+                    <SUBJECT>Oceanside Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Oceanside South Jetty Light 4 to Oceanside Breakwater Light 3.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1110</SECTNO>
+                    <SUBJECT>Dana Point Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Dana Point Jetty Light 4 to Dana Point Breakwater Light 3.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987; USCG-2013-0397, 78 FR 39172, July 1, 2013]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1112</SECTNO>
+                    <SUBJECT>Newport Bay, CA.</SUBJECT>
+                    <P>A line drawn from Newport Bay East Jetty Light 4 to Newport Bay West Jetty Light 3.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1114</SECTNO>
+                    <SUBJECT>San Pedro Bay—Anaheim Bay, CA.</SUBJECT>
+                    <P>(a) A line drawn across the seaward extremities of the Anaheim Bay Entrance Jetties; thence to Long Beach Breakwater East End Light 1.</P>
+                    <P>(b) A line drawn from Long Beach Channel Entrance Light 2 to Long Beach Light.</P>
+                    <P>(c) A line drawn from Los Angeles Main Entrance Channel Light 2 to Los Angeles Light.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, as amended by CGD 84-091, 51 FR 7787, Mar. 6, 1986. Further redesignated by CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1116</SECTNO>
+                    <SUBJECT>Redondo Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Redondo Beach East Jetty Light 2 to Redondo Beach West Jetty Light 3.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1118</SECTNO>
+                    <SUBJECT>Marina Del Rey, CA.</SUBJECT>
+                    <P>(a) A line drawn from Marina Del Rey Breakwater South Light 1 to Marina Del Rey Light 4.</P>
+                    <P>(b) A line drawn from Marina Del Rey Breakwater North Light 2 to Marina Del Rey Light 3.</P>
+                    <P>(c) A line drawn from Marina Del Rey Light 4 to the seaward extremity of the Ballona Creek South Jetty.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1120</SECTNO>
+                    <SUBJECT>Port Hueneme, CA.</SUBJECT>
+                    <P>(a) A line drawn from Port Hueneme East Jetty Light 4 to Port Hueneme West Jetty Light 3.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1122</SECTNO>
+                    <SUBJECT>Channel Islands Harbor, CA.</SUBJECT>
+                    <P>(a) A line drawn from Channel Islands Harbor South Jetty Light 2 to Channel Islands Harbor Breakwater South Light 1.</P>
+                    <P>(b) A line drawn from Channel Islands Harbor Breakwater North Light to Channel Islands Harbor North Jetty Light 5.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="197"/>
+                    <SECTNO>§ 80.1124</SECTNO>
+                    <SUBJECT>Ventura Marina, CA.</SUBJECT>
+                    <P>A line drawn from Ventura Marina South Jetty Light 6 to Ventura Marina Breakwater South Light 3; thence to Ventura Marina North Jetty Light 7.</P>
+                    <CITA>[CGD 84-091, 51 FR 7787, Mar. 6, 1986. Redesignated by CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1126</SECTNO>
+                    <SUBJECT>Santa Barbara Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Santa Barbara Harbor Light 4 to Santa Barbara Harbor Breakwater Light.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1130</SECTNO>
+                    <SUBJECT>San Luis Obispo Bay, CA.</SUBJECT>
+                    <P>A line drawn from the southernmost extremity of Fossil Point to the seaward extremity of Whaler Island Breakwater.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1132</SECTNO>
+                    <SUBJECT>Estero-Morro Bay, CA.</SUBJECT>
+                    <P>A line drawn from the seaward extremity of the Morro Bay East Breakwater to the Morro Bay West Breakwater Light.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1134</SECTNO>
+                    <SUBJECT>Monterey Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Monterey Harbor Light 6 to the northern extremity of Monterey Municipal Wharf 2.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1136</SECTNO>
+                    <SUBJECT>Moss Landing Harbor, CA.</SUBJECT>
+                    <P>A line drawn from the seaward extremity of the pier located 0.3 mile south of Moss Landing Harbor Entrance to the seaward extremity of the Moss Landing Harbor North Breakwater.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1138</SECTNO>
+                    <SUBJECT>Santa Cruz Harbor, CA.</SUBJECT>
+                    <P>A line drawn from the seaward extremity of the Santa Cruz Harbor East Breakwater to Santa Cruz Harbor West Breakwater Light; thence to Santa Cruz Light.</P>
+                    <CITA>[CGD 84-091, 51 FR 21748, June 16, 1986. Redesignated by CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1140</SECTNO>
+                    <SUBJECT>Pillar Point Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Pillar Point Harbor Light 6 to Pillar Point Harbor Entrance Light.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986. Redesignated by CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1142</SECTNO>
+                    <SUBJECT>San Francisco Harbor, CA.</SUBJECT>
+                    <P>A straight line drawn from Point Bonita Light through Mile Rocks Light to the shore.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1144</SECTNO>
+                    <SUBJECT>Bodega and Tomales Bay, CA.</SUBJECT>
+                    <P>(a) An east-west line drawn from Sand Point to Avalis Beach.</P>
+                    <P>(b) A line drawn from the seaward extremity of Bodega Harbor North Breakwater to Bodega Harbor Entrance Light 1.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977; 42 FR 63169, Dec. 15, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1146</SECTNO>
+                    <SUBJECT>Albion River, CA.</SUBJECT>
+                    <P>A line drawn on an axis of 030° true through Albion River Light 1 across Albion Cove.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="198"/>
+                    <SECTNO>§ 80.1148</SECTNO>
+                    <SUBJECT>Noyo River, CA.</SUBJECT>
+                    <P>A line drawn from Noyo River Entrance Daybeacon 4 to Noyo River Entrance Light 5.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1150</SECTNO>
+                    <SUBJECT>Arcata-Humboldt Bay, CA.</SUBJECT>
+                    <P>A line drawn from Humboldt Bay Entrance Light 4 to Humboldt Bay Entrance Light 3.</P>
+                    <CITA>[CGD 77-118a, 42 FR 35784, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981, and CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1152</SECTNO>
+                    <SUBJECT>Crescent City Harbor, CA.</SUBJECT>
+                    <P>A line drawn from Crescent City Entrance Light to the southeasternmost extremity of Whaler Island.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986. Redesignated by CGD 87-008b, 52 FR 25218, July 6, 1987]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">thirteenth district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.1305</SECTNO>
+                    <SUBJECT>Chetco River, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Chetco River Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1310</SECTNO>
+                    <SUBJECT>Rogue River, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Rogue River Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1315</SECTNO>
+                    <SUBJECT>Coquille River, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Coquille River Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1320</SECTNO>
+                    <SUBJECT>Coos Bay, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Coos Bay Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1325</SECTNO>
+                    <SUBJECT>Umpqua River, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Umpqua River Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1330</SECTNO>
+                    <SUBJECT>Siuslaw River, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Siuslaw River Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1335</SECTNO>
+                    <SUBJECT>Alsea Bay, OR.</SUBJECT>
+                    <P>A line drawn from the seaward shoreline on the north of the Alsea Bay Entrance 165° true across the channel entrance.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1340</SECTNO>
+                    <SUBJECT>Yaquina Bay, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Yaquina Bay Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1345</SECTNO>
+                    <SUBJECT>Depoe Bay, OR.</SUBJECT>
+                    <P>A line drawn across the Depoe Bay Channel entrance parallel with the general trend of the highwater shoreline.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1350</SECTNO>
+                    <SUBJECT>Netarts Bay, OR.</SUBJECT>
+                    <P>A line drawn from the northernmost extremity of the shore on the south side of Netarts Bay north to the opposite shoreline.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1355</SECTNO>
+                    <SUBJECT>Tillamook Bay, OR.</SUBJECT>
+                    <P>A line drawn across the seaward extremities of the Tillamook Bay Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1360</SECTNO>
+                    <SUBJECT>Nehalem River, OR.</SUBJECT>
+                    <P>A line drawn approximately parallel with the general trend of the highwater shoreline across the Nehalem River Entrance.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1365</SECTNO>
+                    <SUBJECT>Columbia River Entrance, OR/WA.</SUBJECT>
+                    <P>A line drawn from the seaward extremity of the Columbia River North Jetty (above water) 155° true to the seaward extremity of the Columbia River South Jetty (above water).</P>
+                </SECTION>
+                <SECTION>
+                    <PRTPAGE P="199"/>
+                    <SECTNO>§ 80.1370</SECTNO>
+                    <SUBJECT>Willapa Bay, WA.</SUBJECT>
+                    <P>A line drawn from Willapa Bay Light 169.8° true to the westernmost tripod charted 1.6 miles south of Leadbetter Point.</P>
+                    <CITA>[CGD 89-068, 55 FR 31831, Aug. 6, 1990]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1375</SECTNO>
+                    <SUBJECT>Grays Harbor, WA.</SUBJECT>
+                    <P>A line drawn across the seaward extremities (above water) of the Grays Harbor Entrance Jetties.</P>
+                    <CITA>[CGD 84-091, 51 FR 7788, Mar. 6, 1986]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1380</SECTNO>
+                    <SUBJECT>Quillayute River, WA.</SUBJECT>
+                    <P>A line drawn from the seaward extremity of the Quillayute River Entrance East Jetty to the overhead power cable tower charted on James Island; thence a straight line through Quillayute River Entrance Light 3 to the shoreline.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1385</SECTNO>
+                    <SUBJECT>Strait of Juan de Fuca.</SUBJECT>
+                    <P>The 72 COLREGS shall apply on all waters of the Strait of Juan de Fuca.</P>
+                    <CITA>[CGD 81-087, 46 FR 61457, Dec. 17, 1981; 47 FR 3351, Jan. 25, 1982, and 49 FR 3177, Jan. 26, 1984]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1390</SECTNO>
+                    <SUBJECT>Haro Strait and Strait of Georgia.</SUBJECT>
+                    <P>The 72 COLREGS shall apply on all waters of the Haro Strait and the Strait of Georgia.</P>
+                    <CITA>[CGD 81-087, 46 FR 61457, Dec. 17, 1981; 47 FR 3351, Jan. 25, 1982, and 49 FR 3177, Jan. 26, 1984]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1395</SECTNO>
+                    <SUBJECT>Puget Sound and adjacent waters.</SUBJECT>
+                    <P>The 72 COLREGS shall apply on all waters of Puget Sound and adjacent waters, including Lake Union, Lake Washington, Hood Canal, and all tributaries.</P>
+                    <CITA>[CGD 81-087, 46 FR 61457, Dec. 17, 1981; 47 FR 3351, Jan. 25, 1982, and 49 FR 3177, Jan. 26, 1984]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">Pacific Islands</HD>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">fourteenth district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.1410</SECTNO>
+                    <SUBJECT>Hawaiian Island Exemption from General Rule.</SUBJECT>
+                    <P>Except as provided elsewhere in this part for Mamala Bay and Kaneohe Bay on Oahu; Port Allen and Nawiliwili Bay on Kauai; Kahului Harbor on Maui; and Kawailae and Hilo Harbors on Hawaii, the 72 COLREGS shall apply on all other bays, harbors, and lagoons of the Hawaiian Island (including Midway).</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1420</SECTNO>
+                    <SUBJECT>Mamala Bay, Oahu, HI.</SUBJECT>
+                    <P>A line drawn from 21°17′46.9″ N., 158°06′22.2′ W. (Barbers Point Light) to 21°15′20.5″ N., 157°48′34.3″ W. (Diamond Head Light).</P>
+                    <CITA>[USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1430</SECTNO>
+                    <SUBJECT>Kaneohe Bay, Oahu, HI.</SUBJECT>
+                    <P>A line drawn from 21°27′44.1″ N., 157°45′48.6″ W. (Pyramid Rock Light), across Kaneohe Bay through the center of Mokolii Island to the shoreline.</P>
+                    <CITA>[USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1440</SECTNO>
+                    <SUBJECT>Port Allen, Kauai, HI.</SUBJECT>
+                    <P>A line drawn from 21°53′34.3″ N., 159°36′15.6″ W. (Puolo Point Light) to 21°53′49.0″ N., 159°35′27.2″ W. (Hanapepe Breakwater Light 2).</P>
+                    <CITA>[USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1450</SECTNO>
+                    <SUBJECT>Nawiliwili Harbor, Kauai, HI.</SUBJECT>
+                    <P>A line drawn from the seaward extremity of Nawiliwili Harbor Breakwater Light to 21°57′23.8″ N., 159°20′52.7″ W. (Kukii Point Light).</P>
+                    <CITA>[USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1460</SECTNO>
+                    <SUBJECT>Kahului Harbor, Maui, HI.</SUBJECT>
+                    <P>A line drawn from 20°54′04.1″ N., 156°28′26.8″ W. (Kahului Entrance Breakwater Light 4), to 20°54′02.3″ N., 156°28′17.4″ W. (Kahului Entrance Breakwater Light 3).</P>
+                    <CITA>[USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1470</SECTNO>
+                    <SUBJECT>Kawaihae Harbor, Hawaii, HI.</SUBJECT>
+                    <P>A line drawn from 20°02′29.1″ N., 155°49′58.2″ W. (Kawaihae Light), to the seaward extremity of the Kawaihae South Breakwater.</P>
+                    <CITA>[USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1480</SECTNO>
+                    <SUBJECT>Hilo Harbor, Hawaii, HI.</SUBJECT>
+                    <P>
+                        A line drawn from the seaward extremity of the Hilo Breakwater 265° true (as an extension of the seaward 
+                        <PRTPAGE P="200"/>
+                        side of the breakwater) to the shoreline 0.2 nautical mile north of Alealea Point.
+                    </P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1490</SECTNO>
+                    <SUBJECT>Apra Harbor, U.S. Territory of Guam.</SUBJECT>
+                    <P>A line drawn from the westernmost extremity of Orote Island to the westernmost extremity of Glass Breakwater.</P>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 80.1495</SECTNO>
+                    <SUBJECT>U.S. Pacific Island Possessions.</SUBJECT>
+                    <P>The 72 COLREGS shall apply on the bays, harbors, lagoons, and waters surrounding the U.S. Pacific Island Possessions of American Samoa, Baker, Howland, Jarvis, Johnson, Palmyra, Swains and Wake Islands.</P>
+                    <CITA>[CGD 94-011, 63 FR 5731, Feb. 4, 1998]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">Alaska</HD>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">seventeenth district</HD>
+                <SECTION>
+                    <SECTNO>§ 80.1705</SECTNO>
+                    <SUBJECT>Alaska.</SUBJECT>
+                    <P>The 72 COLREGS shall apply on all the sounds, bays, harbors, and inlets of Alaska.</P>
+                    <CITA>[CGD 79-036, 44 FR 22458, Apr. 16, 1979. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981]</CITA>
+                </SECTION>
+            </SUBJGRP>
+        </PART>
+        <PART>
+            <EAR>Pt. 81</EAR>
+            <HD SOURCE="HED">PART 81—72 COLREGS: IMPLEMENTING RULES</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>81.1</SECTNO>
+                <SUBJECT>Definitions.</SUBJECT>
+                <SECTNO>81.3</SECTNO>
+                <SUBJECT>General.</SUBJECT>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Alternative Compliance</HD>
+                    <SECTNO>81.5</SECTNO>
+                    <SUBJECT>Application for a Certificate of Alternative Compliance.</SUBJECT>
+                    <SECTNO>81.9</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Contents.</SUBJECT>
+                    <SECTNO>81.17</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Termination.</SUBJECT>
+                    <SECTNO>81.18</SECTNO>
+                    <SUBJECT>Notice and record of certification of vessels of special construction or purpose.</SUBJECT>
+                </SUBJGRP>
+                <SUBJGRP>
+                    <HD SOURCE="HED">Exemptions</HD>
+                    <SECTNO>81.20</SECTNO>
+                    <SUBJECT>Lights and sound signal appliances.</SUBJECT>
+                </SUBJGRP>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>33 U.S.C. 1607; E.O. 11964; 49 CFR 1.46.</P>
+            </AUTH>
+            <SOURCE>
+                <HD SOURCE="HED">Source:</HD>
+                <P>CGD 76-130, 42 FR 17111, Mar. 31, 1977, unless otherwise noted. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981.</P>
+            </SOURCE>
+            <SECTION>
+                <SECTNO>§ 81.1</SECTNO>
+                <SUBJECT>Definitions.</SUBJECT>
+                <P>As used in this part:</P>
+                <P>
+                    <E T="03">72 COLREGS</E>
+                     refers to the International Regulations for Preventing Collisions at Sea, 1972, done at London, October 20, 1972, as rectified by the Proces-Verbal of December 1, 1973, as amended.
+                </P>
+                <P>
+                    <E T="03">A vessel of special construction or purpose</E>
+                     means a vessel designed or modified to perform a special function and whose arrangement is thereby made relatively inflexible.
+                </P>
+                <P>
+                    <E T="03">Interference with the special function of the vessel</E>
+                     occurs when installation or use of lights, shapes, or sound-signaling appliances under 72 COLREGS prevents or significantly hinders the operation in which the vessel is usually engaged.
+                </P>
+                <CITA>[CGD 77-136, 47 FR 13799, Apr. 1, 1982]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 81.3</SECTNO>
+                <SUBJECT>General.</SUBJECT>
+                <P>Vessels of special construction or purpose which cannot fully comply with the light, shape, and sound signal provisions of 72 COLREGS without interfering with their special function may instead meet alternative requirements. The Chief of the Prevention Division in each Coast Guard District Office makes this determination and requires that alternative compliance be as close as possible with the 72 COLREGS. These regulations set out the procedure by which a vessel may be certified for alternative compliance. The information collection and recordkeeping requirements in §§ 81.5 and 81.18 have been approved by the Office of Management and Budget under OMB control No. 1625-0019.</P>
+                <CITA>[CGD 77-136, 47 FR 13799, Apr. 1, 1982, as amended by USCG-2006-25150, 71 FR 39208, July 12, 2006; USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+            </SECTION>
+            <SUBJGRP>
+                <HD SOURCE="HED">Alternative Compliance</HD>
+                <SECTION>
+                    <SECTNO>§ 81.5</SECTNO>
+                    <SUBJECT>Application for a Certificate of Alternative Compliance.</SUBJECT>
+                    <P>
+                        (a) The owner, builder, operator, or agent of a vessel of special construction or purpose who believes the vessel cannot fully comply with the 72 COLREGS light, shape, or sound signal provisions without interference with 
+                        <PRTPAGE P="201"/>
+                        its special function may apply for a determination that alternative compliance is justified. The application must be in writing, submitted to the Chief of the Prevention Division of the Coast Guard District in which the vessel is being built or operated, and include the following information:
+                    </P>
+                    <P>(1) The name, address, and telephone number of the applicant.</P>
+                    <P>(2) The identification of the vessel by its:</P>
+                    <P>(i) Official number;</P>
+                    <P>(ii) Shipyard hull number;</P>
+                    <P>(iii) Hull identification number; or</P>
+                    <P>(iv) State number, if the vessel does not have an official number or hull identification number.</P>
+                    <P>(3) Vessel name and home port, if known.</P>
+                    <P>(4) A description of the vessel's area of operation.</P>
+                    <P>(5) A description of the provision for which the Certificate of Alternative Compliance is sought, including:</P>
+                    <P>(i) The 72 COLREGS Rule or Annex section number for which the Certificate of Alternative Compliance is sought;</P>
+                    <P>(ii) A description of the special function of the vessel that would be interfered with by full compliance with the provision of that Rule or Annex section; and</P>
+                    <P>(iii) A statement of how full compliance would interfere with the special function of the vessel.</P>
+                    <P>(6) A description of the alternative installation that is in closest possible compliance with the applicable 72 COLREGS Rule or Annex section.</P>
+                    <P>(7) A copy of the vessel's plans or an accurate scale drawing that clearly shows:</P>
+                    <P>(i) The required installation of the equipment under the 72 COLREGS,</P>
+                    <P>(ii) The proposed installation of the equipment for which certification is being sought, and</P>
+                    <P>(iii) Any obstructions that may interfere with the equipment when installed in:</P>
+                    <P>(A) The required location; and</P>
+                    <P>(B) The proposed location.</P>
+                    <P>(b) The Coast Guard may request from the applicant additional information concerning the application.</P>
+                    <APPRO>(Approved by the Office of Management and Budget under control number 1625-0019)</APPRO>
+                    <CITA>[CGD 77-136, 47 FR 13799, Apr. 1, 1982, as amended by USCG-2006-25150, 71 FR 39208, July 12, 2006; USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 81.9</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Contents.</SUBJECT>
+                    <P>The Chief of the Prevention Division issues the Certificate of Alternative Compliance to the vessel based on a determination that it cannot comply fully with 72 COLREGS light, shape, and sound signal provisions without interference with its special function. This Certificate includes—</P>
+                    <P>(a) Identification of the vessel as supplied in the application under § 81.5(a)(2);</P>
+                    <P>(b) The provision of the 72 COLREGS for which the Certificate authorizes alternative compliance;</P>
+                    <P>(c) A certification that the vessel is unable to comply fully with the 72 COLREGS lights, shape, and sound signal requirements without interference with its special function;</P>
+                    <P>(d) A statement of why full compliance would interfere with the special function of the vessel;</P>
+                    <P>(e) The required alternative installation;</P>
+                    <P>(f) A statement that the required alternative installation is in the closest possible compliance with the 72 COLREGS without interfering with the special function of the vessel;</P>
+                    <P>(g) The date of issuance;</P>
+                    <P>(h) A statement that the Certificate of Alternative Compliance terminates when the vessel ceases to be usually engaged in the operation for which the certificate is issued.</P>
+                    <CITA>[CGD 77-136, 47 FR 13800, Apr. 1, 1982, as amended by USCG-2018-0874, 84 FR 30878, June 28, 2019]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 81.17</SECTNO>
+                    <SUBJECT>Certificate of Alternative Compliance: Termination.</SUBJECT>
+                    <P>
+                        The Certificate of Alternative Compliance terminates if the information 
+                        <PRTPAGE P="202"/>
+                        supplied under § 81.5(a) or the Certificate issued under § 81.9 is no longer applicable to the vessel.
+                    </P>
+                    <CITA>[CGD 77-136, 47 FR 13800, Apr. 1, 1982]</CITA>
+                </SECTION>
+                <SECTION>
+                    <SECTNO>§ 81.18</SECTNO>
+                    <SUBJECT>Notice and record of certification of vessels of special construction or purpose.</SUBJECT>
+                    <P>
+                        (a) In accordance with 33 U.S.C. 1605(c), a notice is published in the 
+                        <E T="04">Federal Register</E>
+                         of the following:
+                    </P>
+                    <P>(1) Each Certificate of Alternative Compliance issued under § 81.9; and</P>
+                    <P>(2) Each Coast Guard vessel determined by the Commandant to be a vessel of special construction or purpose.</P>
+                    <P>(b) Copies of Certificate of Alternative Compliance and documentation concerning Coast Guard vessels are available for inspection at Marine Transportation Systems Directorate, U.S. Coast Guard Headquarters, (CG-5PW), Stop 7509, 2703 Martin Luther King Avenue SE., Washington, DC 20593-7509.</P>
+                    <P>(c) The owner or operator of a vessel issued a Certificate shall ensure that the vessel does not operate unless the Certificate of Alternative Compliance or a certified copy of that Certificate is on board the vessel and available for inspection by Coast Guard personnel.</P>
+                    <APPRO>(Approved by the Office of Management and Budget under control number 1625-0019)</APPRO>
+                    <CITA>[CGD 77-136, 47 FR 13800, Apr. 1, 1982, as amended by CGD 88-052, 53 FR 25119, July 1, 1988; CGD 96-026, 61 FR 33663, June 28, 1996; CGD 78-82, 43 FR 54186, Nov. 20, 1978; USCG-2006-25150, 71 FR 39208, July 12, 2006; USCG-2010-0351, 75 FR 36281, June 25, 2010; USCG-2014-0410, 79 FR 38431, July 7, 2014]</CITA>
+                </SECTION>
+            </SUBJGRP>
+            <SUBJGRP>
+                <HD SOURCE="HED">Exemptions</HD>
+                <SECTION>
+                    <SECTNO>§ 81.20</SECTNO>
+                    <SUBJECT>Lights and sound signal appliances.</SUBJECT>
+                    <P>Each vessel under the 72 COLREGS, except the vessels of the Navy, is exempt from the requirements of the 72 COLREGS to the limitation for the period of time stated in Rule 38 (a), (b), (c), (d), (e), (f), and (g) if:</P>
+                    <P>(a) Her keel is laid or is at a corresponding stage of construction before July 15, 1977; and</P>
+                    <P>(b) She meets the International Regulations for Preventing Collisions at Sea, 1960 (77 Stat. 194, 33 U.S.C. 1051-1094).</P>
+                    <CITA>[CGD 76-133, 42 FR 35792, July 11, 1977. Redesignated at CGD 81-017, 46 FR 28154, May 26, 1981]</CITA>
+                </SECTION>
+            </SUBJGRP>
+        </PART>
+        <PART>
+            <EAR>Pt. 82</EAR>
+            <HD SOURCE="HED">PART 82—72 COLREGS: INTERPRETATIVE RULES</HD>
+            <CONTENTS>
+                <SECHD>Sec.</SECHD>
+                <SECTNO>82.1</SECTNO>
+                <SUBJECT>Purpose.</SUBJECT>
+                <SECTNO>82.3</SECTNO>
+                <SUBJECT>Pushing vessel and vessel being pushed: Composite unit.</SUBJECT>
+                <SECTNO>82.5</SECTNO>
+                <SUBJECT>Lights for moored vessels.</SUBJECT>
+                <SECTNO>82.7</SECTNO>
+                <SUBJECT>Sidelights for unmanned barges.</SUBJECT>
+            </CONTENTS>
+            <AUTH>
+                <HD SOURCE="HED">Authority:</HD>
+                <P>14 U.S.C. 102, 503; 33 U.S.C. 1602; E.O. 11964, 42 FR 4327, 3 CFR, 1977 Comp., p. 88; 49 CFR 1.46(n).</P>
+            </AUTH>
+            <SECTION>
+                <SECTNO>§ 82.1</SECTNO>
+                <SUBJECT>Purpose.</SUBJECT>
+                <P>This part contains the interpretative rules concerning the 72 COLREGS that are adopted by the Coast Guard for the guidance of the public.</P>
+                <CITA>[CGD 76-133, 42 FR 35792, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 82.3</SECTNO>
+                <SUBJECT>Pushing vessel and vessel being pushed: Composite unit.</SUBJECT>
+                <P>Rule 24(b) of the 72 COLREGS states that when a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit, they are regarded as a power-driven vessel and must exhibit the lights under Rule 23. A “composite unit” is interpreted to be a pushing vessel that is rigidly connected by mechanical means to a vessel being pushed so they react to sea and swell as one vessel. “Mechanical means” does not include the following:</P>
+                <P>(a) Lines.</P>
+                <P>(b) Hawsers.</P>
+                <P>(c) Wires.</P>
+                <P>(d) Chains.</P>
+                <CITA>[CGD 76-133, 42 FR 35792, July 11, 1977. Redesignated by CGD 81-017, 46 FR 28154, May 26, 1981]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 82.5</SECTNO>
+                <SUBJECT>Lights for moored vessels.</SUBJECT>
+                <P>
+                    For the purposes of Rule 30 of the 72 COLREGS, a 
+                    <E T="03">vessel at anchor</E>
+                     includes a barge made fast to one or more mooring buoys or other similar device attached to the sea or river floor. Such a barge may be lighted as a vessel at anchor in accordance with Rule 30, or 
+                    <PRTPAGE P="203"/>
+                    may be lighted on the corners in accordance with 33 CFR 83.30(h) through (l).
+                </P>
+                <CITA>[CGD 94-011, 63 FR 5731, Feb. 4, 1998, as amended by USCG-2015-0433, 80 FR 44280, July 27, 2015; USCG-2016-0498, 82 FR 35080, July 28, 2017]</CITA>
+            </SECTION>
+            <SECTION>
+                <SECTNO>§ 82.7</SECTNO>
+                <SUBJECT>Sidelights for unmanned barges.</SUBJECT>
+                <P>An unmanned barge being towed may use the exception of COLREGS Rule 24(h). However, this exception only applies to the vertical sector requirements.</P>
+                <CITA>[CGD 94-011, 63 FR 5731, Feb. 4, 1998]</CITA>
+            </SECTION>
+        </PART>
+    </SUBCHAP>
+</CFRGRANULE>
