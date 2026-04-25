@@ -4,12 +4,13 @@ require __DIR__ . '/session_check.php';
 require __DIR__ . '/db_connect.php';
 require_once __DIR__ . '/helpers.php';
 require __DIR__ . '/includes/message_functions.php';
-$onesignal_config = __DIR__ . '/../private/config_onesignal.php';
 
+$onesignal_config = __DIR__ . '/private/config_onesignal.php';
+if (!file_exists($onesignal_config)) {
+    $onesignal_config = '/var/www/private/config_onesignal.php';
+}
 if (file_exists($onesignal_config)) {
-    require_once($onesignal_config);
-} else {
-    // Optional: fallback or skip for local
+    require_once $onesignal_config;
 }
 
 function safe($value) {
