@@ -382,10 +382,7 @@ $soonDT  = $todayDT->modify('+60 days');
 
             <a href="equipment_detail.php?id=<?= (int)$item['eid'] ?>" class="equipment-action">View</a> |
 
-            <a href="edit_equipment.php?id=<?= (int)$item['eid'] ?>" class="equipment-action">Edit</a> |
-
-            <a href="delete_equipment.php?id=<?= (int)$item['eid'] ?>" class="equipment-action text-danger"
-            onclick="return confirm('Are you sure you want to delete this item?')">Delete</a>
+            <a href="edit_equipment.php?id=<?= (int)$item['eid'] ?>" class="equipment-action">Edit</a>
 
             </td>
 

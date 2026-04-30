@@ -288,6 +288,12 @@ include __DIR__ . '/partials/top_nav.php';
                         <?= (int)$expiring_count ?> equipment item<?= $expiring_count === 1 ? '' : 's' ?> expired or expiring within 60 days.
                     </div>
                 <?php endif; ?>
+
+                <?php if (($_GET['success'] ?? '') === 'equipment_deleted'): ?>
+                    <div class="alert alert-success mb-0 mt-3">
+                        Erroneous duplicate equipment record deleted.
+                    </div>
+                <?php endif; ?>
             </div>
 
             <div class="vms-card mb-3">

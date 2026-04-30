@@ -6,6 +6,12 @@ function user_is_mscs(): bool {
     return (int)($_SESSION['company_id'] ?? 0) === 1;
 }
 
+function user_is_mscs_admin(): bool {
+    return isset($_SESSION['company_id'], $_SESSION['role_id'])
+        && (int)$_SESSION['company_id'] === 1
+        && (int)$_SESSION['role_id'] === 1;
+}
+
 /**
  * Return the list of vessel_ids this user can access when "All" is selected.
  * - MSCS: all ACTIVE vessels (no company filter)

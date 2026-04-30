@@ -117,7 +117,7 @@
 	    echo "</td>";
             echo "<td>
                 <a href='edit_equipment.php?id={$row['eid']}' class='btn btn-sm btn-primary'>Edit</a>
-                <a href='delete_equipment.php?id={$row['eid']}' class='btn btn-sm btn-danger' onclick=\"return confirm('Delete this item?')\">Delete</a>
+                <a href='equipment_detail.php?id={$row['eid']}' class='btn btn-sm btn-outline-secondary'>View</a>
               </td>";
             echo "</tr>";
         }

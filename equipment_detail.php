@@ -4,6 +4,7 @@ require __DIR__ . '/db_connect.php';
 require_once __DIR__ . '/includes/hour_meter_functions.php';
 require_once __DIR__ . '/includes/maintenance_source_finder_functions.php';
 require_once __DIR__ . '/includes/maintenance_template_extraction_functions.php';
+require_once __DIR__ . '/lib/acl.php';
 
 $equipment_id = intval($_GET['id'] ?? 0);
 
@@ -112,6 +113,53 @@ function yesNoDash($value) {
     return ((string)$value === '1') ? 'Yes' : 'No';
 }
 
+function equipment_detail_count_dependency(PDO $pdo, string $table, string $column, int $equipmentId, ?string $extraWhere = null, array $extraParams = []): int
+{
+    if (!vms_hour_table_exists($pdo, $table) || !vms_hour_column_exists($pdo, $table, $column)) {
+        return 0;
+    }
+
+    $sql = "SELECT COUNT(*) FROM `$table` WHERE `$column` = ?";
+    if ($extraWhere !== null && $extraWhere !== '') {
+        $sql .= " AND {$extraWhere}";
+    }
+
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute(array_merge([$equipmentId], $extraParams));
+    return (int)$stmt->fetchColumn();
+}
+
+function equipment_detail_dependency_counts(PDO $pdo, int $equipmentId, array $equipment): array
+{
+    $counts = [
+        'Corrective actions / tasks' => equipment_detail_count_dependency($pdo, 'tasks', 'equipment_id', $equipmentId),
+        'ICR run history' => equipment_detail_count_dependency($pdo, 'vessel_icr_run_equipment', 'equipment_id', $equipmentId),
+        'Hour meters' => equipment_detail_count_dependency($pdo, 'equipment_hour_meters', 'equipment_id', $equipmentId),
+        'Meter readings' => equipment_detail_count_dependency($pdo, 'equipment_hour_readings', 'equipment_id', $equipmentId),
+        'Meter adjustment audit' => equipment_detail_count_dependency($pdo, 'equipment_hour_adjustments_audit', 'equipment_id', $equipmentId),
+        'Maintenance schedules' => equipment_detail_count_dependency($pdo, 'equipment_maintenance_schedules', 'equipment_id', $equipmentId),
+        'Maintenance events' => equipment_detail_count_dependency($pdo, 'equipment_maintenance_events', 'equipment_id', $equipmentId),
+        'Fire extinguisher details' => equipment_detail_count_dependency($pdo, 'fire_extinguisher_details', 'eid', $equipmentId),
+        'QR links' => equipment_detail_count_dependency($pdo, 'qr_links', 'asset_id', $equipmentId, 'asset_type = ?', ['equipment']),
+        'Manual sources' => equipment_detail_count_dependency($pdo, 'equipment_manual_sources', 'equipment_id', $equipmentId),
+        'Replacement link from this item' => !empty($equipment['replaced_by_eid']) ? 1 : 0,
+        'Equipment this item replaces' => equipment_detail_count_dependency($pdo, 'equipment', 'replaced_by_eid', $equipmentId),
+    ];
+
+    $fileCount = 0;
+    if (vms_hour_table_exists($pdo, 'equipment_files')) {
+        if (vms_hour_column_exists($pdo, 'equipment_files', 'eid')) {
+            $fileCount += equipment_detail_count_dependency($pdo, 'equipment_files', 'eid', $equipmentId);
+        }
+        if (vms_hour_column_exists($pdo, 'equipment_files', 'equipment_id')) {
+            $fileCount += equipment_detail_count_dependency($pdo, 'equipment_files', 'equipment_id', $equipmentId);
+        }
+    }
+    $counts['Equipment files'] = $fileCount;
+
+    return $counts;
+}
+
 $hasFireDetails = !empty($equipment['extinguisher_detail_id']);
 $vessel_id = (int)$equipment['vessel_id'];
 $hourMeter = vms_hour_get_meter_by_equipment($pdo, $equipment_id);
@@ -161,6 +209,13 @@ $sourceSearch = [
 ];
 $manualSources = vms_source_finder_get_saved_sources($pdo, $sourceSearch, $equipment_id, 6);
 $availableTemplates = vms_template_get_matching_approved_templates($pdo, $sourceSearch, 8);
+$isMscsAdmin = user_is_mscs_admin();
+$deleteDependencyCounts = $isMscsAdmin ? equipment_detail_dependency_counts($pdo, $equipment_id, $equipment) : [];
+$deleteDependencyTotal = array_sum($deleteDependencyCounts);
+if ($isMscsAdmin && empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+$csrfToken = (string)($_SESSION['csrf_token'] ?? '');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -370,6 +425,82 @@ include __DIR__ . '/partials/top_nav.php';
                     </table>
                 </div>
             </div>
+
+            <?php if ($isMscsAdmin): ?>
+                <div class="card mb-4 border-danger">
+                    <div class="card-header d-flex justify-content-between align-items-center flex-wrap gap-2">
+                        <strong>Admin Cleanup</strong>
+                        <button type="button" class="btn btn-sm btn-outline-danger" onclick="document.getElementById('deleteDuplicatePanel').classList.toggle('d-none');">
+                            Delete Erroneous Duplicate
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <div class="alert <?= $deleteDependencyTotal > 0 ? 'alert-warning' : 'alert-secondary' ?> py-2">
+                            <?php if ($deleteDependencyTotal > 0): ?>
+                                This equipment has operational history. Use Replace or retire it instead.
+                            <?php else: ?>
+                                No dependent records were found. Deletion is available only for erroneous duplicate cleanup.
+                            <?php endif; ?>
+                        </div>
+
+                        <div class="table-responsive mb-3">
+                            <table class="table table-sm table-bordered mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Safety Check</th>
+                                        <th class="text-end">Records</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <?php foreach ($deleteDependencyCounts as $label => $count): ?>
+                                    <tr class="<?= (int)$count > 0 ? 'table-warning' : '' ?>">
+                                        <td><?= safe($label) ?></td>
+                                        <td class="text-end"><?= (int)$count ?></td>
+                                    </tr>
+                                <?php endforeach; ?>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div id="deleteDuplicatePanel" class="d-none">
+                            <form method="post" action="delete_equipment.php" class="row g-3">
+                                <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($csrfToken, ENT_QUOTES, 'UTF-8') ?>">
+                                <input type="hidden" name="equipment_id" value="<?= (int)$equipment['eid'] ?>">
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Confirmation</label>
+                                    <input type="text"
+                                           name="confirm_text"
+                                           class="form-control"
+                                           placeholder="DELETE EQUIPMENT #<?= (int)$equipment['eid'] ?>"
+                                           required
+                                           <?= $deleteDependencyTotal > 0 ? 'disabled' : '' ?>>
+                                    <div class="form-text">Type DELETE EQUIPMENT #<?= (int)$equipment['eid'] ?> exactly.</div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Reason</label>
+                                    <input type="text"
+                                           name="reason"
+                                           class="form-control"
+                                           maxlength="255"
+                                           required
+                                           <?= $deleteDependencyTotal > 0 ? 'disabled' : '' ?>>
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit"
+                                            class="btn btn-outline-danger"
+                                            onclick="return confirm('Delete this erroneous duplicate equipment record? This cannot be undone.');"
+                                            <?= $deleteDependencyTotal > 0 ? 'disabled' : '' ?>>
+                                        Delete Erroneous Duplicate
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <?php endif; ?>
 
             <?php if ($manualSources || !empty(trim((string)($equipment['manufacturer'] ?? ''))) || !empty(trim((string)($equipment['modelNumber'] ?? '')))): ?>
                 <div class="card mb-4">
