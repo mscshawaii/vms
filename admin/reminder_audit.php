@@ -6,6 +6,7 @@ require __DIR__ . '/../session_check.php';
 require_once __DIR__ . '/../includes/document_reminder_functions.php';
 require_once __DIR__ . '/../includes/equipment_reminder_functions.php';
 require_once __DIR__ . '/../includes/icr_reminder_functions.php';
+require_once __DIR__ . '/../includes/reminder_recipient_helpers.php';
 
 $company_id = (int)($_SESSION['company_id'] ?? 0);
 $role_id = (int)($_SESSION['role_id'] ?? 0);
@@ -36,24 +37,24 @@ function cleanAuditEmailList(array $emails): array
 
 function addAuditRecipient(array &$bucket, string $email, string $roleLabel, string $sourceName = ''): void
 {
-    $email = strtolower(trim($email));
-    if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $normalized = reminder_normalize_email($email);
+    if ($normalized === null) {
         return;
     }
 
-    if (!isset($bucket[$email])) {
-        $bucket[$email] = [
-            'email' => $email,
+    if (!isset($bucket[$normalized])) {
+        $bucket[$normalized] = [
+            'email' => trim($email),
             'roles' => [],
             'sources' => [],
         ];
     }
 
-    if (!in_array($roleLabel, $bucket[$email]['roles'], true)) {
-        $bucket[$email]['roles'][] = $roleLabel;
+    if (!in_array($roleLabel, $bucket[$normalized]['roles'], true)) {
+        $bucket[$normalized]['roles'][] = $roleLabel;
     }
-    if ($sourceName !== '' && !in_array($sourceName, $bucket[$email]['sources'], true)) {
-        $bucket[$email]['sources'][] = $sourceName;
+    if ($sourceName !== '' && !in_array($sourceName, $bucket[$normalized]['sources'], true)) {
+        $bucket[$normalized]['sources'][] = $sourceName;
     }
 }
 
@@ -180,8 +181,10 @@ function buildAuditRecipientPreview(PDO $pdo, int $vesselId, array $config): arr
     $to = getAuditVesselRecipients($pdo, $vesselId);
 
     if ($ownersEnabled) {
-        foreach (getAuditOwnerRecipients($pdo, $vesselId) as $email => $recipient) {
-            $to[$email] = $recipient;
+        foreach (getAuditOwnerRecipients($pdo, $vesselId) as $recipient) {
+            foreach ((array)($recipient['roles'] ?? ['owner']) as $role) {
+                addAuditRecipient($to, (string)$recipient['email'], (string)$role, implode(', ', (array)($recipient['sources'] ?? [])));
+            }
         }
     }
 
@@ -544,7 +547,7 @@ if (tableExists($pdo, 'icr_reminder_log')) {
     <div class="section-card">
         <div class="card-body">
             <h2 class="h5">Section B - User Reminder Eligibility Matrix</h2>
-            <div class="small-muted mb-2">Current runners use <code>receive_notifications</code> for both weekly and monthly user enrollment.</div>
+            <div class="small-muted mb-2">Current runners use <code>receive_notifications</code> for both weekly and monthly user enrollment. Recipient previews are normalized and deduped by email.</div>
             <div class="table-responsive" style="max-height: 620px;">
                 <table class="table table-sm table-striped">
                     <thead class="sticky-head">
@@ -592,9 +595,9 @@ if (tableExists($pdo, 'icr_reminder_log')) {
                     <thead class="sticky-head">
                     <tr>
                         <th>Vessel</th><th>Owner/company</th>
-                        <?php if ($showWeekly): ?><th>Weekly Compliance recipients</th><?php endif; ?>
-                        <?php if ($showMonthly): ?><th>Monthly Maintenance recipients</th><?php endif; ?>
-                        <th>MSCS CC/test recipients</th><th>Warnings</th>
+                        <?php if ($showWeekly): ?><th>Weekly Compliance final TO</th><?php endif; ?>
+                        <?php if ($showMonthly): ?><th>Monthly Maintenance final TO</th><?php endif; ?>
+                        <th>Final CC / test recipients</th><th>Warnings</th>
                     </tr>
                     </thead>
                     <tbody>

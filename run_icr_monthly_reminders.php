@@ -4,6 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/db_connect.php';
 require_once __DIR__ . '/includes/icr_reminder_functions.php';
 require_once __DIR__ . '/includes/email_helper.php';
+require_once __DIR__ . '/includes/reminder_recipient_helpers.php';
 
 $config = require __DIR__ . '/config_reminders.php';
 
@@ -279,6 +280,7 @@ $ccRecipients = (array)$payload['cc_recipients'];
 
 $toEmails = array_map(fn($r) => $r['email'], $toRecipients);
 $ccEmails = array_map(fn($r) => $r['email'], $ccRecipients);
+[$toEmails, $ccEmails] = reminder_dedupe_to_cc($toEmails, $ccEmails);
 
 $subject = buildIcrReminderSubject($vesselName, $asOf);
 

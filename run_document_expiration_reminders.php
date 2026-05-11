@@ -5,6 +5,7 @@ require_once __DIR__ . '/db_connect.php';
 require_once __DIR__ . '/includes/document_reminder_functions.php';
 require_once __DIR__ . '/includes/equipment_reminder_functions.php';
 require_once __DIR__ . '/includes/email_helper.php';
+require_once __DIR__ . '/includes/reminder_recipient_helpers.php';
 
 $config = require __DIR__ . '/config_reminders.php';
 
@@ -381,6 +382,7 @@ foreach ($emailQueue as $vesselId => $payload) {
 
     $toEmails = array_map(fn($r) => $r['email'], $toRecipients);
     $ccEmails = array_map(fn($r) => $r['email'], $ccRecipients);
+    [$toEmails, $ccEmails] = reminder_dedupe_to_cc($toEmails, $ccEmails);
 
     $subject  = buildReminderSubject('weekly_digest', $vesselName, $documents, $equipment);
     $body     = buildReminderBody('weekly_digest', $vesselName, (int)$vesselId, $documents, $equipment);
