@@ -276,6 +276,26 @@ include __DIR__ . '/partials/top_nav.php';
         </div>
 
         <?php if ($isMSCS): ?>
+        <!-- Reminder Recipient Audit -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingReminderAudit">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReminderAudit" aria-expanded="false" aria-controls="collapseReminderAudit">
+              Reminder Recipient Audit
+            </button>
+          </h2>
+          <div id="collapseReminderAudit" class="accordion-collapse collapse" aria-labelledby="headingReminderAudit" data-bs-parent="#reportsAccordion">
+            <div class="accordion-body">
+              <p class="text-muted small mb-3">
+                Review reminder eligibility, enrolled users, vessel recipients, test-mode routing, and recent reminder logs before releasing live emails.
+              </p>
+
+              <div class="d-flex flex-column flex-md-row gap-2 btn-stack-mobile">
+                <a href="admin/reminder_audit.php" class="btn btn-outline-primary">Reminder Recipient Audit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Legal Acknowledgements -->
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingLegalAudit">
