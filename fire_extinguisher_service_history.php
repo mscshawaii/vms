@@ -152,7 +152,13 @@ if ($report_id > 0) {
     }
 
     $stmt = $pdo->prepare("
-        SELECT fsr.*
+        SELECT
+            fsr.*,
+            (
+                SELECT COUNT(*)
+                FROM fire_service_report_items fsri
+                WHERE fsri.fire_service_report_id = fsr.fire_service_report_id
+            ) AS item_count
         FROM fire_service_reports fsr
         WHERE fsr.vessel_id = ?
           AND fsr.status = 'draft'
@@ -163,12 +169,53 @@ if ($report_id > 0) {
     ");
     $stmt->execute([$vessel_id, $user_id]);
     $report = $stmt->fetch(PDO::FETCH_ASSOC);
+    $stale_report_id = 0;
 
     if ($report) {
         $report_id = (int)$report['fire_service_report_id'];
-    } else {
+        $existingItemCount = (int)($report['item_count'] ?? 0);
+
+        if ($existingItemCount === 0) {
+            $currentItemsStmt = $pdo->prepare("
+                SELECT COUNT(*)
+                FROM equipment e
+                WHERE e.vessel_id = ?
+                  AND e.equipment_type_id IN (14, 15)
+            ");
+            $currentItemsStmt->execute([$vessel_id]);
+            $currentItemCount = (int)$currentItemsStmt->fetchColumn();
+
+            if ($currentItemCount > 0) {
+                // A prior empty draft can hide equipment added later; archive it before rebuilding.
+                $stale_report_id = $report_id;
+                $report = false;
+                $report_id = 0;
+            }
+        }
+    }
+
+    if (!$report) {
         $pdo->beginTransaction();
         try {
+            if ($stale_report_id > 0) {
+                $archiveStale = $pdo->prepare("
+                    UPDATE fire_service_reports fsr
+                    LEFT JOIN fire_service_report_items fsri
+                        ON fsri.fire_service_report_id = fsr.fire_service_report_id
+                    SET
+                        fsr.status = 'archived',
+                        fsr.archived_at = NOW(),
+                        fsr.updated_at = NOW()
+                    WHERE fsr.fire_service_report_id = ?
+                      AND fsr.vessel_id = ?
+                      AND fsr.created_by = ?
+                      AND fsr.status = 'draft'
+                      AND fsr.archived_at IS NULL
+                      AND fsri.fire_service_report_item_id IS NULL
+                ");
+                $archiveStale->execute([$stale_report_id, $vessel_id, $user_id]);
+            }
+
             $reportNumber = buildReportNumber($pdo);
 
             $insert = $pdo->prepare("

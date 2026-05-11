@@ -129,21 +129,48 @@ if (!$vessel) {
 |--------------------------------------------------------------------------
 */
 $stmt = $pdo->prepare("
-    SELECT fire_service_report_id
-    FROM fire_service_reports
-    WHERE vessel_id = ?
-      AND created_by = ?
-      AND status = 'draft'
-      AND archived_at IS NULL
-    ORDER BY fire_service_report_id DESC
+    SELECT
+        fsr.fire_service_report_id,
+        COUNT(fsri.fire_service_report_item_id) AS item_count
+    FROM fire_service_reports fsr
+    LEFT JOIN fire_service_report_items fsri
+        ON fsri.fire_service_report_id = fsr.fire_service_report_id
+    WHERE fsr.vessel_id = ?
+      AND fsr.created_by = ?
+      AND fsr.status = 'draft'
+      AND fsr.archived_at IS NULL
+    GROUP BY fsr.fire_service_report_id
+    ORDER BY fsr.fire_service_report_id DESC
     LIMIT 1
 ");
 $stmt->execute([$vessel_id, $user_id]);
-$existing_report_id = (int)$stmt->fetchColumn();
+$existingDraft = $stmt->fetch(PDO::FETCH_ASSOC);
+$existing_report_id = (int)($existingDraft['fire_service_report_id'] ?? 0);
+$existing_item_count = (int)($existingDraft['item_count'] ?? 0);
+$stale_report_id = 0;
 
 if ($existing_report_id > 0) {
-    header('Location: fire_equipment_service.php?report_id=' . $existing_report_id);
-    exit;
+    if ($existing_item_count > 0) {
+        header('Location: fire_equipment_service.php?report_id=' . $existing_report_id);
+        exit;
+    }
+
+    $currentItemsStmt = $pdo->prepare("
+        SELECT COUNT(*)
+        FROM equipment e
+        WHERE e.vessel_id = ?
+          AND e.equipment_type_id IN (14, 15)
+    ");
+    $currentItemsStmt->execute([$vessel_id]);
+    $current_item_count = (int)$currentItemsStmt->fetchColumn();
+
+    if ($current_item_count === 0) {
+        header('Location: fire_equipment_service.php?report_id=' . $existing_report_id);
+        exit;
+    }
+
+    // A prior empty draft can hide equipment added later; archive it before rebuilding.
+    $stale_report_id = $existing_report_id;
 }
 
 /*
@@ -153,6 +180,25 @@ if ($existing_report_id > 0) {
 */
 try {
     $pdo->beginTransaction();
+
+    if ($stale_report_id > 0) {
+        $archiveStale = $pdo->prepare("
+            UPDATE fire_service_reports fsr
+            LEFT JOIN fire_service_report_items fsri
+                ON fsri.fire_service_report_id = fsr.fire_service_report_id
+            SET
+                fsr.status = 'archived',
+                fsr.archived_at = NOW(),
+                fsr.updated_at = NOW()
+            WHERE fsr.fire_service_report_id = ?
+              AND fsr.vessel_id = ?
+              AND fsr.created_by = ?
+              AND fsr.status = 'draft'
+              AND fsr.archived_at IS NULL
+              AND fsri.fire_service_report_item_id IS NULL
+        ");
+        $archiveStale->execute([$stale_report_id, $vessel_id, $user_id]);
+    }
 
     $report_number = buildReportNumber($pdo);
 
